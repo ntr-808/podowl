@@ -105,16 +105,6 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
           />
         </div>
 
-        <div className="flex items-center space-x-2 text-sm text-gray-600">
-          <input
-            type="checkbox"
-            id="robot"
-            required
-            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-          />
-          <label htmlFor="robot">I'm Not a Robot</label>
-        </div>
-
         <div className="flex space-x-4 pt-4">
           <button
             type="button"
