@@ -1,10 +1,10 @@
-import React from 'react';
-import { ArrowLeft } from 'lucide-react';
-import { generatePodLink, generateSmsMessage } from '../utils/podUtils';
+import React from "react";
+import { ArrowLeft } from "lucide-react";
+import { generatePodLink, generateSmsMessage } from "../utils/podUtils";
 
 interface ContactDetailsFormProps {
   onSubmit: (data: ContactFormData) => void;
-  jobData?: {
+  jobData: {
     items: string;
     address: string;
     consignmentNumber: string;
@@ -17,28 +17,27 @@ export interface ContactFormData {
   driverPhone: string;
 }
 
-export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProps) {
+export function ContactDetailsForm(
+  { onSubmit, jobData }: ContactDetailsFormProps,
+) {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const contactData = {
-      senderEmail: formData.get('senderEmail') as string,
-      driverName: formData.get('driverName') as string,
-      driverPhone: formData.get('driverPhone') as string,
+      senderEmail: formData.get("senderEmail") as string,
+      driverName: formData.get("driverName") as string,
+      driverPhone: formData.get("driverPhone") as string,
     };
 
-    if (jobData) {
-      const podLink = generatePodLink(jobData.consignmentNumber);
-      const smsMessage = generateSmsMessage(
-        contactData.driverName,
-        jobData.items,
-        jobData.address,
-        podLink
-      );
-      
-      console.log('SMS Message to be sent:', smsMessage);
-    }
+    const podLink = generatePodLink(jobData.consignmentNumber);
+    const smsMessage = generateSmsMessage(
+      contactData.driverName,
+      jobData.items,
+      jobData.address,
+      podLink,
+    );
 
+    alert(`SMS Message to be sent ${smsMessage}`);
     onSubmit(contactData);
   };
 
@@ -61,9 +60,13 @@ export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProp
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold text-blue-600 mb-2">Add contact detail</h2>
+        <h2 className="text-2xl font-semibold text-blue-600 mb-2">
+          Add contact detail
+        </h2>
         <p className="text-gray-600 text-sm leading-relaxed">
-          Enter in your drivers mobile number and we'll SMS them a link. Once the delivery is completed and POD is captured, we'll email you the completed POD
+          Enter in your drivers mobile number and we'll SMS them a link. Once
+          the delivery is completed and POD is captured, we'll email you the
+          completed POD
         </p>
       </div>
 
@@ -77,6 +80,7 @@ export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProp
               type="email"
               name="senderEmail"
               placeholder="Your Email"
+              defaultValue="ntr@strix.systems"
               required
               className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm placeholder-gray-400"
             />
@@ -91,6 +95,7 @@ export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProp
                 type="text"
                 name="driverName"
                 placeholder="Delivery Driver Name"
+                defaultValue="Jason Statham"
                 required
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm placeholder-gray-400"
               />
@@ -98,6 +103,7 @@ export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProp
                 type="tel"
                 name="driverPhone"
                 placeholder="Delivery Driver Phone #"
+                defaultValue="+61433034004"
                 required
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm placeholder-gray-400"
               />
@@ -110,6 +116,7 @@ export function ContactDetailsForm({ onSubmit, jobData }: ContactDetailsFormProp
             type="checkbox"
             id="terms"
             required
+            checked
             className="h-5 w-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500"
           />
           <label htmlFor="terms" className="text-gray-600">

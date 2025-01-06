@@ -1,5 +1,5 @@
-import React from 'react';
-import { Package } from 'lucide-react';
+import React from "react";
+import { Package } from "lucide-react";
 
 interface JobCreationFormProps {
   onNext: (data: JobFormData) => void;
@@ -19,12 +19,12 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     onNext({
-      senderName: formData.get('senderName') as string,
-      receiverName: formData.get('receiverName') as string,
-      address: formData.get('address') as string,
-      consignmentNumber: formData.get('consignmentNumber') as string,
-      referenceNumber: formData.get('referenceNumber') as string,
-      items: formData.get('items') as string,
+      senderName: formData.get("senderName") as string,
+      receiverName: formData.get("receiverName") as string,
+      address: formData.get("address") as string,
+      consignmentNumber: formData.get("consignmentNumber") as string,
+      referenceNumber: formData.get("referenceNumber") as string,
+      items: formData.get("items") as string,
     });
   };
 
@@ -50,6 +50,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
             type="text"
             name="senderName"
             placeholder="Sender Name"
+            defaultValue="ntr"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
           />
@@ -60,6 +61,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
             type="text"
             name="receiverName"
             placeholder="Receiver Name"
+            defaultValue="kotsi"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
           />
@@ -70,6 +72,18 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
             type="text"
             name="address"
             placeholder="Delivery Address"
+            defaultValue="102 Coronation St"
+            required
+            className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
+          />
+        </div>
+
+        <div>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Recipient Phone #"
+            defaultValue="+61433034004"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
           />
@@ -79,6 +93,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
           <input
             type="text"
             name="consignmentNumber"
+            defaultValue="RAD420"
             placeholder="Consignment #"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
@@ -89,6 +104,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
           <input
             type="text"
             name="referenceNumber"
+            defaultValue="REFPLS"
             placeholder="Reference"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
@@ -100,6 +116,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
             type="text"
             name="items"
             placeholder="Items"
+            defaultValue="cookbooks"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
           />

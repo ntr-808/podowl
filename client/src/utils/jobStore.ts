@@ -1,5 +1,5 @@
-import { JobFormData } from '../components/JobCreationForm';
-import { ContactFormData } from '../components/ContactDetailsForm';
+import { JobFormData } from "../components/JobCreationForm";
+import { ContactFormData } from "../components/ContactDetailsForm";
 
 export interface DeliveryItems {
   expected: string;
@@ -8,10 +8,11 @@ export interface DeliveryItems {
 
 export interface Job {
   id: string;
-  status: 'Transit' | 'Completed';
+  status: "Transit" | "Completed";
   senderName: string;
   receiverName: string;
   address: string;
+  phone: string;
   consignmentNumber: string;
   referenceNumber: string;
   items: string;
@@ -26,30 +27,33 @@ export interface Job {
   deliveredItems?: DeliveryItems;
 }
 
-const JOBS_STORAGE_KEY = 'podowl_jobs';
+const JOBS_STORAGE_KEY = "podowl_jobs";
 
 export function generateJobId(): string {
-  const prefix = ['AED', 'RGN', 'POD'][Math.floor(Math.random() * 3)];
+  const prefix = ["AED", "RGN", "POD"][Math.floor(Math.random() * 3)];
   const number = Math.floor(Math.random() * 900000) + 100000;
   return `${prefix}-${number}`;
 }
 
-export function saveJob(jobData: JobFormData, contactData: ContactFormData): void {
+export function saveJob(
+  jobData: JobFormData,
+  contactData: ContactFormData,
+): void {
   const jobs = getJobs();
   const newJob: Job = {
     ...jobData,
     id: generateJobId(),
-    status: 'Transit',
-    origin: 'MEL, VIC',
-    destination: jobData.address.split('\n')[0],
-    date: new Date().toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: '2-digit',
+    status: "Transit",
+    origin: "MEL, VIC",
+    destination: jobData.address.split("\n")[0],
+    date: new Date().toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "2-digit",
     }),
     ...contactData,
   };
-  
+
   jobs.unshift(newJob);
   localStorage.setItem(JOBS_STORAGE_KEY, JSON.stringify(jobs));
 }
@@ -59,37 +63,39 @@ export function getJobs(): Job[] {
   return jobsData ? JSON.parse(jobsData) : [];
 }
 
-export function getJobByConsignment(consignmentNumber: string): Job | undefined {
+export function getJobByConsignment(
+  consignmentNumber: string,
+): Job | undefined {
   const jobs = getJobs();
-  return jobs.find(job => job.consignmentNumber === consignmentNumber);
+  return jobs.find((job) => job.consignmentNumber === consignmentNumber);
 }
 
 export function updateJobStatus(
-  consignmentNumber: string, 
-  status: 'Transit' | 'Completed', 
-  signature?: string, 
+  consignmentNumber: string,
+  status: "Transit" | "Completed",
+  signature?: string,
   podRecipientName?: string,
-  deliveredItems?: DeliveryItems
+  deliveredItems?: DeliveryItems,
 ): void {
   const jobs = getJobs();
-  const updatedJobs = jobs.map(job => 
-    job.consignmentNumber === consignmentNumber 
-      ? { 
-          ...job, 
-          status,
-          ...(signature && { signature }),
-          ...(podRecipientName && { podRecipientName }),
-          ...(deliveredItems && { deliveredItems }),
-          ...(status === 'Completed' && { 
-            date: new Date().toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: '2-digit',
-              hour: '2-digit',
-              minute: '2-digit',
-            })
-          })
-        } 
+  const updatedJobs = jobs.map((job) =>
+    job.consignmentNumber === consignmentNumber
+      ? {
+        ...job,
+        status,
+        ...(signature && { signature }),
+        ...(podRecipientName && { podRecipientName }),
+        ...(deliveredItems && { deliveredItems }),
+        ...(status === "Completed" && {
+          date: new Date().toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+          }),
+        }),
+      }
       : job
   );
   localStorage.setItem(JOBS_STORAGE_KEY, JSON.stringify(updatedJobs));

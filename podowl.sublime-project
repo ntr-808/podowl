@@ -23,7 +23,7 @@
           "deno.json",
           "deno.jsonc"
         ],
-        "uri": "https://deno.land/x/deno@v1.18.2/cli/schemas/config-file.v1.json"
+        "uri": "https://deno.land/x/deno@v2.1.4/cli/schemas/config-file.v1.json"
       }
     ]
   },
