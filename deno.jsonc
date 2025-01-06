@@ -17,7 +17,9 @@
     "exclude": [
       "**/node_modules"
     ],
-    "include": [],
+    "include": [
+      "api"
+    ],
     "entrypoint": "fns/sms.ts"
   }
 }

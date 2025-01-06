@@ -456,169 +456,101 @@
 	"buffers":
 	[
 		{
-			"contents": "import twilio from \"npm:twilio\";\n\nconst authToken = Deno.env.get(\"TWILIO_AUTH_TOKEN\");\nconst accountSid = Deno.env.get(\"TWILIO_ACCOUNT_SID\");\nconst messagingServiceSid = Deno.env.get(\"TWILIO_MESSAGING_SID\");\n\nDeno.serve(async (req) => {\n  const { msg, phoneNumber } = await req.json();\n  const client = twilio(accountSid, authToken);\n\n  const res = await client.messages\n    .create({\n      body: msg,\n      messagingServiceSid,\n      to: phoneNumber,\n    });\n\n  console.log(res);\n\n  return new Response(\n    JSON.stringify(res),\n    { headers: { \"Content-Type\": \"application/json\" } },\n  );\n});\n",
-			"file": "api/supabase/functions/podowl-sms/index.ts",
-			"file_size": 596,
-			"file_write_time": 133794310550193466,
+			"file": "deno.jsonc",
 			"settings":
 			{
-				"buffer_size": 596,
+				"buffer_size": 460,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					23,
+					11,
 					1,
-					"run_macro_file",
+					"sequence",
 					{
-						"file": "res://Packages/Default/Delete Line.sublime-macro"
+						"commands":
+						[
+							[
+								"lsp_json_auto_complete",
+								null
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
 					},
-					"AQAAAAkBAAAAAAAACQEAAAAAAAA3AAAAaW1wb3J0ICJqc3I6QHN1cGFiYXNlL2Z1bmN0aW9ucy1qcy9lZGdlLXJ1bnRpbWUuZC50cyI7Cg",
-					"AQAAAAAAAAABAAAAIQEAAAAAAAAhAQAAAAAAAAAAAAAAAPC/"
+					"AQAAAJQBAAAAAAAAlgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					25,
-					6,
-					"run_macro_file",
-					{
-						"file": "res://Packages/Default/Delete Line.sublime-macro"
-					},
-					"BgAAAAAAAAAAAAAAAAAAAAAAAABTAAAALy8gRm9sbG93IHRoaXMgc2V0dXAgZ3VpZGUgdG8gaW50ZWdyYXRlIHRoZSBEZW5vIGxhbmd1YWdlIHNlcnZlciB3aXRoIHlvdXIgZWRpdG9yOgoAAAAAAAAAAAAAAAAAAAAAQwAAAC8vIGh0dHBzOi8vZGVuby5sYW5kL21hbnVhbC9nZXR0aW5nX3N0YXJ0ZWQvc2V0dXBfeW91cl9lbnZpcm9ubWVudAoAAAAAAAAAAAAAAAAAAAAANQAAAC8vIFRoaXMgZW5hYmxlcyBhdXRvY29tcGxldGUsIGdvIHRvIGRlZmluaXRpb24sIGV0Yy4KAAAAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAAAAAAAAAAAAAD0AAAAvLyBTZXR1cCB0eXBlIGRlZmluaXRpb25zIGZvciBidWlsdC1pbiBTdXBhYmFzZSBSdW50aW1lIEFQSXMKAAAAAAAAAAAAAAAAAAAAAAEAAAAK",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-				]
-			]
-		},
-		{
-			"file": "api/src/sms.ts",
-			"settings":
-			{
-				"buffer_size": 592,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					43,
-					2,
-					"vi_eval",
-					{
-						"action_args":
-						{
-						},
-						"action_command": "vi_right_delete",
-						"motion_args":
-						{
-						},
-						"motion_clip_to_line": false,
-						"motion_command": null,
-						"motion_inclusive": false,
-						"motion_mode": 0
-					},
-					"AgAAABUAAAAAAAAAFQAAAAAAAAABAAAAcBUAAAAAAAAAFQAAAAAAAAABAAAAbQ",
-					"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					2,
-					"vi_eval",
-					{
-						"action_args":
-						{
-						},
-						"action_command": "vi_right_delete",
-						"motion_args":
-						{
-						},
-						"motion_clip_to_line": false,
-						"motion_command": null,
-						"motion_inclusive": false,
-						"motion_mode": 0
-					},
-					"AgAAABQAAAAAAAAAFAAAAAAAAAABAAAAbhQAAAAAAAAAFAAAAAAAAAABAAAAOg",
-					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "api/deno.json",
-			"settings":
-			{
-				"buffer_size": 155,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					17,
+					14,
 					1,
-					"vi_eval",
+					"sequence",
 					{
-						"action_args":
-						{
-							"insert_command": "vi_delete"
-						},
-						"action_command": "enter_insert_mode",
-						"motion_args": null,
-						"motion_clip_to_line": false,
-						"motion_command": null,
-						"motion_inclusive": false,
-						"motion_mode": 0
+						"commands":
+						[
+							[
+								"move",
+								{
+									"by": "characters",
+									"forward": true,
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "api"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
 					},
-					"AQAAACwAAAAAAAAALAAAAAAAAAAHAAAAbWFpbi50cw",
-					"AQAAAAAAAAABAAAALAAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"insert",
-					{
-						"characters": "sms"
-					},
-					"AwAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAJUBAAAAAAAAlgEAAAAAAAAAAAAAlgEAAAAAAACXAQAAAAAAAAAAAACXAQAAAAAAAJgBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					19,
-					3,
-					"left_delete",
-					null,
-					"AwAAAC4AAAAAAAAALgAAAAAAAAABAAAAcy0AAAAAAAAALQAAAAAAAAABAAAAbSwAAAAAAAAALAAAAAAAAAABAAAAcw",
-					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "src/sms.ts"
-					},
-					"CgAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAC8AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADIAAAAAAAAAAAAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
 					1,
 					"lsp_apply_document_edit",
 					{
 						"changes":
 						[
 							{
-								"newText": "",
+								"newText": "\n      ",
 								"range":
 								{
 									"end":
 									{
-										"character": 0,
-										"line": 8
+										"character": 16,
+										"line": 19
 									},
 									"start":
 									{
-										"character": 1,
-										"line": 7
+										"character": 16,
+										"line": 19
+									}
+								}
+							},
+							{
+								"newText": "\n    ",
+								"range":
+								{
+									"end":
+									{
+										"character": 21,
+										"line": 19
+									},
+									"start":
+									{
+										"character": 21,
+										"line": 19
 									}
 								}
 							}
@@ -626,26 +558,32 @@
 						"process_placeholders": false,
 						"required_view_version": null
 					},
-					"AQAAAHgAAAAAAAAAeAAAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					28,
-					1,
-					"revert",
-					null,
-					"AgAAAAAAAAAAAAAAAAAAAAAAAAB4AAAAewogICJ0YXNrcyI6IHsKICAgICJkZXYiOiAiZGVubyBydW4gLS13YXRjaCBzcmMvc21zLnRzIgogIH0sCiAgImltcG9ydHMiOiB7CiAgICAiQHN0ZC9hc3NlcnQiOiAianNyOkBzdGQvYXNzZXJ0QDEiCiAgfQp9AAAAAAAAAACbAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+					"AgAAAJkBAAAAAAAAngEAAAAAAAAAAAAAlAEAAAAAAACbAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAHNA"
 				]
 			]
 		},
 		{
-			"file": "api/deno.lock",
+			"file": "api/fns/sms.ts",
 			"settings":
 			{
-				"buffer_size": 10482,
+				"buffer_size": 628,
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "client/src/App.tsx",
+			"settings":
+			{
+				"buffer_size": 3793,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
 		}
 	],
 	"build_system": "",
@@ -716,6 +654,18 @@
 		"selected_items":
 		[
 			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"format",
+				"LSP: Format File"
+			],
+			[
+				"lsp",
+				"Preferences: LSP-Deno Settings"
+			],
+			[
 				"add folder",
 				"Project: Add Folder"
 			],
@@ -724,20 +674,12 @@
 				"View: Toggle Open Files in Side Bar"
 			],
 			[
-				"lsp",
-				"LSP: Toggle Log Panel"
-			],
-			[
 				"enable lan",
 				"LSP: Enable Language Server in Project"
 			],
 			[
 				"lang",
 				"LSP: Enable Language Server in Project"
-			],
-			[
-				"disable",
-				"LSP: Disable Language Server in Project"
 			],
 			[
 				"copilot",
@@ -820,10 +762,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"format",
-				"ESLint Formatter: Format this file"
-			],
-			[
 				"eslint",
 				"Preferences: SublimeLinter Settings"
 			],
@@ -891,6 +829,7 @@
 		"height": 955.0,
 		"history":
 		[
+			"sublime.log_commands(True)"
 		]
 	},
 	"distraction_free":
@@ -906,12 +845,17 @@
 	[
 		"/home/ntr/code/podowl",
 		"/home/ntr/code/podowl/api",
-		"/home/ntr/code/podowl/api/src"
+		"/home/ntr/code/podowl/client",
+		"/home/ntr/code/podowl/client/src"
 	],
 	"file_history":
 	[
+		"/home/ntr/code/podowl/api/.env",
+		"/home/ntr/code/podowl/api/fns/sms.ts",
+		"/home/ntr/code/podowl/api/deno.jsonc",
 		"/home/ntr/code/podowl/podowl.sublime-project",
 		"/home/ntr/code/podowl/api/supabase/functions/podowl-sms/index.ts",
+		"/home/ntr/code/podowl/api/src/sms.ts",
 		"/home/ntr/code/podowl/api/deno.json",
 		"/home/ntr/code/podowl/api/supabase/functions/podowl-sms/source.ts",
 		"/home/ntr/mcrates/api/src/pg.ts",
@@ -1033,11 +977,7 @@
 		"/home/ntr/mcrates/client/src/components/header/index.tsx",
 		"/home/ntr/mcrates/client/src/routes/profile/profile.tsx",
 		"/home/ntr/mcrates/client/src/routes/home/index.tsx",
-		"/home/ntr/mcrates/client/src/routes/profile/index.tsx",
-		"/home/ntr/mcrates/client/src/components/header/style.less",
-		"/home/ntr/mcrates/client/src/routes/home/style.less",
-		"/home/ntr/mcrates/client/src/routes/profile/style.less",
-		"/home/ntr/mcrates/client/README.md"
+		"/home/ntr/mcrates/client/src/routes/profile/index.tsx"
 	],
 	"find":
 	{
@@ -1055,6 +995,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\")",
 			"twilio"
 		],
 		"highlight": true,
@@ -1079,120 +1020,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "api/supabase/functions/podowl-sms/index.ts",
+					"file": "deno.jsonc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 596,
+						"buffer_size": 460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								596
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html, text.xml"
-								},
-								{
-									"rhs_empty": true,
-									"selector": "punctuation.accessor"
-								},
-								{
-									"characters": ".\"'`/@<#",
-									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-									"server": "Deno"
-								}
-							],
-							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/api/supabase/functions/podowl-sms/index.ts",
-							"show_definitions": false,
-							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "api/src/sms.ts",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html, text.xml"
-								},
-								{
-									"rhs_empty": true,
-									"selector": "punctuation.accessor"
-								},
-								{
-									"characters": ".\"'`/@<#",
-									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-									"server": "Deno"
-								}
-							],
-							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/api/src/sms.ts",
-							"show_definitions": false,
-							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "api/deno.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
+								414,
+								414
 							]
 						],
 						"settings":
@@ -1212,11 +1052,66 @@
 									"server": "LSP-json"
 								}
 							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion._is_saving": false,
+							"copilot.completion.is_visible": false,
 							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/api/deno.json",
+							"lsp_uri": "file:///home/ntr/code/podowl/deno.jsonc",
 							"show_definitions": false,
 							"syntax": "Packages/JSON/JSON.sublime-syntax",
 							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api/fns/sms.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'`/@<#",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "Deno"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion.is_visible": false,
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ntr/code/podowl/api/fns/sms.ts",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1227,26 +1122,46 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "api/deno.lock",
+					"buffer": 2,
+					"file": "client/src/App.tsx",
+					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 10482,
+						"buffer_size": 3793,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								667,
+								667
 							]
 						],
 						"settings":
 						{
-							"lsp_uri": "file:///home/ntr/code/podowl/api/deno.lock",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'`/@<#",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "Deno"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ntr/code/podowl/client/src/App.tsx",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TSX.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1254,7 +1169,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -1345,6 +1260,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sms",
+				"api/fns/sms.ts"
+			],
 			[
 				"inde",
 				"api/supabase/functions/podowl-sms/index.ts"
@@ -1852,10 +1771,6 @@
 			[
 				"eslin",
 				"client/.eslintrc.js"
-			],
-			[
-				"action",
-				"client/src/actions.tsx"
 			]
 		],
 		"width": 0.0
@@ -1937,6 +1852,25 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"copilot.conversation.code_block_index":
+		{
+		},
+		"copilot.conversation.conversation_entries":
+		[
+		],
+		"copilot.conversation.conversation_id": "",
+		"copilot.conversation.follow_up": "",
+		"copilot.conversation.is_visible": false,
+		"copilot.conversation.is_waiting_conversation": false,
+		"copilot.conversation.last_active_view_id": 29,
+		"copilot.conversation.original_layout": null,
+		"copilot.conversation.reference_block_state":
+		{
+		},
+		"copilot.conversation.suggested_title": "",
+		"copilot.copilotignore.patterns":
+		{
+		},
 		"lsp_show_inlay_hints": false
 	},
 	"show_minimap": true,
