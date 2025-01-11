@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run -A --watch fns/sms.ts"
+    "dev": "deno run -A --watch api/src/sms.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
@@ -10,6 +10,7 @@
     "useTabs": false,
     "indentWidth": 4,
     "semiColons": false,
+    "singleQuote": true,
     "proseWrap": "preserve"
   },
   "deploy": {
@@ -20,6 +21,6 @@
     "include": [
       "api"
     ],
-    "entrypoint": "fns/sms.ts"
+    "entrypoint": "api/src/sms.ts"
   }
 }
