@@ -1,9 +1,11 @@
 {
   "tasks": {
-    "dev": "deno run -A --watch api/src/sms.ts"
+    "dev": "deno run -A --watch api/src/sms.ts",
+    "api": "deno run -A --watch --unstable-kv api/src/api.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1",
+    "@std/assert": "jsr:@std/assert@^1.0.10",
+    "@std/random": "jsr:@std/random@^0.1.0",
     "twilio": "npm:twilio@^5.4.0"
   },
   "fmt": {
