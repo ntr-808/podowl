@@ -1,5 +1,7 @@
 import { randomBetween } from '@std/random/between'
 
+import * as Sms from './sms.ts'
+
 export interface Item {
     readonly description: string
     readonly delivered: boolean
@@ -50,13 +52,13 @@ const sender = {
     email: 'ntr@podowl.north',
 }
 
-const receiver = {
+const courier = {
     name: 'adri',
     phone: receiverPh,
     email: 'adri@bp.p',
 }
 
-const courier = {
+const receiver = {
     name: 'kotsi',
     phone: courierPh,
     email: 'kotsi@podowl.west',
@@ -90,4 +92,34 @@ export function newJob(): Job {
         items,
         code: Math.floor(randomBetween(1000, 10000)),
     }
+}
+
+export async function onWaiting(job: Job) {
+    const results = await Promise.all([
+        Sms.sendSms(job.courier.phone, Sms.onWaitingCourier(job)),
+        Sms.sendSms(job.sender.phone, Sms.onWaitingSender(job)),
+        Sms.sendSms(job.receiver.phone, Sms.onWaitingReceiver(job)),
+    ])
+
+    console.log(results)
+}
+
+export async function onTransit(job: Job) {
+    const results = await Promise.all([
+        Sms.sendSms(job.courier.phone, Sms.onTransitCourier(job)),
+        Sms.sendSms(job.sender.phone, Sms.onTransitSender(job)),
+        Sms.sendSms(job.receiver.phone, Sms.onTransitReceiver(job)),
+    ])
+
+    console.log(results)
+}
+
+export async function onComplete(job: Job) {
+    const results = await Promise.all([
+        Sms.sendSms(job.sender.phone, Sms.onCompleteSender(job)),
+        // Sms.sendSms(job.receiver.phone, Sms.onWaitingReceiver(job)),
+        // Sms.sendSms(job.courier.phone, Sms.onWaitingCourier(job)),
+    ])
+
+    console.log(results)
 }

@@ -1,6 +1,7 @@
 {
   "tasks": {
     "dev": "deno run -A --watch api/src/sms.ts",
+    "test": "deno test -A",
     "api": "deno run -A --watch --unstable-kv api/src/api.ts"
   },
   "imports": {
@@ -25,3 +26,4 @@
     ],
     "entrypoint": "api/src/sms.ts"
   }
+}
