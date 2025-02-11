@@ -83,7 +83,7 @@ export function JobCreationForm({ onNext }: JobCreationFormProps) {
             type="tel"
             name="phone"
             placeholder="Recipient Phone #"
-            defaultValue="+61433034004"
+            defaultValue="+55555555555"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm"
           />

@@ -80,7 +80,7 @@ export function ContactDetailsForm(
               type="email"
               name="senderEmail"
               placeholder="Your Email"
-              defaultValue="ntr@strix.systems"
+              defaultValue="ntr@podowl.com.au"
               required
               className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm placeholder-gray-400"
             />
@@ -103,7 +103,7 @@ export function ContactDetailsForm(
                 type="tel"
                 name="driverPhone"
                 placeholder="Delivery Driver Phone #"
-                defaultValue="+61433034004"
+                defaultValue="+44444444444"
                 required
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm placeholder-gray-400"
               />
