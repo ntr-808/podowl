@@ -15,7 +15,7 @@ export const handler: Handlers = {
         return await ctx.render()
     },
     async POST(req, _ctx) {
-        const form = await req.formData()
+        const form = await req.json()
         console.log(form)
         return new Response(null, {
             status: 200,
@@ -23,7 +23,7 @@ export const handler: Handlers = {
     },
 }
 
-export default function JobCreationForm() {
+export default function CreateJob() {
     return (
         <div className='max-w-md mx-auto px-4 py-6'>
             <div className='text-center mb-8'>
@@ -32,7 +32,7 @@ export default function JobCreationForm() {
                         <Package className='h-8 w-8 text-blue-600' />
                     </div>
                 </div>
-                <h1 className='text-xl font-semibold text-gray-900 mb-1'>
+                <h1 className='text-xl font-semibold text-gray-100 mb-1'>
                     Create Job
                 </h1>
                 <p className='text-sm text-gray-500'>
@@ -54,7 +54,7 @@ export default function JobCreationForm() {
                         placeholder='Sender Name'
                         defaultValue='ntr'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -65,7 +65,7 @@ export default function JobCreationForm() {
                         placeholder='Receiver Name'
                         defaultValue='kotsi'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -76,7 +76,7 @@ export default function JobCreationForm() {
                         placeholder='Delivery Address'
                         defaultValue='102 Coronation St'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -87,7 +87,7 @@ export default function JobCreationForm() {
                         placeholder='Recipient Phone #'
                         defaultValue='+55555555555'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -98,7 +98,7 @@ export default function JobCreationForm() {
                         defaultValue='RAD420'
                         placeholder='Consignment #'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -109,7 +109,7 @@ export default function JobCreationForm() {
                         defaultValue='REFPLS'
                         placeholder='Reference'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -120,7 +120,7 @@ export default function JobCreationForm() {
                         placeholder='Items'
                         defaultValue='cookbooks'
                         required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-900 text-sm'
+                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
                     />
                 </div>
 
@@ -128,7 +128,7 @@ export default function JobCreationForm() {
                     <button
                         type='button'
                         // onClick={() => window.history.back()}
-                        className='flex-1 py-3 px-6 bg-gray-100 text-gray-500 rounded-full font-medium hover:bg-gray-200 transition-colors'
+                        className='flex-1 py-3 px-6 bg-gray-400 text-gray-500 rounded-full font-medium hover:bg-gray-200 transition-colors'
                     >
                         Back
                     </button>

@@ -7,6 +7,7 @@
     "start": "deno run -A --watch=static/,routes/ dev.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
+    "test": "deno test -A",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
   },
   "lint": {
@@ -39,6 +40,7 @@
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
+    "@std/random": "jsr:@std/random@^0.1.0",
     "lucide-preact": "npm:lucide-preact@^0.475.0",
     "preact": "https://esm.sh/preact@10.22.0",
     "preact/": "https://esm.sh/preact@10.22.0/",
@@ -47,7 +49,8 @@
     "tailwindcss": "npm:tailwindcss@3.4.1",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
-    "$std/": "https://deno.land/std@0.216.0/"
+    "$std/": "https://deno.land/std@0.216.0/",
+    "twilio": "npm:twilio@^5.4.4"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

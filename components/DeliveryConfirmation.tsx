@@ -64,8 +64,8 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <OwlLogo className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Job Not Found</h2>
-          <p className="text-gray-600">The delivery job you're looking for doesn't exist.</p>
+          <h2 className="text-xl font-semibold text-gray-100 mb-2">Job Not Found</h2>
+          <p className="text-gray-100">The delivery job you're looking for doesn't exist.</p>
         </div>
       </div>
     );
@@ -73,20 +73,20 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
 
   return (
     <div className="max-w-lg mx-auto px-4 py-8">
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+      <div className=" rounded-lg shadow-lg overflow-hidden">
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between mb-4">
             <button
               onClick={() => window.location.search = 'jobs'}
-              className="p-1 rounded-full hover:bg-gray-100 transition-colors"
+              className="p-1 rounded-full hover:bg-gray-400 transition-colors"
             >
-              <ArrowLeft className="h-5 w-5 text-gray-600" />
+              <ArrowLeft className="h-5 w-5 text-gray-100" />
             </button>
             <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
               In Transit
             </span>
-            <button className="p-1 rounded-full hover:bg-gray-100 transition-colors">
-              <HelpCircle className="h-5 w-5 text-gray-600" />
+            <button className="p-1 rounded-full hover:bg-gray-400 transition-colors">
+              <HelpCircle className="h-5 w-5 text-gray-100" />
             </button>
           </div>
           
@@ -133,7 +133,7 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
               </div>
             </div>
 
-            <h3 className="text-lg font-medium text-gray-900 mb-4">Delivery Confirmation</h3>
+            <h3 className="text-lg font-medium text-gray-100 mb-4">Delivery Confirmation</h3>
             <div className="space-y-6">
               <div>
                 <label htmlFor="recipientName" className="block text-sm font-medium text-gray-700 mb-2">

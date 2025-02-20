@@ -31,7 +31,7 @@ export function JobList() {
   return (
     <div className="max-w-lg mx-auto px-4 py-6">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Jobs</h1>
+        <h1 className="text-2xl font-bold text-gray-100">Jobs</h1>
         <button 
           onClick={handleCreateNew}
           className="bg-blue-500 p-2 rounded-lg hover:bg-blue-600 transition-colors"
@@ -50,7 +50,7 @@ export function JobList() {
               className={`px-4 py-1 rounded-full text-sm ${
                 filter === status
                   ? 'bg-blue-500 text-white'
-                  : 'text-gray-600 hover:bg-gray-100'
+                  : 'text-gray-100 hover:bg-gray-400'
               }`}
             >
               {status}
@@ -69,7 +69,7 @@ export function JobList() {
             <div
               key={job.id}
               onClick={() => handleJobClick(job)}
-              className="bg-white rounded-lg shadow-sm p-4 border border-gray-100 hover:shadow-md transition-shadow cursor-pointer"
+              className=" rounded-lg shadow-sm p-4 border border-gray-100 hover:shadow-md transition-shadow cursor-pointer"
             >
               <div className="flex items-center justify-between mb-2">
                 <span
