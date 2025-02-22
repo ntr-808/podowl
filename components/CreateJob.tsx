@@ -1,27 +1,4 @@
-import { Handlers, PageProps } from '$fresh/server.ts'
 import { Package } from 'lucide-preact'
-
-export interface JobFormData {
-    senderName: string
-    receiverName: string
-    address: string
-    consignmentNumber: string
-    referenceNumber: string
-    items: string
-}
-
-export const handler: Handlers = {
-    async GET(_req, ctx) {
-        return await ctx.render()
-    },
-    async POST(req, _ctx) {
-        const form = await req.json()
-        console.log(form)
-        return new Response(null, {
-            status: 200,
-        })
-    },
-}
 
 export default function CreateJob() {
     return (
@@ -45,7 +22,7 @@ export default function CreateJob() {
             <form
                 className='space-y-5'
                 method='POST'
-                encType='application/json'
+                action='/job/create'
             >
                 <div>
                     <input

@@ -10,6 +10,7 @@ import * as $greet_name_ from './routes/greet/[name].tsx'
 import * as $index from './routes/index.tsx'
 import * as $index_example from './routes/index_example.tsx'
 import * as $job_id_ from './routes/job/[id].tsx'
+import * as $job_create from './routes/job/create.tsx'
 import * as $Counter from './islands/Counter.tsx'
 import type { Manifest } from '$fresh/server.ts'
 
@@ -23,6 +24,7 @@ const manifest = {
         './routes/index.tsx': $index,
         './routes/index_example.tsx': $index_example,
         './routes/job/[id].tsx': $job_id_,
+        './routes/job/create.tsx': $job_create,
     },
     islands: {
         './islands/Counter.tsx': $Counter,
