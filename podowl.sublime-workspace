@@ -4,477 +4,759 @@
 		"selected_items":
 		[
 			[
-				"answ",
-				"workingRightsAnswerToProfile"
+				"ContactDetails",
+				"ContactDetailsForm"
 			],
 			[
-				"prof",
-				"workingRightsProfileStruct"
+				"status",
+				"statusText"
 			],
 			[
-				"gb",
-				"gbAuth"
+				"brows",
+				"Browser"
 			],
 			[
-				"locat",
-				"locationAuth"
+				"parse",
+				"parseInt"
 			],
 			[
-				"upda",
-				"updatedAt"
-			],
-			[
-				"off",
-				"offersNotification"
-			],
-			[
-				"POSTGR",
-				"POSTGRES_PASSWORD"
-			],
-			[
-				"POST",
-				"POSTGRES_DB"
-			],
-			[
-				"overflow",
-				"overflow-wrap"
-			],
-			[
-				"word-",
-				"word-wrap"
-			],
-			[
-				"grid-",
-				"grid-gap"
-			],
-			[
-				"grid-template",
-				"grid-template-areas"
-			],
-			[
-				"over",
-				"overflow-x"
-			],
-			[
-				"grid-te",
-				"grid-template-areas"
-			],
-			[
-				"pushus",
-				"pushUserWants"
+				"get",
+				"getProperty"
 			],
 			[
 				"push",
 				"pushUserOffers"
 			],
 			[
-				"Offers",
-				"OffersUpdated"
+				"list",
+				"LISTINGS_CHANNEL"
 			],
 			[
-				"confi",
-				"confirmedListingIds"
+				"wants",
+				"WANTS_CHANNEL"
 			],
 			[
-				"Websock",
-				"koaWebsocket"
+				"listings",
+				"LISTINGS_CHANNEL"
 			],
 			[
-				"OfferSam",
-				"OfferSamplesMessage"
+				"Uses",
+				"USERS_CHANNEL"
 			],
 			[
-				"sa",
-				"sampleMsg"
+				"handleof",
+				"handleOffers"
 			],
 			[
-				"OfferSample",
-				"OfferSamplesMessage"
+				"offers",
+				"OFFERS_CHANNEL"
 			],
 			[
-				"OfferSa",
-				"OfferStatusSetMessage"
+				"AcpLisin",
+				"AcpListingsSyncMessage"
 			],
 			[
-				"offer",
-				"offerGroups"
-			],
-			[
-				"userfind",
-				"userFindEmail"
-			],
-			[
-				"li",
-				"listingIds"
-			],
-			[
-				"bu",
-				"bundleCandidates"
+				"acplis",
+				"acpListingsSync"
 			],
 			[
 				"grid",
-				"grid-template-rows"
+				"grid-template-areas"
+			],
+			[
+				"grid-",
+				"grid-template-areas"
 			],
 			[
 				"grid-temp",
 				"grid-template-areas"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
-				"upa",
-				"updateWantListings"
-			],
-			[
-				"set",
-				"setConfirm"
+				"userOf",
+				"userOffers"
 			],
 			[
 				"want",
-				"wantsState"
+				"wantId"
 			],
 			[
-				"wan",
-				"wantsState"
+				"send",
+				"sendOfferStatusSet"
 			],
 			[
 				"Offer",
-				"OfferSetStatus"
+				"OfferPriceBtn"
 			],
 			[
-				"OfferSet",
-				"OfferSetStatusMessage"
+				"sendof",
+				"sendAcpOffers"
 			],
 			[
-				"Erro",
-				"ErrorMessage"
+				"acp",
+				"acpOffers"
 			],
 			[
-				"bund",
-				"bundle"
+				"acpoff",
+				"acpOfferStatusSet"
 			],
 			[
-				"no",
-				"nowrap"
+				"AcpOff",
+				"AcpOfferStatusSetMessage"
 			],
 			[
-				"listing",
-				"listingIds"
+				"AcpOf",
+				"AcpOffersMessage"
 			],
 			[
-				"list",
-				"listingIds"
+				"set",
+				"setStatus"
 			],
 			[
-				"Discog",
-				"DiscogsListing"
+				"creates",
+				"createStore"
 			],
 			[
-				"base",
-				"baseShipping"
+				"open",
+				"openOfferStatuses"
 			],
 			[
-				"Ch",
-				"CheckSquare"
-			],
-			[
-				"of",
-				"offers"
-			],
-			[
-				"user",
-				"userId"
-			],
-			[
-				"shi",
-				"speechSynthesis"
-			],
-			[
-				"listingfin",
-				"listingFindSeller"
-			],
-			[
-				"crea",
-				"createEvents"
-			],
-			[
-				"un",
-				"unhandledRejection"
-			],
-			[
-				"unh",
-				"unhandledRejection"
-			],
-			[
-				"on",
-				"onSuccess"
-			],
-			[
-				"postwan",
-				"postWantSearch"
+				"conf",
+				"confirmedListingIds"
 			],
 			[
 				"Eve",
-				"EventEmitter"
+				"Event"
 			],
 			[
-				"wna",
-				"wantCreate"
+				"WS",
+				"WS_PORT"
 			],
 			[
-				"wa",
-				"wantList"
+				"koa",
+				"koaWebsocket"
 			],
 			[
-				"d",
-				"discogsRelease"
+				"Login",
+				"LoginForm"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"H",
+				"Header"
 			],
 			[
-				"pass",
-				"passwordMatch"
-			],
-			[
-				"pa",
-				"passwordChange"
-			],
-			[
-				"koa-",
-				"koa-passport"
-			],
-			[
-				"cr",
-				"createLog"
-			],
-			[
-				"create",
-				"createServices"
-			],
-			[
-				"router",
-				"authRouter"
-			],
-			[
-				"Loc",
-				"LocalStrategy"
-			],
-			[
-				"bun",
-				"bundleCandidates"
-			],
-			[
-				"mport",
-				"import"
-			],
-			[
-				"Pro",
+				"P",
 				"Provider>"
 			],
 			[
-				"men",
-				"mentionsAustralia"
+				"Lis",
+				"ListingsUpDated"
 			],
 			[
-				"ship",
-				"shipsFrom"
+				"w",
+				"wantsAdded"
 			],
 			[
-				"find",
-				"findMany"
+				"no",
+				"noResultsEl"
 			],
 			[
-				"wantli",
-				"wantlistLatest"
+				"scroll",
+				"scrollTo"
 			],
 			[
-				"listi",
-				"listingRmUnlisted"
+				"grid-templa",
+				"grid-template-columns"
 			],
 			[
-				"listin",
-				"listingsRmUnlisted"
+				"player",
+				"player_colours"
 			],
 			[
-				"Di",
-				"DiscogsListing"
+				"skillitem",
+				"skill_item_combo"
 			],
 			[
-				"pop",
-				"populateUserListings"
+				"into",
+				"into_skill"
 			],
 			[
-				"dis",
-				"discogs"
+				"sta",
+				"startIdle"
 			],
 			[
-				"Json",
-				"JsonObject"
+				"component",
+				"componentDidMount"
 			],
 			[
-				"lisi",
-				"listings"
+				"iter",
+				"iter"
 			],
 			[
-				"userget",
-				"userGetName"
+				"eff",
+				"effects"
 			],
 			[
-				"dic",
-				"disconnect"
+				"constru",
+				"constructs"
 			],
 			[
-				"r",
-				"randomBytesPromise"
+				"assert",
+				"assert\tassert!(…)"
 			],
 			[
-				"verti",
-				"verticalDate"
+				"back",
+				"background-color"
 			],
 			[
-				"ms",
-				"msgSenderId"
+				"eas",
+				"ease-in-out"
 			],
 			[
-				"isnt",
-				"isntThreadCreator"
+				"game",
+				"game-construct"
 			],
 			[
-				"delete",
-				"deleteUserAccounts"
+				"turn",
+				"turnCb"
 			],
 			[
-				"for",
-				"forageList"
+				"wig",
+				"wiggleEvents"
 			],
 			[
-				"to",
-				"toString"
+				"aban",
+				"abandonBtn"
 			],
 			[
-				"random",
-				"randomBytes"
+				"lea",
+				"leaveBtn"
 			],
 			[
-				"notif",
-				"notifyFailure"
+				"Game",
+				"GameState"
 			],
 			[
-				"Rec",
-				"RecruitmentRequests"
+				"amount",
+				"amount_to_credits"
 			],
 			[
-				"Userh",
-				"UsersHandler"
+				"spec",
+				"specialisation"
 			],
 			[
-				"User",
-				"UsersHandler"
+				"we",
+				"Welcome"
 			],
 			[
-				"enrol",
-				"enrolments"
+				"logi",
+				"Login"
 			],
 			[
-				"get",
-				"getUser"
+				"anon",
+				"anon_account"
 			],
 			[
-				"Userrol",
-				"UserRoleConstants"
+				"uuid",
+				"Uuid"
 			],
 			[
-				"Us",
-				"UserRoleConstants"
+				"un",
+				"unwrap"
 			],
 			[
-				"curre",
-				"currentUser"
+				"T",
+				"TARGET_DURATION_MS"
 			],
 			[
-				"Me",
-				"Meteor"
+				"pro",
+				"progress_durations"
 			],
 			[
-				"M",
-				"meteorCallPromise"
+				"skill_pa",
+				"skill_phase_start"
 			],
 			[
-				"Si",
-				"SimpleDDP"
+				"siphonti",
+				"siphon_tick_dmg"
 			],
 			[
-				"di",
-				"disconnect"
+				"SIP",
+				"SIPHON_GREEN_MULT"
 			],
 			[
-				"veri",
-				"verifiedUser"
+				"bein",
+				"begin_resolve"
 			],
 			[
-				"login",
-				"loginWithPassword"
+				"begin",
+				"begin_resolve"
 			],
 			[
-				"sign",
-				"signupMethod"
+				"satu",
+				"saturating_mul"
 			],
 			[
-				"me",
-				"meteorCallPromise"
+				"triagetick",
+				"triage_tick"
 			],
 			[
-				"Mon",
-				"MongoMemoryServer"
+				"triagePlu",
+				"triage_plus_plus"
 			],
 			[
-				"Mono",
-				"MongoMemoryServer"
+				"sleeppl",
+				"sleep_plus_plus"
 			],
 			[
-				"smar",
-				"smartBorders"
+				"siphontick",
+				"siphon_tick"
 			],
 			[
-				"defaultout",
-				"default_output_device"
+				"siphonpl",
+				"siphon_plus_plus"
 			],
 			[
-				"audio",
-				"audio_host"
+				"purifypl",
+				"purify_plus"
 			],
 			[
-				"aud",
-				"audio_host"
+				"purgeplu",
+				"purge_plus_plus"
+			],
+			[
+				"purgepl",
+				"purge_plus"
+			],
+			[
+				"inver",
+				"invert"
+			],
+			[
+				"hybridbl",
+				"hybrid_blast"
+			],
+			[
+				"hybrid",
+				"hybrid_blast"
+			],
+			[
+				"haste",
+				"haste_strike"
+			],
+			[
+				"hastePl",
+				"haste_plus_plus"
+			],
+			[
+				"el",
+				"electrocute_plus_plus"
+			],
+			[
+				"electrocuteplpl",
+				"electrocute_plus_plus"
+			],
+			[
+				"elec",
+				"electrocute"
+			],
+			[
+				"ele",
+				"electrify_plus"
+			],
+			[
+				"decaytick",
+				"decay_tick"
+			],
+			[
+				"decaypp",
+				"decay_plus_plus"
+			],
+			[
+				"counteratt",
+				"counter_attack"
+			],
+			[
+				"counterpp",
+				"counter_plus_plus"
+			],
+			[
+				"count",
+				"counter_plus"
+			],
+			[
+				"absorbplusplu",
+				"absorb_plus_plus"
+			],
+			[
+				"absorbplus",
+				"absorb_plus"
+			],
+			[
+				"amplifypl",
+				"amplify_plus_plus"
+			],
+			[
+				"amplify_",
+				"amplify_plus"
+			],
+			[
+				"AmplifyPlu",
+				"AmplifyPlusPlus"
+			],
+			[
+				"adde",
+				"added_dmg"
+			],
+			[
+				"dmg",
+				"dmg_event"
+			],
+			[
+				"meta",
+				"Meta"
+			],
+			[
+				"new",
+				"new_events"
+			],
+			[
+				"event",
+				"event_list"
+			],
+			[
+				"Eff",
+				"EffectMeta"
+			],
+			[
+				"Mul",
+				"multiplier"
+			],
+			[
+				"bluelife",
+				"blue_life"
+			],
+			[
+				"green",
+				"green_life"
+			],
+			[
+				"addi",
+				"additional_skills"
+			],
+			[
+				"Hybri",
+				"HybridBlast"
+			],
+			[
+				"is",
+				"is_some"
+			],
+			[
+				"resolve_",
+				"resolve_phase_start"
+			],
+			[
+				"immun",
+				"immunity"
+			],
+			[
+				"dama",
+				"damage_events"
+			],
+			[
+				"skill",
+				"skill_phase_start"
+			],
+			[
+				"Refle",
+				"Reflection"
+			],
+			[
+				"modi",
+				"modified_power"
+			],
+			[
+				"modifi",
+				"modification"
+			],
+			[
+				"redh",
+				"red_healing"
+			],
+			[
+				"mul",
+				"multiplier"
+			],
+			[
+				"filter",
+				"filter_map"
+			],
+			[
+				"CursePlus",
+				"CursePlusPlus"
+			],
+			[
+				"DecayTickPlus",
+				"DecayTickPlusPlus"
+			],
+			[
+				"Triagetick",
+				"TriageTickPlusPlus"
+			],
+			[
+				"Trig",
+				"TriageTickPlus"
+			],
+			[
+				"Green",
+				"GreenPower"
+			],
+			[
+				"blue",
+				"blue_life"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "deno.jsonc",
+			"file": "routes/job/create.tsx",
 			"settings":
 			{
-				"buffer_size": 460,
-				"encoding": "UTF-8",
+				"buffer_size": 533,
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					11,
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAArxUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BAAAADUBAAAAAAAANQEAAAAAAAAbAAAAICAgIGFzeW5jIEdFVChfcmVxLCBjdHgpIHsKNQEAAAAAAAA1AQAAAAAAABsAAAAgICAgICAgIGNvbnNvbGUubG9nKCdnZXQnKQo1AQAAAAAAADUBAAAAAAAAIgAAACAgICAgICAgcmV0dXJuIGF3YWl0IGN0eC5yZW5kZXIoKQo1AQAAAAAAADUBAAAAAAAABwAAACAgICB9LAo",
+					"AQAAAAAAAAABAAAANQEAAAAAAAA1AQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					44,
+					1,
+					"paste",
+					null,
+					"AgAAAOEBAAAAAAAAUgIAAAAAAAAAAAAAUgIAAAAAAABSAgAAAAAAAG8TAABleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDcmVhdGVKb2IoKSB7CiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSdtYXgtdy1tZCBteC1hdXRvIHB4LTQgcHktNic+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSd0ZXh0LWNlbnRlciBtYi04Jz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IGp1c3RpZnktY2VudGVyIG1iLTQnPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdiZy1ibHVlLTEwMCBwLTMgcm91bmRlZC1mdWxsJz4KICAgICAgICAgICAgICAgICAgICAgICAgPFBhY2thZ2UgY2xhc3NOYW1lPSdoLTggdy04IHRleHQtYmx1ZS02MDAnIC8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9J3RleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LWdyYXktMTAwIG1iLTEnPgogICAgICAgICAgICAgICAgICAgIENyZWF0ZSBKb2IKICAgICAgICAgICAgICAgIDwvaDE+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9J3RleHQtc20gdGV4dC1ncmF5LTUwMCc+CiAgICAgICAgICAgICAgICAgICAgT25lIHRpbWUgUHJvb2Ygb2YgRGVsaXZlcnkgY2FwdHVyZS4KICAgICAgICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICAgICAgICBOZXZlciBoYXZlIGEgZHJpdmVyIHNheSBubyB0byBnZXR0aW5nIGEgUE9EIGFnYWluCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGZvcm0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0nc3BhY2UteS01JwogICAgICAgICAgICAgICAgbWV0aG9kPSdQT1NUJwogICAgICAgICAgICAgICAgZW5jVHlwZT0nYXBwbGljYXRpb24vanNvbicKICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0ndGV4dCcKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0nc2VuZGVyTmFtZScKICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9J1NlbmRlciBOYW1lJwogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWU9J250cicKICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSd3LWZ1bGwgcHgtNCBweS0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBmb2N1czpib3JkZXItYmx1ZS01MDAgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC1ncmF5LTEwMCB0ZXh0LXNtJwogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSd0ZXh0JwogICAgICAgICAgICAgICAgICAgICAgICBuYW1lPSdyZWNlaXZlck5hbWUnCiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSdSZWNlaXZlciBOYW1lJwogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWU9J2tvdHNpJwogICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9J3ctZnVsbCBweC00IHB5LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGZvY3VzOmJvcmRlci1ibHVlLTUwMCBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1ibHVlLTUwMCB0ZXh0LWdyYXktMTAwIHRleHQtc20nCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3RleHQnCiAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9J2FkZHJlc3MnCiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSdEZWxpdmVyeSBBZGRyZXNzJwogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWU9JzEwMiBDb3JvbmF0aW9uIFN0JwogICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9J3ctZnVsbCBweC00IHB5LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGZvY3VzOmJvcmRlci1ibHVlLTUwMCBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1ibHVlLTUwMCB0ZXh0LWdyYXktMTAwIHRleHQtc20nCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3RlbCcKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0ncGhvbmUnCiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSdSZWNpcGllbnQgUGhvbmUgIycKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlPScrNTU1NTU1NTU1NTUnCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ndy1mdWxsIHB4LTQgcHktMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItZ3JheS0yMDAgZm9jdXM6Ym9yZGVyLWJsdWUtNTAwIGZvY3VzOnJpbmctMSBmb2N1czpyaW5nLWJsdWUtNTAwIHRleHQtZ3JheS0xMDAgdGV4dC1zbScKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0ndGV4dCcKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT0nY29uc2lnbm1lbnROdW1iZXInCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHRWYWx1ZT0nUkFENDIwJwogICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0nQ29uc2lnbm1lbnQgIycKICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSd3LWZ1bGwgcHgtNCBweS0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBmb2N1czpib3JkZXItYmx1ZS01MDAgZm9jdXM6cmluZy0xIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC1ncmF5LTEwMCB0ZXh0LXNtJwogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSd0ZXh0JwogICAgICAgICAgICAgICAgICAgICAgICBuYW1lPSdyZWZlcmVuY2VOdW1iZXInCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHRWYWx1ZT0nUkVGUExTJwogICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0nUmVmZXJlbmNlJwogICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9J3ctZnVsbCBweC00IHB5LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGZvY3VzOmJvcmRlci1ibHVlLTUwMCBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1ibHVlLTUwMCB0ZXh0LWdyYXktMTAwIHRleHQtc20nCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J3RleHQnCiAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9J2l0ZW1zJwogICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0nSXRlbXMnCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHRWYWx1ZT0nY29va2Jvb2tzJwogICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9J3ctZnVsbCBweC00IHB5LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGZvY3VzOmJvcmRlci1ibHVlLTUwMCBmb2N1czpyaW5nLTEgZm9jdXM6cmluZy1ibHVlLTUwMCB0ZXh0LWdyYXktMTAwIHRleHQtc20nCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IHNwYWNlLXgtNCBwdC00Jz4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9J2J1dHRvbicKICAgICAgICAgICAgICAgICAgICAgICAgLy8gb25DbGljaz17KCkgPT4gd2luZG93Lmhpc3RvcnkuYmFjaygpfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9J2ZsZXgtMSBweS0zIHB4LTYgYmctZ3JheS00MDAgdGV4dC1ncmF5LTUwMCByb3VuZGVkLWZ1bGwgZm9udC1tZWRpdW0gaG92ZXI6YmctZ3JheS0yMDAgdHJhbnNpdGlvbi1jb2xvcnMnCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICBCYWNrCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSdzdWJtaXQnCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0nZmxleC0xIHB5LTMgcHgtNiBiZy1bIzAwQkNENF0gdGV4dC13aGl0ZSByb3VuZGVkLWZ1bGwgZm9udC1tZWRpdW0gaG92ZXI6YmctWyMwMEFDQzFdIHRyYW5zaXRpb24tY29sb3JzIHNoYWRvdy1sZycKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIE5FWFQKICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgPC9kaXY+CiAgICApCn0K",
+					"AQAAAAAAAAABAAAA4QEAAAAAAABQFQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					53,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args":
+						{
+							"repeat": 1
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAAC4CAAAAAAAALgIAAAAAAAAEAAAASG9tZQ",
+					"AQAAAAAAAAABAAAALgIAAAAAAAAuAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "jobCreate"
+					},
+					"CQAAAC4CAAAAAAAALwIAAAAAAAAAAAAALwIAAAAAAAAwAgAAAAAAAAAAAAAwAgAAAAAAADECAAAAAAAAAAAAADECAAAAAAAAMgIAAAAAAAAAAAAAMgIAAAAAAAAzAgAAAAAAAAAAAAAzAgAAAAAAADQCAAAAAAAAAAAAADQCAAAAAAAANQIAAAAAAAAAAAAANQIAAAAAAAA2AgAAAAAAAAAAAAA2AgAAAAAAADcCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgIAAAAAAAAuAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_delete",
+						"motion_args":
+						{
+							"to": "line"
+						},
+						"motion_clip_to_line": false,
+						"motion_command": "expand_selection",
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAOEBAAAAAAAA4QEAAAAAAAA0AAAAaW1wb3J0IENyZWF0ZUpvYiBmcm9tICcuLi9jb21wb25lbnRzL0NyZWF0ZUpvYi50c3gnCg",
+					"AQAAAAAAAAABAAAAAQIAAAAAAAABAgAAAAAAAAAAAAAAAHxA"
+				],
+				[
+					65,
+					1,
+					"vi_paste_right",
+					null,
+					"AQAAAF8AAAAAAAAAkwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					101,
+					1,
+					"insert",
+					{
+						"characters": "async"
+					},
+					"BQAAACUCAAAAAAAAJgIAAAAAAAAAAAAAJgIAAAAAAAAnAgAAAAAAAAAAAAAnAgAAAAAAACgCAAAAAAAAAAAAACgCAAAAAAAAKQIAAAAAAAAAAAAAKQIAAAAAAAAqAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJQIAAAAAAAAlAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACoCAAAAAAAAKwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgIAAAAAAAAqAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					127,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAADcAAAAAAAAANwAAAAAAAAAoAAAAaW1wb3J0IHsgUGFja2FnZSB9IGZyb20gJ2x1Y2lkZS1wcmVhY3QnCg",
+					"AQAAAAAAAAABAAAAPgAAAAAAAAA+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					134,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_delete",
+						"motion_args":
+						{
+							"before": true,
+							"character": " ",
+							"extend": true
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "vi_move_to_character",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAABEAAAAAAAAAEQAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					135,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_delete",
+						"motion_args":
+						{
+							"before": true,
+							"character": " ",
+							"extend": true
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "vi_move_to_character",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAABEAAAAAAAAAEQAAAAAAAAAKAAAAIFBhZ2VQcm9wcw",
+					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					153,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_delete",
+						"motion_args":
+						{
+							"by": "stops",
+							"empty_line": true,
+							"extend": true,
+							"forward": true,
+							"punct_begin": true,
+							"word_begin": true
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "move",
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAPIBAAAAAAAA8gEAAAAAAAAGAAAAYXN5bmMg",
+					"AQAAAAAAAAABAAAA8gEAAAAAAADyAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					175,
+					1,
+					"paste",
+					null,
+					"AgAAABMBAAAAAAAAQAIAAAAAAAAAAAAAQAIAAAAAAABAAgAAAAAAAM4AAABleHBvcnQgY29uc3QgaGFuZGxlcjogSGFuZGxlcnMgPSB7CiAgICBhc3luYyBQT1NUKHJlcSwgX2N0eCkgewogICAgICAgIGNvbnNvbGUubG9nKHJlcSkKICAgICAgICBjb25zdCBmb3JtID0gYXdhaXQgcmVxLmpzb24oKQogICAgICAgIGNvbnNvbGUubG9nKGZvcm0pCiAgICAgICAgcmV0dXJuIFJlc3BvbnNlLnJlZGlyZWN0KCcvam9iLzEyNCcpCiAgICB9LAp9Cg",
+					"AQAAAAAAAAABAAAA4QEAAAAAAAATAQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					180,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAEECAAAAAAAAQQIAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAQQIAAAAAAABBAgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					197,
+					1,
+					"replace_character",
+					{
+						"character": "J"
+					},
+					"AQAAAFkCAAAAAAAAWgIAAAAAAAABAAAAag",
+					"AQAAAAAAAAABAAAAWQIAAAAAAABZAgAAAAAAAAAAAAAAAHVA"
+				],
+				[
+					204,
 					1,
 					"sequence",
 					{
 						"commands":
 						[
 							[
-								"lsp_json_auto_complete",
-								null
+								"insert",
+								{
+									"characters": "("
+								}
 							],
 							[
 								"exit_insert_mode",
@@ -482,11 +764,614 @@
 							]
 						]
 					},
-					"AQAAAJQBAAAAAAAAlgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
+					"AQAAAHICAAAAAAAAcwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					14,
+					206,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAIACAAAAAAAAgQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgAIAAAAAAACAAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					217,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AgAAAH4CAAAAAAAAfgIAAAAAAAABAAAAL34CAAAAAAAAfgIAAAAAAAABAAAAPg",
+					"AQAAAAAAAAABAAAAfgIAAAAAAAB+AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAH0CAAAAAAAAfQIAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAfQIAAAAAAAB9AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					221,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args":
+						{
+							"extend": true,
+							"repeat": 1
+						},
+						"motion_clip_to_line": false,
+						"motion_command": "vi_move_to_hard_eol",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAAHICAAAAAAAAcgIAAAAAAAAMAAAAKDxDcmVhdGVKb2Ip",
+					"AQAAAAAAAAABAAAAcgIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": "Create"
+					},
+					"BgAAAHICAAAAAAAAcwIAAAAAAAAAAAAAcwIAAAAAAAB0AgAAAAAAAAAAAAB0AgAAAAAAAHUCAAAAAAAAAAAAAHUCAAAAAAAAdgIAAAAAAAAAAAAAdgIAAAAAAAB3AgAAAAAAAAAAAAB3AgAAAAAAAHgCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					223,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":1,\"session_name\":\"Deno\"}",
+						"format": "command",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "CreateJob"
+					},
+					"AgAAAHICAAAAAAAAcgIAAAAAAAAGAAAAQ3JlYXRlcgIAAAAAAAB7AgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeAIAAAAAAAB4AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					236,
+					1,
+					"insert",
+					{
+						"characters": ".,."
+					},
+					"AwAAAEYAAAAAAAAARwAAAAAAAAAAAAAARwAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					237,
+					1,
+					"left_delete",
+					null,
+					"AgAAAEgAAAAAAAAASAAAAAAAAAABAAAALkcAAAAAAAAARwAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					238,
+					1,
+					"insert",
+					{
+						"characters": "./"
+					},
+					"AgAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARwAAAAAAAABHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					242,
+					1,
+					"insert",
+					{
+						"characters": "jjjjjj"
+					},
+					"BgAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAABLAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAABOAAAAAAAAAE8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					243,
+					1,
+					"left_delete",
+					null,
+					"BgAAAE4AAAAAAAAATgAAAAAAAAABAAAAak0AAAAAAAAATQAAAAAAAAABAAAAakwAAAAAAAAATAAAAAAAAAABAAAAaksAAAAAAAAASwAAAAAAAAABAAAAakoAAAAAAAAASgAAAAAAAAABAAAAakkAAAAAAAAASQAAAAAAAAABAAAAag",
+					"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					250,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BAAAADkBAAAAAAAAOQEAAAAAAAAbAAAAICAgIGFzeW5jIEdFVChfcmVxLCBjdHgpIHsKOQEAAAAAAAA5AQAAAAAAABsAAAAgICAgICAgIGNvbnNvbGUubG9nKCdnZXQnKQo5AQAAAAAAADkBAAAAAAAAIgAAACAgICAgICAgcmV0dXJuIGF3YWl0IGN0eC5yZW5kZXIoKQo5AQAAAAAAADkBAAAAAAAABwAAACAgICB9LAo",
+					"AQAAAAAAAAABAAAAUgEAAAAAAABSAQAAAAAAAAAAAAAAgHhA"
+				],
+				[
+					284,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"insert",
+								{
+									"characters": "<"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " "
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAABYCAAAAAAAAFwIAAAAAAAAAAAAAFwIAAAAAAAAYAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFgIAAAAAAAAWAgAAAAAAAAAAAAAAQGNA"
+				],
+				[
+					290,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BAAAAOUBAAAAAAAA5QEAAAAAAAAmAAAAZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSm9iQ3JlYXRlKCkgewrlAQAAAAAAAOUBAAAAAAAAFwAAACAgICByZXR1cm4gPCBDcmVhdGVKb2IK5QEAAAAAAADlAQAAAAAAAAIAAAB9CuQBAAAAAAAA5AEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAA8QEAAAAAAADxAQAAAAAAAAAAAAAAAGVA"
+				],
+				[
+					295,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAACwAAAAAAAAALAAAAAAAAAA3AAAAaW1wb3J0IENyZWF0ZUpvYiBmcm9tICcuLi8uLi9jb21wb25lbnRzL0NyZWF0ZUpvYi50c3gnCg",
+					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					302,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args":
+						{
+							"repeat": 1
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAAFYBAAAAAAAAVgEAAAAAAAAEAAAAanNvbg",
+					"AQAAAAAAAAABAAAAVgEAAAAAAABWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					303,
+					1,
+					"insert",
+					{
+						"characters": "form"
+					},
+					"BAAAAFYBAAAAAAAAVwEAAAAAAAAAAAAAVwEAAAAAAABYAQAAAAAAAAAAAABYAQAAAAAAAFkBAAAAAAAAAAAAAFkBAAAAAAAAWgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVgEAAAAAAABWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					304,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":9,\"session_name\":\"Deno\"}",
+						"format": "command",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "formData"
+					},
+					"AgAAAFYBAAAAAAAAVgEAAAAAAAAEAAAAZm9ybVYBAAAAAAAAXgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgEAAAAAAABaAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					336,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAJwBAAAAAAAAnQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					337,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJwBAAAAAAAAnAEAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					338,
+					1,
+					"insert",
+					{
+						"characters": "req.origin"
+					},
+					"CgAAAJwBAAAAAAAAnQEAAAAAAAAAAAAAnQEAAAAAAACeAQAAAAAAAAAAAACeAQAAAAAAAJ8BAAAAAAAAAAAAAJ8BAAAAAAAAoAEAAAAAAAAAAAAAoAEAAAAAAAChAQAAAAAAAAAAAAChAQAAAAAAAKIBAAAAAAAAAAAAAKIBAAAAAAAAowEAAAAAAAAAAAAAowEAAAAAAACkAQAAAAAAAAAAAACkAQAAAAAAAKUBAAAAAAAAAAAAAKUBAAAAAAAApgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					340,
+					1,
+					"left_delete",
+					null,
+					"BgAAAKUBAAAAAAAApQEAAAAAAAABAAAAbqQBAAAAAAAApAEAAAAAAAABAAAAaaMBAAAAAAAAowEAAAAAAAABAAAAZ6IBAAAAAAAAogEAAAAAAAABAAAAaaEBAAAAAAAAoQEAAAAAAAABAAAAcqABAAAAAAAAoAEAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAApgEAAAAAAACmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					341,
+					1,
+					"insert",
+					{
+						"characters": "headers/"
+					},
+					"CAAAAKABAAAAAAAAoQEAAAAAAAAAAAAAoQEAAAAAAACiAQAAAAAAAAAAAACiAQAAAAAAAKMBAAAAAAAAAAAAAKMBAAAAAAAApAEAAAAAAAAAAAAApAEAAAAAAAClAQAAAAAAAAAAAAClAQAAAAAAAKYBAAAAAAAAAAAAAKYBAAAAAAAApwEAAAAAAAAAAAAApwEAAAAAAACoAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoAEAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					342,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKcBAAAAAAAApwEAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAqAEAAAAAAACoAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					343,
+					1,
+					"insert",
+					{
+						"characters": ".origin.join"
+					},
+					"DAAAAKcBAAAAAAAAqAEAAAAAAAAAAAAAqAEAAAAAAACpAQAAAAAAAAAAAACpAQAAAAAAAKoBAAAAAAAAAAAAAKoBAAAAAAAAqwEAAAAAAAAAAAAAqwEAAAAAAACsAQAAAAAAAAAAAACsAQAAAAAAAK0BAAAAAAAAAAAAAK0BAAAAAAAArgEAAAAAAAAAAAAArgEAAAAAAACvAQAAAAAAAAAAAACvAQAAAAAAALABAAAAAAAAAAAAALABAAAAAAAAsQEAAAAAAAAAAAAAsQEAAAAAAACyAQAAAAAAAAAAAACyAQAAAAAAALMBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					344,
+					1,
+					"left_delete",
+					null,
+					"BQAAALIBAAAAAAAAsgEAAAAAAAABAAAAbrEBAAAAAAAAsQEAAAAAAAABAAAAabABAAAAAAAAsAEAAAAAAAABAAAAb68BAAAAAAAArwEAAAAAAAABAAAAaq4BAAAAAAAArgEAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					345,
+					1,
+					"insert",
+					{
+						"characters": " +"
+					},
+					"AgAAAK4BAAAAAAAArwEAAAAAAAAAAAAArwEAAAAAAACwAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					346,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALABAAAAAAAAsQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsAEAAAAAAACwAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					361,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAHsBAAAAAAAAewEAAAAAAABCAAAAICAgICAgICByZXR1cm4gUmVzcG9uc2UucmVkaXJlY3QocmVxLmhlYWRlcnMub3JpZ2luICsgJy9qb2IvMTI0JykK",
+					"AQAAAAAAAAABAAAAsAEAAAAAAACwAQAAAAAAAAAAAAAAMIdA"
+				],
+				[
+					368,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AwAAAHoBAAAAAAAAewEAAAAAAAAAAAAAewEAAAAAAACDAQAAAAAAAAAAAACDAQAAAAAAAOkBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQEAAAAAAABhAQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					373,
+					1,
+					"indent",
+					null,
+					"BgAAAJ8BAAAAAAAAowEAAAAAAAAAAAAAtAEAAAAAAAC4AQAAAAAAAAAAAADsAQAAAAAAAPABAAAAAAAAAAAAAJ8BAAAAAAAAowEAAAAAAAAAAAAAuAEAAAAAAAC8AQAAAAAAAAAAAAD0AQAAAAAAAPgBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gEAAAAAAACfAQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					375,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 10,
+										"line": 16
+									},
+									"start":
+									{
+										"character": 8,
+										"line": 16
+									}
+								}
+							},
+							{
+								"newText": "''",
+								"range":
+								{
+									"end":
+									{
+										"character": 32,
+										"line": 16
+									},
+									"start":
+									{
+										"character": 30,
+										"line": 16
+									}
+								}
+							},
+							{
+								"newText": "'",
+								"range":
+								{
+									"end":
+									{
+										"character": 34,
+										"line": 18
+									},
+									"start":
+									{
+										"character": 33,
+										"line": 18
+									}
+								}
+							},
+							{
+								"newText": "'",
+								"range":
+								{
+									"end":
+									{
+										"character": 56,
+										"line": 18
+									},
+									"start":
+									{
+										"character": 55,
+										"line": 18
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 10,
+										"line": 19
+									},
+									"start":
+									{
+										"character": 8,
+										"line": 19
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 13,
+										"line": 19
+									},
+									"start":
+									{
+										"character": 12,
+										"line": 19
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"BgAAAAACAAAAAAAAAAIAAAAAAAABAAAAO/wBAAAAAAAA/AEAAAAAAAACAAAAICDvAQAAAAAAAPABAAAAAAAAAQAAACLZAQAAAAAAANoBAAAAAAAAAQAAACKZAQAAAAAAAJsBAAAAAAAAAgAAACIigwEAAAAAAACDAQAAAAAAAAIAAAAgIA",
+					"AQAAAAAAAAABAAAAAgIAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					385,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAABYBAAAAAAAAFgEAAAAAAAABAAAAXw",
+					"AQAAAAAAAAABAAAAFgEAAAAAAAAWAQAAAAAAAAAAAAAAgHFA"
+				],
+				[
+					396,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args": null,
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAANgBAAAAAAAA2AEAAAAAAAAUAAAAbXkvbmV3L3JlbGF0aXZlL3BhdGg",
+					"AQAAAAAAAAABAAAA2AEAAAAAAADsAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					397,
+					1,
+					"insert",
+					{
+						"characters": "job/124"
+					},
+					"BwAAANgBAAAAAAAA2QEAAAAAAAAAAAAA2QEAAAAAAADaAQAAAAAAAAAAAADaAQAAAAAAANsBAAAAAAAAAAAAANsBAAAAAAAA3AEAAAAAAAAAAAAA3AEAAAAAAADdAQAAAAAAAAAAAADdAQAAAAAAAN4BAAAAAAAAAAAAAN4BAAAAAAAA3wEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AEAAAAAAADYAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					405,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line Before.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAAHoBAAAAAAAAewEAAAAAAAAAAAAAegEAAAAAAACCAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgEAAAAAAACaAQAAAAAAAAAAAAAA8IFA"
+				],
+				[
+					410,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line Before.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "\nctx.redi"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "rect"
+								}
+							],
+							[
+								"insert_snippet",
+								{
+									"contents": "($0)"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"EwAAAHoBAAAAAAAAewEAAAAAAAAAAAAAegEAAAAAAACCAQAAAAAAAAAAAACCAQAAAAAAAIMBAAAAAAAAAAAAAIMBAAAAAAAAiwEAAAAAAAAAAAAAjAEAAAAAAACMAQAAAAAAAAgAAAAgICAgICAgIHoBAAAAAAAAegEAAAAAAAAIAAAAICAgICAgICCDAQAAAAAAAIQBAAAAAAAAAAAAAIQBAAAAAAAAhQEAAAAAAAAAAAAAhQEAAAAAAACGAQAAAAAAAAAAAACGAQAAAAAAAIcBAAAAAAAAAAAAAIcBAAAAAAAAiAEAAAAAAAAAAAAAiAEAAAAAAACJAQAAAAAAAAAAAACJAQAAAAAAAIoBAAAAAAAAAAAAAIoBAAAAAAAAiwEAAAAAAAAAAAAAiwEAAAAAAACMAQAAAAAAAAAAAACMAQAAAAAAAI0BAAAAAAAAAAAAAI0BAAAAAAAAjgEAAAAAAAAAAAAAjgEAAAAAAACPAQAAAAAAAAAAAACPAQAAAAAAAJEBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgQEAAAAAAACBAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					426,
 					1,
 					"sequence",
 					{
@@ -503,7 +1388,246 @@
 							[
 								"insert",
 								{
-									"characters": "api"
+									"characters": ":"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " Request"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "con"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"insert",
+								{
+									"characters": "context"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"insert",
+								{
+									"characters": "Cont"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"LgAAABkBAAAAAAAAGgEAAAAAAAAAAAAAGgEAAAAAAAAbAQAAAAAAAAAAAAAbAQAAAAAAABwBAAAAAAAAAAAAABwBAAAAAAAAHQEAAAAAAAAAAAAAHQEAAAAAAAAeAQAAAAAAAAAAAAAeAQAAAAAAAB8BAAAAAAAAAAAAAB8BAAAAAAAAIAEAAAAAAAAAAAAAIAEAAAAAAAAhAQAAAAAAAAAAAAAhAQAAAAAAACIBAAAAAAAAAAAAACIBAAAAAAAAIwEAAAAAAAAAAAAAIwEAAAAAAAAkAQAAAAAAAAAAAAAkAQAAAAAAACUBAAAAAAAAAAAAACQBAAAAAAAAJAEAAAAAAAABAAAAbiMBAAAAAAAAIwEAAAAAAAABAAAAbyIBAAAAAAAAIgEAAAAAAAABAAAAYyEBAAAAAAAAIQEAAAAAAAABAAAAdCABAAAAAAAAIAEAAAAAAAABAAAAcx8BAAAAAAAAHwEAAAAAAAABAAAAZR4BAAAAAAAAHgEAAAAAAAABAAAAdR0BAAAAAAAAHQEAAAAAAAABAAAAcRwBAAAAAAAAHAEAAAAAAAABAAAAZRsBAAAAAAAAGwEAAAAAAAABAAAAUhsBAAAAAAAAHAEAAAAAAAAAAAAAHAEAAAAAAAAdAQAAAAAAAAAAAAAdAQAAAAAAAB4BAAAAAAAAAAAAAB4BAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAgAQAAAAAAAAAAAAAgAQAAAAAAACEBAAAAAAAAAAAAACEBAAAAAAAAIgEAAAAAAAAAAAAAIQEAAAAAAAAhAQAAAAAAAAEAAAB0IAEAAAAAAAAgAQAAAAAAAAEAAAB4HwEAAAAAAAAfAQAAAAAAAAEAAABlHgEAAAAAAAAeAQAAAAAAAAEAAAB0HQEAAAAAAAAdAQAAAAAAAAEAAABuHAEAAAAAAAAcAQAAAAAAAAEAAABvGwEAAAAAAAAbAQAAAAAAAAEAAABjGwEAAAAAAAAcAQAAAAAAAAAAAAAcAQAAAAAAAB0BAAAAAAAAAAAAAB0BAAAAAAAAHgEAAAAAAAAAAAAAHgEAAAAAAAAfAQAAAAAAAAAAAAAeAQAAAAAAAB4BAAAAAAAAAQAAAHQdAQAAAAAAAB0BAAAAAAAAAQAAAG4cAQAAAAAAABwBAAAAAAAAAQAAAG8bAQAAAAAAABsBAAAAAAAAAQAAAEMaAQAAAAAAABoBAAAAAAAAAQAAACAZAQAAAAAAABkBAAAAAAAAAQAAADo",
+					"AQAAAAAAAAABAAAAGAEAAAAAAAAYAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					439,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAABkBAAAAAAAAGgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQEAAAAAAAAZAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					440,
+					1,
+					"insert",
+					{
+						"characters": " HandlerCont"
+					},
+					"DAAAABoBAAAAAAAAGwEAAAAAAAAAAAAAGwEAAAAAAAAcAQAAAAAAAAAAAAAcAQAAAAAAAB0BAAAAAAAAAAAAAB0BAAAAAAAAHgEAAAAAAAAAAAAAHgEAAAAAAAAfAQAAAAAAAAAAAAAfAQAAAAAAACABAAAAAAAAAAAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACYBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgEAAAAAAAAaAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					441,
+					1,
+					"insert",
+					{
+						"characters": "ext"
+					},
+					"AwAAACYBAAAAAAAAJwEAAAAAAAAAAAAAJwEAAAAAAAAoAQAAAAAAAAAAAAAoAQAAAAAAACkBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJgEAAAAAAAAmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					443,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AQAAABsBAAAAAAAAGwEAAAAAAAAOAAAASGFuZGxlckNvbnRleHQ",
+					"AQAAAAAAAAABAAAAKQEAAAAAAAApAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					444,
+					1,
+					"insert",
+					{
+						"characters": "FreshContext"
+					},
+					"DAAAABsBAAAAAAAAHAEAAAAAAAAAAAAAHAEAAAAAAAAdAQAAAAAAAAAAAAAdAQAAAAAAAB4BAAAAAAAAAAAAAB4BAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAgAQAAAAAAAAAAAAAgAQAAAAAAACEBAAAAAAAAAAAAACEBAAAAAAAAIgEAAAAAAAAAAAAAIgEAAAAAAAAjAQAAAAAAAAAAAAAjAQAAAAAAACQBAAAAAAAAAAAAACQBAAAAAAAAJQEAAAAAAAAAAAAAJQEAAAAAAAAmAQAAAAAAAAAAAAAmAQAAAAAAACcBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGwEAAAAAAAAbAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					452,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "FreshContext, ",
+								"range":
+								{
+									"end":
+									{
+										"character": 9,
+										"line": 0
+									},
+									"start":
+									{
+										"character": 9,
+										"line": 0
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": 762
+					},
+					"AQAAAAkAAAAAAAAAFwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJgEAAAAAAAAmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					466,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAJcBAAAAAAAAlwEAAAAAAAAXAAAAICAgICAgICBjdHgucmVkaXJlY3QoKQo",
+					"AQAAAAAAAAABAAAAqgEAAAAAAACqAQAAAAAAAAAAAAAAoHBA"
+				],
+				[
+					483,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAJYBAAAAAAAAlgEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAoHBA"
+				],
+				[
+					512,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line.sublime-macro",
+									"register": "\""
 								}
 							],
 							[
@@ -512,45 +1636,418 @@
 							]
 						]
 					},
-					"AwAAAJUBAAAAAAAAlgEAAAAAAAAAAAAAlgEAAAAAAACXAQAAAAAAAAAAAACXAQAAAAAAAJgBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
+					"AgAAABICAAAAAAAAEwIAAAAAAAAAAAAAEwIAAAAAAAAXAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQIAAAAAAAARAgAAAAAAAAAAAAAAgHhA"
 				],
 				[
-					19,
+					528,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "export"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " async"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " de"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"insert",
+								{
+									"characters": "default"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " function"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " Job"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"LQAAABoCAAAAAAAAGwIAAAAAAAAAAAAAEwIAAAAAAAATAgAAAAAAAAQAAAAgICAgFwIAAAAAAAAYAgAAAAAAAAAAAAAYAgAAAAAAABkCAAAAAAAAAAAAABkCAAAAAAAAGgIAAAAAAAAAAAAAGgIAAAAAAAAbAgAAAAAAAAAAAAAbAgAAAAAAABwCAAAAAAAAAAAAABwCAAAAAAAAHQIAAAAAAAAAAAAAHQIAAAAAAAAeAgAAAAAAAAAAAAAeAgAAAAAAAB8CAAAAAAAAAAAAAB8CAAAAAAAAIAIAAAAAAAAAAAAAIAIAAAAAAAAhAgAAAAAAAAAAAAAhAgAAAAAAACICAAAAAAAAAAAAACICAAAAAAAAIwIAAAAAAAAAAAAAIwIAAAAAAAAkAgAAAAAAAAAAAAAkAgAAAAAAACUCAAAAAAAAAAAAACUCAAAAAAAAJgIAAAAAAAAAAAAAJQIAAAAAAAAlAgAAAAAAAAEAAABlJAIAAAAAAAAkAgAAAAAAAAEAAABkIwIAAAAAAAAjAgAAAAAAAAEAAAAgIgIAAAAAAAAiAgAAAAAAAAEAAABjIQIAAAAAAAAhAgAAAAAAAAEAAABuIAIAAAAAAAAgAgAAAAAAAAEAAAB5HwIAAAAAAAAfAgAAAAAAAAEAAABzHgIAAAAAAAAeAgAAAAAAAAEAAABhHgIAAAAAAAAfAgAAAAAAAAAAAAAfAgAAAAAAACACAAAAAAAAAAAAACACAAAAAAAAIQIAAAAAAAAAAAAAIQIAAAAAAAAiAgAAAAAAAAAAAAAiAgAAAAAAACMCAAAAAAAAAAAAACMCAAAAAAAAJAIAAAAAAAAAAAAAJAIAAAAAAAAlAgAAAAAAAAAAAAAlAgAAAAAAACYCAAAAAAAAAAAAACYCAAAAAAAAJwIAAAAAAAAAAAAAJwIAAAAAAAAoAgAAAAAAAAAAAAAoAgAAAAAAACkCAAAAAAAAAAAAACkCAAAAAAAAKgIAAAAAAAAAAAAAKgIAAAAAAAArAgAAAAAAAAAAAAArAgAAAAAAACwCAAAAAAAAAAAAACwCAAAAAAAALQIAAAAAAAAAAAAALQIAAAAAAAAuAgAAAAAAAAAAAAAuAgAAAAAAAC8CAAAAAAAAAAAAAC8CAAAAAAAAMAIAAAAAAAAAAAAAMAIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADICAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgIAAAAAAAAaAgAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					529,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAABcCAAAAAAAAFwIAAAAAAAAbAAAAZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSm9iFgIAAAAAAAAWAgAAAAAAAAEAAAAKFQIAAAAAAAAVAgAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAMQIAAAAAAAAxAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					543,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line Before.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "async"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " "
+								}
+							],
+							[
+								"insert_completion",
+								{
+									"completion": "lsp_select_completion {\"index\":1,\"session_name\":\"Deno\"}",
+									"format": "command",
+									"keep_prefix": false,
+									"must_insert": true,
+									"trigger": "GET?"
+								}
+							],
+							[
+								"insert_snippet",
+								{
+									"contents": "($0)"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "req,"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " ctx"
+								}
+							],
+							[
+								"move",
+								{
+									"by": "characters",
+									"forward": true
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " "
+								}
+							],
+							[
+								"insert_snippet",
+								{
+									"contents": "{$0}"
+								}
+							],
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"GgAAABABAAAAAAAAEQEAAAAAAAAAAAAAEAEAAAAAAAAUAQAAAAAAAAAAAAAUAQAAAAAAABUBAAAAAAAAAAAAABUBAAAAAAAAFgEAAAAAAAAAAAAAFgEAAAAAAAAXAQAAAAAAAAAAAAAXAQAAAAAAABgBAAAAAAAAAAAAABgBAAAAAAAAGQEAAAAAAAAAAAAAGQEAAAAAAAAaAQAAAAAAAAAAAAAaAQAAAAAAAB0BAAAAAAAAAAAAAB0BAAAAAAAAHwEAAAAAAAAAAAAAHgEAAAAAAAAfAQAAAAAAAAAAAAAfAQAAAAAAACABAAAAAAAAAAAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACYBAAAAAAAAAAAAACcBAAAAAAAAKAEAAAAAAAAAAAAAKAEAAAAAAAAqAQAAAAAAAAAAAAApAQAAAAAAACoBAAAAAAAAAAAAACoBAAAAAAAALgEAAAAAAAAAAAAALgEAAAAAAAAvAQAAAAAAAAAAAAAvAQAAAAAAADMBAAAAAAAAAAAAACoBAAAAAAAAKgEAAAAAAAAEAAAAICAgICoBAAAAAAAAMgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQEAAAAAAAARAQAAAAAAAAAAAAAAACxA"
+				],
+				[
+					551,
+					1,
+					"",
+					null,
+					"AgAAAD0CAAAAAAAAbgQAAAAAAAAAAAAAbgQAAAAAAABuBAAAAAAAAAEAAAB9",
+					"AQAAAAAAAAABAAAAPQIAAAAAAAA+AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					554,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AgAAADwCAAAAAAAAPAIAAAAAAAABAAAACioBAAAAAAAAKgEAAAAAAAAIAAAAICAgICAgICA",
+					"AQAAAAAAAAABAAAAPAIAAAAAAAA8AgAAAAAAAAAAAAAAACxA"
+				],
+				[
+					563,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "pageprops"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"CgAAADkAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAPQAAAAAAAAAAAAAAPQAAAAAAAAA+AAAAAAAAAAAAAAA+AAAAAAAAAD8AAAAAAAAAAAAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAABBAAAAAAAAAEIAAAAAAAAAAAAAAEIAAAAAAAAAQwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					565,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAADoAAAAAAAAAOgAAAAAAAAAKAAAAcGFnZXByb3BzCg",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					571,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAABABAAAAAAAAEAEAAAAAAAAaAAAAICAgIGFzeW5jIEdFVChyZXEsIGN0eCkgewoQAQAAAAAAABABAAAAAAAAAQAAAAoQAQAAAAAAABABAAAAAAAABgAAACAgICB9Cg",
+					"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					581,
+					1,
+					"indent",
+					null,
+					"BgAAABMCAAAAAAAAFwIAAAAAAAAAAAAAKQIAAAAAAAAtAgAAAAAAAAAAAABPAgAAAAAAAFMCAAAAAAAAAAAAAIYCAAAAAAAAigIAAAAAAAAAAAAAzAIAAAAAAADQAgAAAAAAAAAAAAD7AgAAAAAAAP8CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwIAAAAAAADsAgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					601,
+					27,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"GwAAAFsEAAAAAAAAWwQAAAAAAAABAAAAfVoEAAAAAAAAWgQAAAAAAAABAAAAClYEAAAAAAAAVgQAAAAAAAAEAAAAICApO1UEAAAAAAAAVQQAAAAAAAABAAAACksEAAAAAAAASwQAAAAAAAAKAAAAICAgIDwvZGl2PkoEAAAAAAAASgQAAAAAAAABAAAACj8EAAAAAAAAPwQAAAAAAAALAAAAICAgICAgPC91bD4+BAAAAAAAAD4EAAAAAAAAAQAAAAoDBAAAAAAAAAMEAAAAAAAAOwAAACAgICAgICAge3Jlc3VsdHMubWFwKChuYW1lKSA9PiA8bGkga2V5PXtuYW1lfT57bmFtZX08L2xpPil9AgQAAAAAAAACBAAAAAAAAAEAAAAK+AMAAAAAAAD4AwAAAAAAAAoAAAAgICAgICA8dWw+9wMAAAAAAAD3AwAAAAAAAAEAAAAK6gMAAAAAAADqAwAAAAAAAA0AAAAgICAgICA8L2Zvcm0+6QMAAAAAAADpAwAAAAAAAAEAAAAKvAMAAAAAAAC8AwAAAAAAAC0AAAAgICAgICAgIDxidXR0b24gdHlwZT0ic3VibWl0Ij5TZWFyY2g8L2J1dHRvbj67AwAAAAAAALsDAAAAAAAAAQAAAAqHAwAAAAAAAIcDAAAAAAAANAAAACAgICAgICAgPGlucHV0IHR5cGU9InRleHQiIG5hbWU9InEiIHZhbHVlPXtxdWVyeX0gLz6GAwAAAAAAAIYDAAAAAAAAAQAAAAp6AwAAAAAAAHoDAAAAAAAADAAAACAgICAgIDxmb3JtPnkDAAAAAAAAeQMAAAAAAAABAAAACnADAAAAAAAAcAMAAAAAAAAJAAAAICAgIDxkaXY+bwMAAAAAAABvAwAAAAAAAAEAAAAKZQMAAAAAAABlAwAAAAAAAAoAAAAgIHJldHVybiAoZAMAAAAAAABkAwAAAAAAAAEAAAAKQgMAAAAAAABCAwAAAAAAACIAAAAgIGNvbnN0IHsgcmVzdWx0cywgcXVlcnkgfSA9IGRhdGE7QQMAAAAAAABBAwAAAAAAAAEAAAAKCAMAAAAAAAAIAwAAAAAAADkAAABleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQYWdlKHsgZGF0YSB9OiBQYWdlUHJvcHM8RGF0YT4pIHs",
+					"AQAAAAAAAAABAAAAWwQAAAAAAABbBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					603,
+					1,
+					"",
+					null,
+					"AQAAAAgDAAAAAAAA9QMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAMAAAAAAAAIAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					613,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args":
+						{
+							"repeat": 1
+						},
+						"motion_clip_to_line": true,
+						"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+						"motion_inclusive": true,
+						"motion_mode": 0
+					},
+					"AQAAAAkAAAAAAAAACQAAAAAAAAAMAAAARnJlc2hDb250ZXh0",
+					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					614,
+					1,
+					"insert",
+					{
+						"characters": "RouteContext"
+					},
+					"DAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					630,
+					6,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BgAAAAgDAAAAAAAACAMAAAAAAAAjAAAAZXhwb3J0IGNvbnN0IGhhbmRsZXI6IEhhbmRsZXJzID0gewoIAwAAAAAAAAgDAAAAAAAAFAAAACAgYXN5bmMgUE9TVChyZXEpIHsKCAMAAAAAAAAIAwAAAAAAAB0AAAAgICAgLy8gLi4uIGRvIHNvbWV0aGluZyBoZXJlCggDAAAAAAAACAMAAAAAAAAFAAAAICB9LAoIAwAAAAAAAAgDAAAAAAAAAwAAAH07CggDAAAAAAAACAMAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAJwMAAAAAAAAnAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					638,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAFADAAAAAAAAUAMAAAAAAABHAAAAICBjb25zdCB2YWx1ZSA9IGF3YWl0IGxvYWRGb29WYWx1ZSgpOwogIHJldHVybiA8cD5mb28gaXM6IHt2YWx1ZX08L3A+Owo",
+					"AQAAAAAAAAABAAAAUAMAAAAAAACXAwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					639,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line Before.sublime-macro",
+						"register": "\""
+					},
+					"AgAAAFADAAAAAAAAUQMAAAAAAAAAAAAAUAMAAAAAAABUAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAMAAAAAAABQAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					640,
+					1,
+					"insert",
+					{
+						"characters": "return"
+					},
+					"BgAAAFQDAAAAAAAAVQMAAAAAAAAAAAAAVQMAAAAAAABWAwAAAAAAAAAAAABWAwAAAAAAAFcDAAAAAAAAAAAAAFcDAAAAAAAAWAMAAAAAAAAAAAAAWAMAAAAAAABZAwAAAAAAAAAAAABZAwAAAAAAAFoDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAMAAAAAAABUAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					641,
+					1,
+					"insert",
+					{
+						"characters": " Job"
+					},
+					"BAAAAFoDAAAAAAAAWwMAAAAAAAAAAAAAWwMAAAAAAABcAwAAAAAAAAAAAABcAwAAAAAAAF0DAAAAAAAAAAAAAF0DAAAAAAAAXgMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgMAAAAAAABaAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					642,
+					1,
+					"insert",
+					{
+						"characters": "Det"
+					},
+					"AwAAAF4DAAAAAAAAXwMAAAAAAAAAAAAAXwMAAAAAAABgAwAAAAAAAAAAAABgAwAAAAAAAGEDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgMAAAAAAABeAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					643,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":4098,\"session_name\":\"Deno\"}",
+						"format": "command",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "JobDetails"
+					},
+					"AgAAAFsDAAAAAAAAWwMAAAAAAAAGAAAASm9iRGV0WwMAAAAAAABlAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQMAAAAAAABhAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					644,
 					1,
 					"lsp_apply_document_edit",
 					{
 						"changes":
 						[
 							{
-								"newText": "\n      ",
+								"newText": "import { JobDetails } from '../../components/JobDetails.tsx'\n",
 								"range":
 								{
 									"end":
 									{
-										"character": 16,
-										"line": 19
+										"character": 0,
+										"line": 1
 									},
 									"start":
 									{
-										"character": 16,
-										"line": 19
-									}
-								}
-							},
-							{
-								"newText": "\n    ",
-								"range":
-								{
-									"end":
-									{
-										"character": 21,
-										"line": 19
-									},
-									"start":
-									{
-										"character": 21,
-										"line": 19
+										"character": 0,
+										"line": 1
 									}
 								}
 							}
@@ -558,27 +2055,2570 @@
 						"process_placeholders": false,
 						"required_view_version": null
 					},
-					"AgAAAJkBAAAAAAAAngEAAAAAAAAAAAAAlAEAAAAAAACbAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAHNA"
+					"AQAAADoAAAAAAAAAdwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQMAAAAAAABlAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					651,
+					5,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BQAAAGYCAAAAAAAAZgIAAAAAAAAmAAAAICAgICAgICBjb25zdCB1cmwgPSBuZXcgVVJMKHJlcS51cmwpOwpmAgAAAAAAAGYCAAAAAAAANwAAACAgICAgICAgY29uc3QgcXVlcnkgPSB1cmwuc2VhcmNoUGFyYW1zLmdldCgicSIpIHx8ICIiOwpmAgAAAAAAAGYCAAAAAAAARgAAACAgICAgICAgY29uc3QgcmVzdWx0cyA9IE5BTUVTLmZpbHRlcigobmFtZSkgPT4gbmFtZS5pbmNsdWRlcyhxdWVyeSkpOwpmAgAAAAAAAGYCAAAAAAAALwAAACAgICAgICAgcmV0dXJuIGN0eC5yZW5kZXIoeyByZXN1bHRzLCBxdWVyeSB9KTsKZgIAAAAAAABmAgAAAAAAAAkAAAAgICAgICB9LAo",
+					"AQAAAAAAAAABAAAAegIAAAAAAAB6AgAAAAAAAAAAAAAAgHFA"
+				],
+				[
+					653,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAFACAAAAAAAAUAIAAAAAAAAWAAAAICAgICAgR0VUKHJlcSwgY3R4KSB7Cg",
+					"AQAAAAAAAAABAAAAUAIAAAAAAABQAgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					668,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args": null,
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAGYBAAAAAAAAZgEAAAAAAAAMAAAARnJlc2hDb250ZXh0",
+					"AQAAAAAAAAABAAAAZgEAAAAAAAByAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					669,
+					1,
+					"insert",
+					{
+						"characters": "RouteContext"
+					},
+					"DAAAAGYBAAAAAAAAZwEAAAAAAAAAAAAAZwEAAAAAAABoAQAAAAAAAAAAAABoAQAAAAAAAGkBAAAAAAAAAAAAAGkBAAAAAAAAagEAAAAAAAAAAAAAagEAAAAAAABrAQAAAAAAAAAAAABrAQAAAAAAAGwBAAAAAAAAAAAAAGwBAAAAAAAAbQEAAAAAAAAAAAAAbQEAAAAAAABuAQAAAAAAAAAAAABuAQAAAAAAAG8BAAAAAAAAAAAAAG8BAAAAAAAAcAEAAAAAAAAAAAAAcAEAAAAAAABxAQAAAAAAAAAAAABxAQAAAAAAAHIBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZgEAAAAAAABmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					693,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"vi_eval",
+								{
+									"action_args":
+									{
+										"insert_command": "vi_delete"
+									},
+									"action_command": "enter_insert_mode",
+									"motion_args":
+									{
+										"repeat": 1
+									},
+									"motion_clip_to_line": true,
+									"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+									"motion_inclusive": true,
+									"motion_mode": 0
+								}
+							],
+							[
+								"insert_snippet",
+								{
+									"contents": "($0)"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "\n"
+								}
+							],
+							[
+								"unindent",
+								null
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"BwAAAKcCAAAAAAAApwIAAAAAAAAKAAAASm9iRGV0YWlsc6cCAAAAAAAAqQIAAAAAAAAAAAAAqAIAAAAAAACpAgAAAAAAAAAAAACpAgAAAAAAAK0CAAAAAAAAAAAAAKkCAAAAAAAAqQIAAAAAAAAEAAAAICAgIKkCAAAAAAAAsQIAAAAAAAAAAAAAqQIAAAAAAACpAgAAAAAAAAQAAAAgICAg",
+					"AQAAAAAAAAABAAAApwIAAAAAAACnAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					694,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line Before.sublime-macro",
+						"register": "\""
+					},
+					"AgAAAKkCAAAAAAAAqgIAAAAAAAAAAAAAqQIAAAAAAACxAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAIAAAAAAACsAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					695,
+					1,
+					"insert",
+					{
+						"characters": "<h1>"
+					},
+					"BAAAALECAAAAAAAAsgIAAAAAAAAAAAAAsgIAAAAAAACzAgAAAAAAAAAAAACzAgAAAAAAALQCAAAAAAAAAAAAALQCAAAAAAAAtQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsQIAAAAAAACxAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					696,
+					1,
+					"insert",
+					{
+						"characters": " wow"
+					},
+					"BAAAALUCAAAAAAAAtgIAAAAAAAAAAAAAtgIAAAAAAAC3AgAAAAAAAAAAAAC3AgAAAAAAALgCAAAAAAAAAAAAALgCAAAAAAAAuQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtQIAAAAAAAC1AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					697,
+					1,
+					"insert",
+					{
+						"characters": " </h1"
+					},
+					"BQAAALkCAAAAAAAAugIAAAAAAAAAAAAAugIAAAAAAAC7AgAAAAAAAAAAAAC7AgAAAAAAALwCAAAAAAAAAAAAALwCAAAAAAAAvQIAAAAAAAAAAAAAvQIAAAAAAAC+AgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQIAAAAAAAC5AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					703,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAAL4CAAAAAAAAvwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvgIAAAAAAAC+AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					721,
+					2,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AgAAAKkCAAAAAAAAqQIAAAAAAAAXAAAAICAgICAgICA8aDE+IHdvdyA8L2gxPgqpAgAAAAAAAKkCAAAAAAAABgAAACAgICApCg",
+					"AQAAAAAAAAABAAAAsgIAAAAAAACyAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					730,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"move_to",
+								{
+									"register": "\"",
+									"to": "hardeol"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"insert",
+								{
+									"characters": "ContactDeta"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "ils"
+								}
+							],
+							[
+								"insert_completion",
+								{
+									"completion": "lsp_select_completion {\"index\":1044,\"session_name\":\"Deno\"}",
+									"format": "command",
+									"keep_prefix": false,
+									"must_insert": false,
+									"trigger": "ContactDetailsForm"
+								}
+							],
+							[
+								"lsp_apply_document_edit",
+								{
+									"changes":
+									[
+										{
+											"newText": "import { ContactDetailsForm } from '../../components/ContactDetailsForm.tsx'\n",
+											"range":
+											{
+												"end":
+												{
+													"character": 0,
+													"line": 1
+												},
+												"start":
+												{
+													"character": 0,
+													"line": 1
+												}
+											}
+										}
+									],
+									"process_placeholders": false,
+									"required_view_version": null
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"EgAAAKcCAAAAAAAApwIAAAAAAAABAAAAKKcCAAAAAAAAqAIAAAAAAAAAAAAAqAIAAAAAAACpAgAAAAAAAAAAAACpAgAAAAAAAKoCAAAAAAAAAAAAAKoCAAAAAAAAqwIAAAAAAAAAAAAAqwIAAAAAAACsAgAAAAAAAAAAAACsAgAAAAAAAK0CAAAAAAAAAAAAAK0CAAAAAAAArgIAAAAAAAAAAAAArgIAAAAAAACvAgAAAAAAAAAAAACvAgAAAAAAALACAAAAAAAAAAAAALACAAAAAAAAsQIAAAAAAAAAAAAAsQIAAAAAAACyAgAAAAAAAAAAAACyAgAAAAAAALMCAAAAAAAAAAAAALMCAAAAAAAAtAIAAAAAAAAAAAAAtAIAAAAAAAC1AgAAAAAAAAAAAACnAgAAAAAAAKcCAAAAAAAADgAAAENvbnRhY3REZXRhaWxzpwIAAAAAAAC5AgAAAAAAAAAAAAA6AAAAAAAAAIcAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAIAAAAAAACcAgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					734,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAIcAAAAAAAAAhwAAAAAAAAA9AAAAaW1wb3J0IHsgSm9iRGV0YWlscyB9IGZyb20gJy4uLy4uL2NvbXBvbmVudHMvSm9iRGV0YWlscy50c3gnCg",
+					"AQAAAAAAAAABAAAAhwAAAAAAAACHAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					758,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"insert",
+								{
+									"characters": "<"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AQAAALcCAAAAAAAAuAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwIAAAAAAAC3AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					760,
+					1,
+					"insert",
+					{
+						"characters": " />"
+					},
+					"AwAAAMoCAAAAAAAAywIAAAAAAAAAAAAAywIAAAAAAADMAgAAAAAAAAAAAADMAgAAAAAAAM0CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygIAAAAAAADKAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					774,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAHMCAAAAAAAAcwIAAAAAAAAFAAAAYXN5bmM",
+					"AQAAAAAAAAABAAAAcwIAAAAAAAB4AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					775,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAHMCAAAAAAAAcwIAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAcwIAAAAAAABzAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					777,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": " Handlers,",
+								"range":
+								{
+									"end":
+									{
+										"character": 8,
+										"line": 0
+									},
+									"start":
+									{
+										"character": 8,
+										"line": 0
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 31,
+										"line": 0
+									},
+									"start":
+									{
+										"character": 21,
+										"line": 0
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 2,
+										"line": 23
+									},
+									"start":
+									{
+										"character": 1,
+										"line": 23
+									}
+								}
+							},
+							{
+								"newText": "\n",
+								"range":
+								{
+									"end":
+									{
+										"character": 1,
+										"line": 27
+									},
+									"start":
+									{
+										"character": 1,
+										"line": 27
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"BAAAAMkCAAAAAAAAygIAAAAAAAAAAAAAYQIAAAAAAABhAgAAAAAAAAEAAAA7FQAAAAAAAAAVAAAAAAAAAAoAAAAsIEhhbmRsZXJzCAAAAAAAAAASAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwIAAAAAAABzAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					790,
+					1,
+					"replace_character",
+					{
+						"character": "3"
+					},
+					"AQAAABwCAAAAAAAAHQIAAAAAAAABAAAANw",
+					"AQAAAAAAAAABAAAAHAIAAAAAAAAcAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					803,
+					1,
+					"cut",
+					null,
+					"AQAAAGMCAAAAAAAAYwIAAAAAAABmAAAAZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTXlQYWdlKHJlcTogUmVxdWVzdCwgY3R4OiBSb3V0ZUNvbnRleHQpIHsKICAgIHJldHVybiA8Q29udGFjdERldGFpbHNGb3JtIC8+Cn0K",
+					"AQAAAAAAAAABAAAAYwIAAAAAAADJAgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					804,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAGICAAAAAAAAYgIAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAYwIAAAAAAABjAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					815,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAADoAAAAAAAAAOgAAAAAAAABNAAAAaW1wb3J0IHsgQ29udGFjdERldGFpbHNGb3JtIH0gZnJvbSAnLi4vLi4vY29tcG9uZW50cy9Db250YWN0RGV0YWlsc0Zvcm0udHN4Jwo",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					820,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAVAgAAaW1wb3J0IHsgSGFuZGxlcnMsIFJvdXRlQ29udGV4dCB9IGZyb20gJyRmcmVzaC9zZXJ2ZXIudHMnCgpleHBvcnQgaW50ZXJmYWNlIEpvYkZvcm1EYXRhIHsKICAgIHNlbmRlck5hbWU6IHN0cmluZwogICAgcmVjZWl2ZXJOYW1lOiBzdHJpbmcKICAgIGFkZHJlc3M6IHN0cmluZwogICAgY29uc2lnbm1lbnROdW1iZXI6IHN0cmluZwogICAgcmVmZXJlbmNlTnVtYmVyOiBzdHJpbmcKICAgIGl0ZW1zOiBzdHJpbmcKfQoKZXhwb3J0IGNvbnN0IGhhbmRsZXI6IEhhbmRsZXJzID0gewogICAgYXN5bmMgUE9TVChyZXEsIGN0eDogUm91dGVDb250ZXh0KSB7CiAgICAgICAgY29uc29sZS5sb2cocmVxKQogICAgICAgIGNvbnN0IGZvcm0gPSBhd2FpdCByZXEuZm9ybURhdGEoKQogICAgICAgIGNvbnNvbGUubG9nKGZvcm0pCgogICAgICAgIHJldHVybiBuZXcgUmVzcG9uc2UoJycsIHsKICAgICAgICAgICAgc3RhdHVzOiAzMDMsCiAgICAgICAgICAgIGhlYWRlcnM6IHsgTG9jYXRpb246ICcvam9iLzEyNCcgfSwKICAgICAgICB9KQogICAgfSwKfQoAAAAAAAAAABUCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "api/fns/sms.ts",
+			"file": "components/CreateJob.tsx",
 			"settings":
 			{
-				"buffer_size": 628,
+				"buffer_size": 4012,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
+				[
+					11,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAACIRAAAAAAAAIhEAAAAAAAADAAAALy8g",
+					"AQAAAAAAAAABAAAAIhEAAAAAAAAiEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+							"insert_command": "vi_delete"
+						},
+						"action_command": "enter_insert_mode",
+						"motion_args": null,
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAADERAAAAAAAAMREAAAAAAAAVAAAAd2luZG93Lmhpc3RvcnkuYmFjaygp",
+					"AQAAAAAAAAABAAAAMREAAAAAAABGEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "location.href"
+					},
+					"DQAAADERAAAAAAAAMhEAAAAAAAAAAAAAMhEAAAAAAAAzEQAAAAAAAAAAAAAzEQAAAAAAADQRAAAAAAAAAAAAADQRAAAAAAAANREAAAAAAAAAAAAANREAAAAAAAA2EQAAAAAAAAAAAAA2EQAAAAAAADcRAAAAAAAAAAAAADcRAAAAAAAAOBEAAAAAAAAAAAAAOBEAAAAAAAA5EQAAAAAAAAAAAAA5EQAAAAAAADoRAAAAAAAAAAAAADoRAAAAAAAAOxEAAAAAAAAAAAAAOxEAAAAAAAA8EQAAAAAAAAAAAAA8EQAAAAAAAD0RAAAAAAAAAAAAAD0RAAAAAAAAPhEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMREAAAAAAAAxEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"vi_eval",
+								{
+									"action_args":
+									{
+										"insert_command": "vi_delete"
+									},
+									"action_command": "enter_insert_mode",
+									"motion_args":
+									{
+										"repeat": 1
+									},
+									"motion_clip_to_line": true,
+									"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+									"motion_inclusive": true,
+									"motion_mode": 0
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "a"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAAN0QAAAAAAAA3RAAAAAAAAAGAAAAYnV0dG9u3RAAAAAAAADeEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3RAAAAAAAADdEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"vi_eval",
+								{
+									"action_args":
+									{
+										"insert_command": "vi_delete"
+									},
+									"action_command": "enter_insert_mode",
+									"motion_args":
+									{
+										"repeat": 1
+									},
+									"motion_clip_to_line": true,
+									"motion_command": "vi_extend_to_end_of_whitespace_or_word",
+									"motion_inclusive": true,
+									"motion_mode": 0
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "a"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAABASAAAAAAAAEBIAAAAAAAAGAAAAYnV0dG9uEBIAAAAAAAAREgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEBIAAAAAAAAQEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAAURAAAAAAAABREAAAAAAAA2AAAAICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gbG9jYXRpb24uaHJlZn0K",
+					"AQAAAAAAAAABAAAAJREAAAAAAAAlEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line Before.sublime-macro",
+						"register": "\""
+					},
+					"AgAAAAURAAAAAAAABhEAAAAAAAAAAAAABREAAAAAAAAdEQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABREAAAAAAAAFEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "href="
+					},
+					"BQAAAB0RAAAAAAAAHhEAAAAAAAAAAAAAHhEAAAAAAAAfEQAAAAAAAAAAAAAfEQAAAAAAACARAAAAAAAAAAAAACARAAAAAAAAIREAAAAAAAAAAAAAIREAAAAAAAAiEQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHREAAAAAAAAdEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":137,\"session_name\":\"Deno\"}",
+						"format": "command",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "href={$1}"
+					},
+					"AgAAAB0RAAAAAAAAHREAAAAAAAAFAAAAaHJlZj0dEQAAAAAAACQRAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIhEAAAAAAAAiEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAACIRAAAAAAAAIhEAAAAAAAABAAAAeyIRAAAAAAAAIhEAAAAAAAABAAAAfQ",
+					"AQAAAAAAAAABAAAAIxEAAAAAAAAjEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAACIRAAAAAAAAJBEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIhEAAAAAAAAiEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAACMRAAAAAAAAJBEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIxEAAAAAAAAjEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "'/'",
+								"range":
+								{
+									"end":
+									{
+										"character": 32,
+										"line": 106
+									},
+									"start":
+									{
+										"character": 29,
+										"line": 106
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"AQAAACIRAAAAAAAAJREAAAAAAAADAAAAIi8i",
+					"AQAAAAAAAAABAAAAJBEAAAAAAAAkEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAN8QAAAAAAAA3xAAAAAAAAAmAAAAICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0nYnV0dG9uJwrfEAAAAAAAAN8QAAAAAAAAGAAAACAgICAgICAgICAgICAgICAgICAgICAgIN8QAAAAAAAA8xAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/RAAAAAAAAD9EAAAAAAAAAAAAAAAQHpA"
+				],
+				[
+					62,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "    ",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 105
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 105
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"AQAAAPMQAAAAAAAA9xAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8xAAAAAAAADzEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAALYDAAAAAAAAtgMAAAAAAAAWAAAAICAgICAgICAgICAgICAgIDxkaXY+Cg",
+					"AQAAAAAAAAABAAAAwgMAAAAAAADCAwAAAAAAAAAAAAAAAGVA"
+				],
+				[
+					82,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAFgFAAAAAAAAWAUAAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2PgpYBQAAAAAAAFgFAAAAAAAAAQAAAApYBQAAAAAAAFgFAAAAAAAAFgAAACAgICAgICAgICAgICAgICA8ZGl2Pgo",
+					"AQAAAAAAAAABAAAAWAUAAAAAAABYBQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					85,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAAAHAAAAAAAAAAcAAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2PgoABwAAAAAAAAAHAAAAAAAAAQAAAAoABwAAAAAAAAAHAAAAAAAAFgAAACAgICAgICAgICAgICAgICA8ZGl2Pgo",
+					"AQAAAAAAAAABAAAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					88,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAALIIAAAAAAAAsggAAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2Pgo",
+					"AQAAAAAAAAABAAAAsggAAAAAAACyCAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					90,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 26
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 26
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 27
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 27
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 28
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 28
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 29
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 29
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 30
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 30
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 31
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 31
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 32
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 32
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 33
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 33
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 34
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 34
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 35
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 35
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 36
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 36
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 37
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 37
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 38
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 38
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 39
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 39
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 40
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 40
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 41
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 41
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 42
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 42
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 43
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 43
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 44
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 44
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 45
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 45
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 46
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 46
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 47
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 47
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 48
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 48
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 49
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 49
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"GAAAAJsIAAAAAAAAmwgAAAAAAAAEAAAAICAgIAsIAAAAAAAACwgAAAAAAAAEAAAAICAgIOoHAAAAAAAA6gcAAAAAAAAEAAAAICAgIJ0HAAAAAAAAnQcAAAAAAAAEAAAAICAgIHoHAAAAAAAAegcAAAAAAAAEAAAAICAgIFMHAAAAAAAAUwcAAAAAAAAEAAAAICAgIBsHAAAAAAAAGwcAAAAAAAAEAAAAICAgIBAHAAAAAAAAEAcAAAAAAAAEAAAAICAgIPkGAAAAAAAA+QYAAAAAAAAEAAAAICAgIEUGAAAAAAAARQYAAAAAAAAEAAAAICAgIDgGAAAAAAAAOAYAAAAAAAAEAAAAICAgIAsGAAAAAAAACwYAAAAAAAAEAAAAICAgIMMFAAAAAAAAwwUAAAAAAAAEAAAAICAgIKsFAAAAAAAAqwUAAAAAAAAEAAAAICAgIIcFAAAAAAAAhwUAAAAAAAAEAAAAICAgIFgFAAAAAAAAWAUAAAAAAAAEAAAAICAgIFEFAAAAAAAAUQUAAAAAAAAEAAAAICAgILEEAAAAAAAAsQQAAAAAAAAEAAAAICAgIHwEAAAAAAAAfAQAAAAAAAAEAAAAICAgIGUEAAAAAAAAZQQAAAAAAAAEAAAAICAgIDMEAAAAAAAAMwQAAAAAAAAEAAAAICAgIPUDAAAAAAAA9QMAAAAAAAAEAAAAICAgIOUDAAAAAAAA5QMAAAAAAAAEAAAAICAgIMYDAAAAAAAAxgMAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAsggAAAAAAACyCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					99,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAFMIAAAAAAAAUwgAAAAAAAAWAAAAICAgICAgICAgICAgICAgIDxkaXY+Cg",
+					"AQAAAAAAAAABAAAAUwgAAAAAAABTCAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					102,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAP4JAAAAAAAA/gkAAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2Pgr+CQAAAAAAAP4JAAAAAAAAAQAAAAr+CQAAAAAAAP4JAAAAAAAAFgAAACAgICAgICAgICAgICAgICA8ZGl2Pgo",
+					"AQAAAAAAAAABAAAA/gkAAAAAAAD+CQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					105,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAKwLAAAAAAAArAsAAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2PgqsCwAAAAAAAKwLAAAAAAAAAQAAAAqsCwAAAAAAAKwLAAAAAAAAFgAAACAgICAgICAgICAgICAgICA8ZGl2Pgo",
+					"AQAAAAAAAAABAAAArAsAAAAAAACsCwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					108,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AwAAAFQNAAAAAAAAVA0AAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2PgpUDQAAAAAAAFQNAAAAAAAAAQAAAApUDQAAAAAAAFQNAAAAAAAAFgAAACAgICAgICAgICAgICAgICA8ZGl2Pgo",
+					"AQAAAAAAAAABAAAAVA0AAAAAAABUDQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					111,
+					2,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AgAAAPEOAAAAAAAA8Q4AAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2PgrxDgAAAAAAAPEOAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAA8Q4AAAAAAADxDgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					113,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 51
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 51
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 52
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 52
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 53
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 53
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 54
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 54
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 55
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 55
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 56
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 56
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 57
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 57
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 58
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 58
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 59
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 59
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 60
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 60
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 61
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 61
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 62
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 62
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 63
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 63
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 64
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 64
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 65
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 65
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 66
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 66
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 67
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 67
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 68
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 68
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 69
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 69
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 70
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 70
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 71
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 71
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 72
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 72
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 73
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 73
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 74
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 74
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 75
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 75
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 76
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 76
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 77
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 77
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 78
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 78
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 79
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 79
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 80
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 80
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 81
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 81
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 82
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 82
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"IAAAANoOAAAAAAAA2g4AAAAAAAAEAAAAICAgIEoOAAAAAAAASg4AAAAAAAAEAAAAICAgIBUOAAAAAAAAFQ4AAAAAAAAEAAAAICAgIPgNAAAAAAAA+A0AAAAAAAAEAAAAICAgILgNAAAAAAAAuA0AAAAAAAAEAAAAICAgIKcNAAAAAAAApw0AAAAAAAAEAAAAICAgIG8NAAAAAAAAbw0AAAAAAAAEAAAAICAgIGQNAAAAAAAAZA0AAAAAAAAEAAAAICAgID0NAAAAAAAAPQ0AAAAAAAAEAAAAICAgIK0MAAAAAAAArQwAAAAAAAAEAAAAICAgIHgMAAAAAAAAeAwAAAAAAAAEAAAAICAgIFwMAAAAAAAAXAwAAAAAAAAEAAAAICAgIBoMAAAAAAAAGgwAAAAAAAAEAAAAICAgIP8LAAAAAAAA/wsAAAAAAAAEAAAAICAgIMcLAAAAAAAAxwsAAAAAAAAEAAAAICAgILwLAAAAAAAAvAsAAAAAAAAEAAAAICAgIJULAAAAAAAAlQsAAAAAAAAEAAAAICAgIAULAAAAAAAABQsAAAAAAAAEAAAAICAgINAKAAAAAAAA0AoAAAAAAAAEAAAAICAgILAKAAAAAAAAsAoAAAAAAAAEAAAAICAgIG4KAAAAAAAAbgoAAAAAAAAEAAAAICAgIFEKAAAAAAAAUQoAAAAAAAAEAAAAICAgIBkKAAAAAAAAGQoAAAAAAAAEAAAAICAgIA4KAAAAAAAADgoAAAAAAAAEAAAAICAgIOcJAAAAAAAA5wkAAAAAAAAEAAAAICAgIFcJAAAAAAAAVwkAAAAAAAAEAAAAICAgICIJAAAAAAAAIgkAAAAAAAAEAAAAICAgIAIJAAAAAAAAAgkAAAAAAAAEAAAAICAgILYIAAAAAAAAtggAAAAAAAAEAAAAICAgIKUIAAAAAAAApQgAAAAAAAAEAAAAICAgIG4IAAAAAAAAbggAAAAAAAAEAAAAICAgIGMIAAAAAAAAYwgAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAA8Q4AAAAAAADxDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					141,
+					2,
+					"join_lines",
+					null,
+					"AgAAAL0OAAAAAAAAvg4AAAAAAAAZAAAACiAgICAgICAgICAgICAgICAgICAgICAgIMYOAAAAAAAAxw4AAAAAAAAZAAAACiAgICAgICAgICAgICAgICAgICAgICAgIA",
+					"AQAAAAAAAAABAAAApw4AAAAAAACnDgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					143,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"insert",
+								{
+									"characters": ">"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AQAAAMYOAAAAAAAAxw4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxg4AAAAAAADGDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					152,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line Before.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "<"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " button"
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"CgAAAFIPAAAAAAAAUw8AAAAAAAAAAAAAUg8AAAAAAABmDwAAAAAAAAAAAABmDwAAAAAAAGcPAAAAAAAAAAAAAGcPAAAAAAAAaA8AAAAAAAAAAAAAaA8AAAAAAABpDwAAAAAAAAAAAABpDwAAAAAAAGoPAAAAAAAAAAAAAGoPAAAAAAAAaw8AAAAAAAAAAAAAaw8AAAAAAABsDwAAAAAAAAAAAABsDwAAAAAAAG0PAAAAAAAAAAAAAG0PAAAAAAAAbg8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbQ8AAAAAAABtDwAAAAAAAAAAAAAAAHxA"
+				],
+				[
+					159,
+					1,
+					"cut",
+					null,
+					"AQAAAMgOAAAAAAAAyA4AAAAAAABzAAAAY2xhc3NOYW1lPSdmbGV4LTEgcHktMyBweC02IGJnLWdyYXktNDAwIHRleHQtZ3JheS01MDAgcm91bmRlZC1mdWxsIGZvbnQtbWVkaXVtIGhvdmVyOmJnLWdyYXktMjAwIHRyYW5zaXRpb24tY29sb3JzJw",
+					"AQAAAAAAAAABAAAAyA4AAAAAAAA7DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					165,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"move_to",
+								{
+									"register": "\"",
+									"to": "hardeol"
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": " "
+								}
+							],
+							[
+								"paste",
+								null
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAAPsOAAAAAAAA/A4AAAAAAAAAAAAA/A4AAAAAAABvDwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3w4AAAAAAADfDgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					167,
+					1,
+					"trim_trailing_white_space",
+					null,
+					"AQAAAMcOAAAAAAAAxw4AAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAbg8AAAAAAABuDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					173,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line.sublime-macro",
+						"register": "\""
+					},
+					"AgAAAIsPAAAAAAAAjA8AAAAAAAAAAAAAjA8AAAAAAACkDwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbw8AAAAAAABvDwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					174,
+					1,
+					"insert",
+					{
+						"characters": "</button"
+					},
+					"CAAAAKQPAAAAAAAApQ8AAAAAAAAAAAAApQ8AAAAAAACmDwAAAAAAAAAAAACmDwAAAAAAAKcPAAAAAAAAAAAAAKcPAAAAAAAAqA8AAAAAAAAAAAAAqA8AAAAAAACpDwAAAAAAAAAAAACpDwAAAAAAAKoPAAAAAAAAAAAAAKoPAAAAAAAAqw8AAAAAAAAAAAAAqw8AAAAAAACsDwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApA8AAAAAAACkDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					180,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAAKwPAAAAAAAArQ8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArA8AAAAAAACsDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					189,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAPMOAAAAAAAA8w4AAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA8w4AAAAAAADzDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					196,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAMgOAAAAAAAAyA4AAAAAAAAWAAAAICAgICAgICAgICAgICAgICAgICA+Cg",
+					"AQAAAAAAAAABAAAA3A4AAAAAAADcDgAAAAAAAAAAAAAAYHJA"
+				],
+				[
+					201,
+					1,
+					"unindent",
+					null,
+					"AQAAAHUPAAAAAAAAdQ8AAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAdQ8AAAAAAAB1DwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					207,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAAFcPAAAAAAAAWA8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVw8AAAAAAABXDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "    ",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 85
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 85
+									}
+								}
+							},
+							{
+								"newText": "    ",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 86
+									},
+									"start":
+									{
+										"character": 24,
+										"line": 86
+									}
+								}
+							},
+							{
+								"newText": "    ",
+								"range":
+								{
+									"end":
+									{
+										"character": 0,
+										"line": 87
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 87
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"AwAAAHYPAAAAAAAAeg8AAAAAAAAAAAAAcQ8AAAAAAAB1DwAAAAAAAAAAAADcDgAAAAAAAOAOAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWA8AAAAAAABYDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					223,
+					1,
+					"insert",
+					{
+						"characters": " classname"
+					},
+					"CgAAAMYOAAAAAAAAxw4AAAAAAAAAAAAAxw4AAAAAAADIDgAAAAAAAAAAAADIDgAAAAAAAMkOAAAAAAAAAAAAAMkOAAAAAAAAyg4AAAAAAAAAAAAAyg4AAAAAAADLDgAAAAAAAAAAAADLDgAAAAAAAMwOAAAAAAAAAAAAAMwOAAAAAAAAzQ4AAAAAAAAAAAAAzQ4AAAAAAADODgAAAAAAAAAAAADODgAAAAAAAM8OAAAAAAAAAAAAAM8OAAAAAAAA0A4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxg4AAAAAAADGDgAAAAAAAAAAAAAAYIJA"
+				],
+				[
+					224,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":84,\"session_name\":\"Deno\"}",
+						"format": "command",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "className={$1}"
+					},
+					"AgAAAMcOAAAAAAAAxw4AAAAAAAAJAAAAY2xhc3NuYW1lxw4AAAAAAADTDgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0A4AAAAAAADQDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					225,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAANIOAAAAAAAA1A4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0g4AAAAAAADSDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					226,
+					2,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"BAAAANIOAAAAAAAA0g4AAAAAAAABAAAAItIOAAAAAAAA0g4AAAAAAAABAAAAItEOAAAAAAAA0Q4AAAAAAAABAAAAe9EOAAAAAAAA0Q4AAAAAAAABAAAAfQ",
+					"AQAAAAAAAAABAAAA0w4AAAAAAADTDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					227,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAANEOAAAAAAAA0w4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0Q4AAAAAAADRDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					228,
+					1,
+					"insert",
+					{
+						"characters": "flex-1"
+					},
+					"BgAAANIOAAAAAAAA0w4AAAAAAAAAAAAA0w4AAAAAAADUDgAAAAAAAAAAAADUDgAAAAAAANUOAAAAAAAAAAAAANUOAAAAAAAA1g4AAAAAAAAAAAAA1g4AAAAAAADXDgAAAAAAAAAAAADXDgAAAAAAANgOAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0g4AAAAAAADSDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					265,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"enter_visual_mode",
+								null
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args": null,
+									"action_command": null,
+									"motion_args":
+									{
+										"extend": true,
+										"forward": true,
+										"visual": false
+									},
+									"motion_clip_to_line": false,
+									"motion_command": "vi_move_by_characters_in_line",
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							],
+							[
+								"vi_eval",
+								{
+									"action_args":
+									{
+									},
+									"action_command": "vi_right_delete",
+									"motion_args":
+									{
+									},
+									"motion_clip_to_line": false,
+									"motion_command": null,
+									"motion_inclusive": false,
+									"motion_mode": 0
+								}
+							]
+						]
+					},
+					"AQAAAMcOAAAAAAAAxw4AAAAAAAASAAAAY2xhc3NOYW1lPSdmbGV4LTEn",
+					"AQAAAAAAAAABAAAAxw4AAAAAAADHDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					267,
+					1,
+					"vi_eval",
+					{
+						"action_args":
+						{
+						},
+						"action_command": "vi_right_delete",
+						"motion_args":
+						{
+						},
+						"motion_clip_to_line": false,
+						"motion_command": null,
+						"motion_inclusive": false,
+						"motion_mode": 0
+					},
+					"AQAAAMYOAAAAAAAAxg4AAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAxg4AAAAAAADGDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					272,
+					5,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"BQAAAKcOAAAAAAAApw4AAAAAAAAhAAAAICAgICAgICAgICAgICAgICAgICA8YSBocmVmPScvJz4Kpw4AAAAAAACnDgAAAAAAAJUAAAAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0nZmxleC0xIHB5LTMgcHgtNiBiZy1ncmF5LTQwMCB0ZXh0LWdyYXktNTAwIHJvdW5kZWQtZnVsbCBmb250LW1lZGl1bSBob3ZlcjpiZy1ncmF5LTIwMCB0cmFuc2l0aW9uLWNvbG9ycyc+CqcOAAAAAAAApw4AAAAAAAAhAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJhY2sKpw4AAAAAAACnDgAAAAAAACIAAAAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4Kpw4AAAAAAACnDgAAAAAAABkAAAAgICAgICAgICAgICAgICAgICAgIDwvYT4K",
+					"AQAAAAAAAAABAAAAxg4AAAAAAADGDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					291,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"run_macro_file",
+								{
+									"file": "res://Packages/Default/Add Line.sublime-macro",
+									"register": "\""
+								}
+							],
+							[
+								"exit_insert_mode",
+								null
+							]
+						]
+					},
+					"AgAAAKYOAAAAAAAApw4AAAAAAAAAAAAApw4AAAAAAAC3DgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiA4AAAAAAACIDgAAAAAAAAAAAAAAIHRA"
+				],
+				[
+					294,
+					2,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AgAAAHEOAAAAAAAAcQ4AAAAAAAA2AAAAICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmbGV4IHNwYWNlLXgtNCBwdC00Jz4KcQ4AAAAAAABxDgAAAAAAABEAAAAgICAgICAgICAgICAgICAgCg",
+					"AQAAAAAAAAABAAAAgA4AAAAAAACADgAAAAAAAAAAAAAAQGpA"
+				],
+				[
+					297,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAAJkPAAAAAAAAmQ8AAAAAAAAXAAAAICAgICAgICAgICAgICAgIDwvZGl2Pgo",
+					"AQAAAAAAAAABAAAAmQ8AAAAAAACZDwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					300,
+					1,
+					"lsp_apply_document_edit",
+					{
+						"changes":
+						[
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 20,
+										"line": 83
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 83
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 84
+									},
+									"start":
+									{
+										"character": 20,
+										"line": 84
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 85
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 85
+									}
+								}
+							},
+							{
+								"newText": ">\n",
+								"range":
+								{
+									"end":
+									{
+										"character": 2,
+										"line": 87
+									},
+									"start":
+									{
+										"character": 16,
+										"line": 86
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 24,
+										"line": 87
+									},
+									"start":
+									{
+										"character": 22,
+										"line": 87
+									}
+								}
+							},
+							{
+								"newText": "",
+								"range":
+								{
+									"end":
+									{
+										"character": 4,
+										"line": 88
+									},
+									"start":
+									{
+										"character": 0,
+										"line": 88
+									}
+								}
+							}
+						],
+						"process_placeholders": false,
+						"required_view_version": null
+					},
+					"BgAAAHsPAAAAAAAAew8AAAAAAAAEAAAAICAgIHQPAAAAAAAAdA8AAAAAAAACAAAAICBYDwAAAAAAAFoPAAAAAAAACAAAACAgICA+CiAgsw4AAAAAAACzDgAAAAAAAAQAAAAgICAgoQ4AAAAAAAChDgAAAAAAAAQAAAAgICAggQ4AAAAAAACBDgAAAAAAAAQAAAAgICAg",
+					"AQAAAAAAAAABAAAAsw4AAAAAAACzDgAAAAAAAAAAAAAAAAAA"
+				]
 			]
 		},
 		{
-			"file": "client/src/App.tsx",
+			"file": "components/ContactDetailsForm.tsx",
 			"settings":
 			{
-				"buffer_size": 3793,
+				"buffer_size": 5065,
 				"line_ending": "Unix"
 			},
 			"undo_stack":
@@ -589,120 +4629,56 @@
 	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					""
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Automatic"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Run"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Run (with args)..."
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Check"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Test"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Test (with args)..."
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Bench"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Clean"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Document"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Clippy"
-				],
-				[
-					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-					"Script"
-				]
-			],
-			[
-				"Packages/Rust Enhanced/RustEnhanced.sublime-build",
-				"Run"
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 385.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"disable",
-				"Package Control: Disable Package"
+				"disabl",
+				"LSP: Disable Language Server Globally"
 			],
 			[
-				"format",
-				"LSP: Format File"
-			],
-			[
-				"lsp",
-				"Preferences: LSP-Deno Settings"
-			],
-			[
-				"add folder",
-				"Project: Add Folder"
-			],
-			[
-				"sideb",
-				"View: Toggle Open Files in Side Bar"
-			],
-			[
-				"enable lan",
-				"LSP: Enable Language Server in Project"
-			],
-			[
-				"lang",
-				"LSP: Enable Language Server in Project"
+				"copilot chat",
+				"Copilot: Edit CSS: Chat Panel"
 			],
 			[
 				"copilot",
-				"Preferences: LSP-copilot Settings"
+				"Copilot: Edit CSS: Chat Panel"
 			],
 			[
-				"enab",
-				"Package Control: Enable Package"
+				"install",
+				"Package Control: Install Package"
 			],
 			[
-				"lsp key",
-				"Preferences: LSP Key Bindings"
+				"rmeovepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"log",
+				"Git: Log Current File"
 			],
 			[
 				"type",
 				"Set Syntax: TypeScript"
 			],
 			[
-				"deno",
-				"Preferences: LSP-Deno Settings"
-			],
-			[
-				"install",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -710,126 +4686,482 @@
 				"Pretty JSON: Format JSON"
 			],
 			[
-				"ts",
-				"Set Syntax: TypeScript"
-			],
-			[
-				"java",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"sql",
-				"Set Syntax: SQL"
-			],
-			[
-				"yaml",
-				"Set Syntax: YAML"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
+				"build",
+				"Build: New Build System"
 			],
 			[
 				"rein",
 				"Indentation: Reindent Lines"
 			],
 			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"nginx",
+				"Set Syntax: nginx"
+			],
+			[
 				"jsx",
 				"Set Syntax: JSX"
 			],
 			[
-				"log",
-				"Git: Log Current File"
+				"javas",
+				"Set Syntax: JavaScript"
 			],
 			[
-				"diff",
-				"Git: Diff Current File"
+				"hask",
+				"Set Syntax: Haskell"
 			],
 			[
-				"pris",
-				"Set Syntax: Prisma"
+				"enable pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"restar",
+				"LSP: Restart Servers"
+			],
+			[
+				"disable",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"disab",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lsp ser",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rest",
+				"LSP: Restart Servers"
+			],
+			[
+				"lsp serv",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"settings",
+				"Preferences: LSP Settings"
+			],
+			[
+				"res",
+				"LSP: Restart Servers"
+			],
+			[
+				"disa",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lang",
+				"LSP: Toggle Panel: Language Servers"
+			],
+			[
+				"lsp",
+				"LSP: Toggle Panel: Diagnostics"
+			],
+			[
+				"lsp setti",
+				"Preferences: LSP Settings"
+			],
+			[
+				"restart",
+				"LSP: Restart Servers"
+			],
+			[
+				"enab",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disbale",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"next",
+				"LSP: Next Diagnostic"
+			],
+			[
+				"diagnost",
+				"LSP: Toggle Panel: Diagnostics"
+			],
+			[
+				"enabl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp settings",
+				"Preferences: LSP Settings"
 			],
 			[
 				"blame",
 				"Git: Blame"
 			],
 			[
-				"ja",
-				"Set Syntax: JavaScript"
+				"check",
+				"Git: Checkout Tag"
 			],
 			[
-				"remove",
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"chara",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"less",
+				"Set Syntax: Less"
+			],
+			[
+				"synta",
+				"Set Syntax: Rust"
+			],
+			[
+				"le",
+				"Set Syntax: Less"
+			],
+			[
+				"checkout",
+				"Git: Checkout Tag"
+			],
+			[
+				"di",
+				"Git: Diff Current File"
+			],
+			[
+				"checkou",
+				"Git: Checkout Tag"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"l",
+				"Git: Log Current File"
+			],
+			[
+				"rust",
+				"Preferences: Rust Enhanced Settings"
+			],
+			[
+				"lo",
+				"Git: Log Current File"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"gruvbox",
+				"gruvbox: Select Theme"
+			],
+			[
+				"gruvbo",
+				"gruvbox: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"package remo",
 				"Package Control: Remove Package"
+			],
+			[
+				"unify",
+				"Line Endings Unify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"eslint",
 				"Preferences: SublimeLinter Settings"
 			],
 			[
-				"blam",
-				"Git: Blame"
+				"rename",
+				"Rename File"
 			],
 			[
-				"git diff",
-				"Git: Diff Current File"
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
 			],
 			[
-				"git show",
-				"Git: Show Commit By Hash"
+				"linter",
+				"SublimeLinter: Lint This View"
 			],
 			[
-				"ngin",
-				"Set Syntax: nginx"
+				"sublimme",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
 			],
 			[
-				"git log",
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"packa upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"syntas rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"cargo",
+				"Set Syntax: Cargo Build Results"
+			],
+			[
+				"toggle syn",
+				"Rust: Toggle Syntax Checking"
+			],
+			[
+				"syntax rust",
+				"Rust: Toggle Syntax Checking"
+			],
+			[
+				"enhanced",
+				"Build With: RustEnhanced"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"run",
+				"Build With: RustEnhanced - Run"
+			],
+			[
+				"buildsy",
+				"Build: New Build System"
+			],
+			[
+				"logcu",
 				"Git: Log Current File"
 			],
 			[
-				"dockerfil",
-				"Set Syntax: Dockerfile"
+				"bla",
+				"Git: Blame"
 			],
 			[
-				"syn bash",
-				"Set Syntax: Bourne Again Shell (bash)"
+				"lint show",
+				"SublimeLinter: Show All Errors"
 			],
 			[
-				"change",
-				"Changelog"
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
 			],
 			[
-				"ui",
-				"UI: Select Color Scheme"
+				"lint error",
+				"SublimeLinter: Show All Errors"
 			],
 			[
-				"synt rust",
-				"Set Syntax: Rust Enhanced"
+				"lint",
+				"Preferences: SublimeLinter Settings"
 			],
 			[
-				"toml",
-				"Set Syntax: TOML"
+				"sublime",
+				"SublimeLinter: Goto Error"
 			],
 			[
-				"lsp ena",
-				"LSP: Enable Language Server in Project"
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"update",
+				"GitHub: Update Gist"
+			],
+			[
+				"gist",
+				"GitHub: Private Gist from Selection"
+			],
+			[
+				"private gist",
+				"GitHub: Private Gist from Selection"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"babl",
+				"Babel Transform"
+			],
+			[
+				"lint ne",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"lint nex",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"next erro",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"errors",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"lin error",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"show on",
+				"SublimeLinter: Show Errors on Save"
 			],
 			[
 				"color",
 				"UI: Select Color Scheme"
 			],
 			[
-				"theme",
-				"UI: Select Color Scheme"
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"show on save",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"ne",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"lint next",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa insta",
+				"Package Control: Install Package"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"show all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint erro",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"show erro",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"balme",
+				"Git: Blame"
+			],
+			[
+				"lint errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"show error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"erro",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"babal",
+				"Preferences: Babel – Default"
+			],
+			[
+				"connec",
+				"Q: Connect"
+			],
+			[
+				"conn",
+				"Q: Connect"
+			],
+			[
+				"con",
+				"Q: Connect"
+			],
+			[
+				"connn",
+				"Package Control: Add Channel"
+			],
+			[
+				"co",
+				"Q: Connect"
 			]
 		],
-		"width": 0.0
+		"width": 495.0
 	},
 	"console":
 	{
-		"height": 955.0,
+		"height": 746.0,
 		"history":
 		[
-			"sublime.log_commands(True)"
+			"aaa",
+			"aaaa",
+			"asdasdasd",
+			"clear",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
 		]
 	},
 	"distraction_free":
@@ -844,140 +5176,145 @@
 	"expanded_folders":
 	[
 		"/home/ntr/code/podowl",
-		"/home/ntr/code/podowl/api",
-		"/home/ntr/code/podowl/client",
-		"/home/ntr/code/podowl/client/src"
+		"/home/ntr/code/podowl/components",
+		"/home/ntr/code/podowl-bak",
+		"/home/ntr/code/podowl-bak/api",
+		"/home/ntr/code/podowl-bak/src",
+		"/home/ntr/code/podowl-bak/src/components",
+		"/home/ntr/code/podowl-bak/src/lib",
+		"/home/ntr/code/podowl-bak/src/utils",
+		"/home/ntr/code/podowl-bak/supabase"
 	],
 	"file_history":
 	[
-		"/home/ntr/code/podowl/api/.env",
-		"/home/ntr/code/podowl/api/fns/sms.ts",
-		"/home/ntr/code/podowl/api/deno.jsonc",
+		"/home/ntr/code/podowl/components/ContactDetailsForm.tsx",
+		"/home/ntr/code/podowl/routes/index.tsx",
+		"/home/ntr/code/podowl/deno.jsonc",
+		"/home/ntr/code/podowl-bak/client/src/components/JobCreationForm.tsx",
+		"/home/ntr/code/podowl/routes/job/[id].tsx",
+		"/home/ntr/code/podowl/components/CreateJob.tsx",
+		"/home/ntr/code/podowl/routes/index_example.tsx",
+		"/home/ntr/code/podowl/README.md",
+		"/home/ntr/code/podowl-bak/client/src/components/Header.tsx",
+		"/home/ntr/code/podowl/components/JobCreationForm.tsx",
+		"/home/ntr/code/podowl/routes/contact.tsx",
+		"/home/ntr/code/podowl/components/Header.tsx",
+		"/home/ntr/code/podowl/static/styles.css",
+		"/home/ntr/code/podowl/routes/_layout.tsx",
 		"/home/ntr/code/podowl/podowl.sublime-project",
-		"/home/ntr/code/podowl/api/supabase/functions/podowl-sms/index.ts",
-		"/home/ntr/code/podowl/api/src/sms.ts",
-		"/home/ntr/code/podowl/api/deno.json",
-		"/home/ntr/code/podowl/api/supabase/functions/podowl-sms/source.ts",
-		"/home/ntr/mcrates/api/src/pg.ts",
-		"/home/ntr/mcrates/api/src/discogs.ts",
-		"/home/ntr/mcrates/docker-compose.K8S.yaml",
-		"/home/ntr/mcrates/api/package.json",
-		"/home/ntr/mcrates/api/src/services.ts",
-		"/home/ntr/mcrates/api/prisma/schema.prisma",
+		"/home/ntr/code/podowl/components/OwlLogo.tsx",
+		"/home/ntr/code/podowl/components/Button.tsx",
+		"/home/ntr/code/podowl/components/JobList.tsx",
+		"/home/ntr/code/podowl-bak/client/src/components/JobDetails.tsx",
+		"/home/ntr/code/podowl/components/ProgressIndicator.tsx",
+		"/home/ntr/strix/k3s.sh",
+		"/home/ntr/strix/spacerace/spacerace.yaml",
+		"/home/ntr/strix/mnml/mnml.yaml",
+		"/home/ntr/strix/README.md",
+		"/home/ntr/strix/crates/crates.yaml",
+		"/home/ntr/strix/memestream/memestream.yaml",
+		"/home/ntr/Dropbox/business/tax-2023/ntr/mega.txt",
 		"/home/ntr/mcrates/api/src/events.ts",
-		"/home/ntr/mcrates/.env",
-		"/home/ntr/mcrates/api/.env",
-		"/home/ntr/mcrates/docker-compose.yaml",
-		"/home/ntr/mcrates/api/api.Dockerfile",
-		"/home/ntr/mcrates/client/src/app.tsx",
-		"/home/ntr/mcrates/client/src/components/offer.tsx",
-		"/home/ntr/mcrates/client/src/routes/main.tsx",
-		"/home/ntr/.config/redshift.conf",
-		"/home/ntr/mcrates/docker-compose.MCRATES.yaml",
-		"/home/ntr/mcrates/client/client.nginx.conf",
-		"/home/ntr/mcrates/api/src/api.ts",
-		"/home/ntr/mcrates/client/src/routes/search.tsx",
-		"/home/ntr/Downloads/git.mnml.gg-zone.txt",
-		"/home/ntr/Downloads/mnml.gg-zone.txt",
-		"/home/ntr/mcrates/api/src/discord.ts",
-		"/home/ntr/mcrates/client/client.Dockerfile",
-		"/home/ntr/mcrates/nginx/matescrates.au.nginx.conf",
-		"/home/ntr/mcrates/client/src/http.ts",
-		"/home/ntr/mcrates/.gitignore",
-		"/home/ntr/mcrates/api/src/routers/router.auth.ts",
-		"/home/ntr/mcrates/api/tsconfig.json",
-		"/home/ntr/mcrates/api/src/log.ts",
-		"/home/ntr/mcrates/api/src/rpc.ts",
-		"/home/ntr/mcrates/client/.eslintrc.js",
-		"/home/ntr/Dropbox/.sketch/yep.txt",
-		"/home/ntr/stable-diffusion-webui/extensions/Umi-AI/wildcards/Landscapes.txt",
-		"/home/ntr/code/dbased/docker-compose.yml",
-		"/home/ntr/etc/surf.txt",
-		"/home/ntr/Dropbox/etc/surf.txt",
-		"/home/ntr/Downloads/appointment.ics",
-		"/home/ntr/mcrates/client/tsconfig.json",
-		"/home/ntr/mcrates/client/src/routes/info.tsx",
-		"/home/ntr/mcrates/api/.mocharc.json",
-		"/home/ntr/mcrates/client/src/style/index.less",
-		"/home/ntr/mcrates/client/src/style/styles.less",
-		"/home/ntr/Dropbox/.sketch/sd.txt",
-		"/home/ntr/.xmonad/xmonad.hs",
-		"/home/ntr/mcrates/api/src/api.test.ts",
-		"/home/ntr/forage/JIRA.csv",
-		"/home/ntr/mcrates/api/prisma/migrations/20221226110634_initial_migration/migration.sql",
+		"/home/ntr/mcrates/api/src/discogs.ts",
+		"/home/ntr/mcrates/api/scrape.ts",
+		"/home/ntr/mcrates/api/src/pg.ts",
 		"/home/ntr/mcrates/api/index.ts",
-		"/home/ntr/mcrates/api/src/offers.ts",
-		"/home/ntr/mcrates/TODO.md",
-		"/home/ntr/mcrates/client/src/toast.tsx",
-		"/home/ntr/mcrates/client/src/ws.ts",
-		"/home/ntr/mcrates/api/src/utils.ts",
-		"/home/ntr/mcrates/api/src/mocha.setup.ts",
-		"/home/ntr/.ssh/config",
-		"/home/ntr/mcrates/client/src/style/fonts.less",
-		"/home/ntr/mcrates/client/src/routes/acp.tsx",
-		"/home/ntr/mcrates/client/package.json",
-		"/home/ntr/mcrates/client/src/components/offer.group.tsx",
-		"/home/ntr/Downloads/bulk-add-Interns (6) (2).csv",
-		"/home/ntr/mcrates/client/src/components/nav.tsx",
-		"/home/ntr/mcrates/client/src/routes/list.tsx",
-		"/home/ntr/mcrates/client/src/components/want.tsx",
-		"/home/ntr/mcrates/api/src/notify.ts",
-		"/home/ntr/mcrates/client/src/routes/offers.tsx",
-		"/home/ntr/mcrates/api/src/listen.notify.ts",
-		"/home/ntr/mcrates/api/prisma/migrations/20221226113955_notify/migration.sql",
-		"/home/ntr/mcrates/client/src/actions.ts",
+		"/home/ntr/mcrates/api/src/services.ts",
+		"/home/ntr/mcrates/api/src/log.ts",
+		"/home/ntr/mcrates/.env",
+		"/home/ntr/mcrates/api/package.json",
+		"/home/ntr/mcrates/api/api.Dockerfile",
+		"/home/ntr/mcrates/api/src/api.ts",
+		"/home/ntr/mcrates/docker-compose.yaml",
+		"/home/ntr/mcrates/api/.dockerignore",
+		"/home/ntr/mcrates/api/node_modules/puppeteer/lib/types.d.ts",
+		"/home/ntr/mcrates/client/src/app.tsx",
 		"/home/ntr/mcrates/client/src/routes/login.tsx",
+		"/home/ntr/mcrates/client/src/http.ts",
+		"/home/ntr/mcrates/nginx/localhost.nginx.conf",
+		"/home/ntr/mcrates/client/src/style/styles.less",
+		"/home/ntr/mcrates/api/src/utils.ts",
+		"/home/ntr/Downloads/error.html",
+		"/home/ntr/mcrates/node_modules/typescript/lib/lib.es5.d.ts",
 		"/home/ntr/mcrates/client/src/index.ts",
+		"/home/ntr/mcrates/client/src/style/fonts.less",
+		"/home/ntr/mcrates/api/prisma/schema.prisma",
+		"/home/ntr/mcrates/client/src/routes/search.tsx",
+		"/home/ntr/mcrates/docker-compose.MCRATES.yaml",
+		"/home/ntr/mcrates/client/src/routes/info.tsx",
+		"/home/ntr/mcrates/TODO.md",
+		"/home/ntr/mcrates/client/src/routes/main.tsx",
+		"/home/ntr/mcrates/client/src/ws.ts",
+		"/home/ntr/mcrates/client/src/routes/acp.tsx",
+		"/home/ntr/mcrates/api/src/notify.ts",
+		"/home/ntr/mcrates/api/src/rpc.ts",
+		"/home/ntr/mcrates/client/src/components/offer.group.tsx",
+		"/home/ntr/mcrates/api/src/offers.ts",
 		"/home/ntr/mcrates/client/src/template.html",
-		"/home/ntr/Downloads/bulk-add-Interns (1).csv",
-		"/home/ntr/mcrates/api/global.d.ts",
-		"/home/ntr/Dropbox/business/tfn-abn-super.txt",
-		"/home/ntr/mcrates/client/src/components/swirl.tsx",
-		"/home/ntr/.aliases",
+		"/home/ntr/mcrates/client/src/style/index.less",
+		"/home/ntr/mcrates/client/src/components/nav.tsx",
+		"/home/ntr/mcrates/api/prisma/migrations/20221226113955_notify/migration.sql",
+		"/home/ntr/mcrates/api/src/listen.notify.ts",
+		"/home/ntr/mcrates/client/src/toast.tsx",
+		"/home/ntr/mcrates/client/src/routes/list.tsx",
 		"/home/ntr/mcrates/client/src/store.tsx",
-		"/home/ntr/mcrates/client/src/assets/swirl.bare.svg",
-		"/home/ntr/mcrates/client/src/assets/swirl.svg",
+		"/home/ntr/mcrates/client/src/routes/offers.tsx",
+		"/home/ntr/mcrates/client/src/components/want.tsx",
+		"/home/ntr/mcrates/client/src/components/offer.tsx",
+		"/home/ntr/mcrates/client/src/components/swirl.tsx",
+		"/home/ntr/mcrates/client/src/components/want.offers.tsx",
+		"/home/ntr/etc/gear.js",
 		"/home/ntr/mcrates/client/src/components/header.tsx",
 		"/home/ntr/mcrates/client/src/routes/home.tsx",
-		"/home/ntr/mcrates/nginx/localhost.nginx.conf",
-		"/home/ntr/mcrates/docker-compose.TEST.yaml",
-		"/home/ntr/mcrates/etc/matescrates.au.nginx.conf",
-		"/home/ntr/mcrates/client/src/routes/bundles.tsx",
 		"/home/ntr/mcrates/client/src/components/bundle.tsx",
 		"/home/ntr/mcrates/client/src/components/acp.offer.tsx",
-		"/home/ntr/mcrates/api/node_modules/.prisma/client/index.d.ts",
-		"/home/ntr/mcrates/client/disclaimers.txt",
-		"/home/ntr/mcrates/client/src/routes/register.tsx",
-		"/home/ntr/mcrates/api/src/auth.passport.ts",
-		"/home/ntr/mcrates/api/docker-compose.yaml",
-		"/home/ntr/mcrates/docker-compose.test.yaml",
-		"/home/ntr/mcrates/server/prisma/schema.prisma",
-		"/home/ntr/mcrates/server/src/api.test.ts",
-		"/home/ntr/mcrates/server/docker-compose.test.yaml",
-		"/home/ntr/mcrates/server/src/api.ts",
-		"/home/ntr/mcrates/server/src/routers/router.auth.ts",
-		"/home/ntr/mcrates/server/src/pg.ts",
-		"/home/ntr/mcrates/server/src/discogs.ts",
-		"/home/ntr/mcrates/server/docker-compose.yaml",
-		"/home/ntr/mcrates/server/.env",
-		"/home/ntr/mcrates/server/package.json",
-		"/home/ntr/mcrates/server/.mocharc.json",
-		"/home/ntr/mcrates/server/index.ts",
-		"/home/ntr/mcrates/server/src/log.ts",
-		"/home/ntr/mcrates/server/src/services.ts",
-		"/home/ntr/mcrates/server/tsconfig.json",
-		"/home/ntr/mcrates/server/src/auth.passport.ts",
-		"/home/ntr/mcrates/server/node_modules/passport/lib/middleware/initialize.js",
-		"/home/ntr/mcrates/client/.mocharc.json",
-		"/home/ntr/mcrates/server/global.d.ts",
-		"/home/ntr/mcrates/client/src/routes/user.tsx",
-		"/home/ntr/mcrates/server/node_modules/.prisma/client/index.d.ts",
-		"/home/ntr/mcrates/client/src/routes/profile.tsx",
+		"/home/ntr/mcrates/client/tsconfig.json",
+		"/home/ntr/mcrates/client/build/bundle.f19a5.js",
+		"/home/ntr/mcrates/client/bundle.f19a5.js",
+		"/home/ntr/mcrates/client/package.json",
+		"/home/ntr/mcrates/global.d.ts",
+		"/home/ntr/mcrates/api/global.d.ts",
+		"/home/ntr/mcrates/client/src/actions.ts",
+		"/home/ntr/mcrates/client/src/store/reducers.ts",
+		"/home/ntr/mcrates/client/src/store/store.ts",
+		"/home/ntr/mcrates/api/src/routers/router.auth.ts",
+		"/home/ntr/mcrates/client/src/actions.tsx",
 		"/home/ntr/mcrates/client/src/components/app.tsx",
-		"/home/ntr/mcrates/client/src/components/header/index.tsx",
-		"/home/ntr/mcrates/client/src/routes/profile/profile.tsx",
-		"/home/ntr/mcrates/client/src/routes/home/index.tsx",
-		"/home/ntr/mcrates/client/src/routes/profile/index.tsx"
+		"/home/ntr/mcrates/client/.babelrc.js",
+		"/home/ntr/mcrates/client/src/routes/bundles.tsx",
+		"/home/ntr/etc/kaiju.gertrude.application.txt",
+		"/home/ntr/mcrates/docker-compose.TEST.yaml",
+		"/home/ntr/mcrates/client/.gitignore",
+		"/home/ntr/mcrates/client/node_modules/preact-cli/lib/index.js",
+		"/home/ntr/mcrates/api/tsconfig.json",
+		"/home/ntr/mcrates/etc/matescrates.au.nginx.conf",
+		"/home/ntr/mcrates/client/src/routes/user.tsx",
+		"/home/ntr/mnml/studios/minimalstudios.com.au.nginx.conf",
+		"/home/ntr/mnml/studios/package.json",
+		"/home/ntr/mnml/client/index.html",
+		"/tmp/mozilla_ntr0/auto.minimal.md",
+		"/home/ntr/mnml/client/src/components/vbox.utils.jsx",
+		"/home/ntr/mnml/studios/index.js",
+		"/home/ntr/mnml/studios/src/app.jsx",
+		"/home/ntr/mnml/studios/src/components/studios.jsx",
+		"/home/ntr/mnml/core/src/player.rs",
+		"/home/ntr/Dropbox/.sketch/yep.txt",
+		"/home/ntr/mnml/client/src/components/vbox.info.thresholds.jsx",
+		"/home/ntr/mnml/client/src/components/stripe.buttons.jsx",
+		"/home/ntr/mnml/studios/assets/styles/styles.less",
+		"/home/ntr/mnml/client/assets/styles/instance.less",
+		"/home/ntr/mnml/client/assets/styles/account.less",
+		"/home/ntr/mnml/core/src/game.rs",
+		"/home/ntr/mnml/core/src/construct.rs",
+		"/home/ntr/mnml/client/src/components/vbox.info.jsx",
+		"/home/ntr/mnml/core/src/item.rs",
+		"/home/ntr/mnml/server/src/pg.rs",
+		"/home/ntr/mnml/bin/install.sh",
+		"/home/ntr/mnml/core/src/skill.rs",
+		"/home/ntr/mnml/core/src/vbox.rs",
+		"/home/ntr/mnml/server/src/rpc.rs",
+		"/home/ntr/mnml/core/src/spec.rs",
+		"/home/ntr/mnml/WORKLOG.md"
 	],
 	"find":
 	{
@@ -985,9 +5322,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 152.0,
+		"height": 149.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -995,8 +5333,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\")",
-			"twilio"
+			"JobFormData",
+			"handler",
+			"handlesub",
+			"div",
+			"handleBack",
+			"\"\"",
+			"string",
+			"window",
+			"npm:",
+			"React",
+			"-",
+			"postgres:latest"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1004,11 +5352,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"document",
+			"postgres:16"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer2": false,
 		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
@@ -1020,19 +5370,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "deno.jsonc",
+					"file": "routes/job/create.tsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 460,
+						"buffer_size": 533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								414,
-								414
+								58,
+								58
 							]
 						],
 						"settings":
@@ -1048,18 +5398,23 @@
 									"selector": "punctuation.accessor"
 								},
 								{
-									"selector": "- comment - punctuation.separator - punctuation.definition.string.end - constant.character.escape - invalid.illegal - punctuation.section.mapping - punctuation.section.sequence",
-									"server": "LSP-json"
+									"characters": ".\"'`/@<#",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "Deno"
 								}
 							],
 							"copilot.completion._is_modified": false,
-							"copilot.completion._is_saving": false,
 							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": false,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
 							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/deno.jsonc",
+							"lsp_uri": "file:///home/ntr/code/podowl/routes/job/create.tsx",
 							"show_definitions": false,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 2
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1071,19 +5426,76 @@
 				},
 				{
 					"buffer": 1,
-					"file": "api/fns/sms.ts",
+					"file": "components/CreateJob.tsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 628,
+						"buffer_size": 4012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								151,
-								151
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".\"'`/@<#",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "Deno"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion._is_saving": false,
+							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": false,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
+							"lsp_active": true,
+							"lsp_uri": "file:///home/ntr/code/podowl/components/CreateJob.tsx",
+							"show_definitions": false,
+							"syntax": "Packages/JavaScript/TSX.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/ContactDetailsForm.tsx",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
 							]
 						],
 						"settings":
@@ -1107,62 +5519,10 @@
 							"copilot.completion._is_modified": false,
 							"copilot.completion.is_visible": false,
 							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/api/fns/sms.ts",
-							"show_definitions": false,
-							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/src/App.tsx",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								667,
-								667
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html, text.xml"
-								},
-								{
-									"rhs_empty": true,
-									"selector": "punctuation.accessor"
-								},
-								{
-									"characters": ".\"'`/@<#",
-									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
-									"server": "Deno"
-								}
-							],
-							"copilot.completion._is_modified": false,
-							"lsp_active": true,
-							"lsp_uri": "file:///home/ntr/code/podowl/client/src/App.tsx",
+							"lsp_uri": "file:///home/ntr/code/podowl/components/ContactDetailsForm.tsx",
 							"show_definitions": false,
 							"syntax": "Packages/JavaScript/TSX.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1174,6 +5534,11 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -1182,7 +5547,7 @@
 	},
 	"input":
 	{
-		"height": 68.0
+		"height": 149.0
 	},
 	"layout":
 	{
@@ -1193,11 +5558,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1209,41 +5581,25 @@
 	"menu_visible": true,
 	"output.LSP Log Panel":
 	{
-		"height": 1048.0
+		"height": 0.0
 	},
 	"output.SublimeLinter":
 	{
-		"height": 186.0
-	},
-	"output.SublimeLinter Messages":
-	{
-		"height": 522.0
+		"height": 168.0
 	},
 	"output.diagnostics":
 	{
-		"height": 388.0
-	},
-	"output.doc":
-	{
-		"height": 0.0
-	},
-	"output.exec":
-	{
-		"height": 1167.0
+		"height": 168.0
 	},
 	"output.find_results":
 	{
-		"height": 0.0
-	},
-	"output.git":
-	{
-		"height": 186.0
-	},
-	"output.language servers":
-	{
-		"height": 0.0
+		"height": 729.0
 	},
 	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups-dummy":
 	{
 		"height": 0.0
 	},
@@ -1251,7 +5607,7 @@
 	"project": "podowl.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 108.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1261,340 +5617,320 @@
 		"selected_items":
 		[
 			[
-				"sms",
-				"api/fns/sms.ts"
-			],
-			[
-				"inde",
-				"api/supabase/functions/podowl-sms/index.ts"
-			],
-			[
-				"index",
-				"api/supabase/functions/podowl-sms/index.ts"
-			],
-			[
 				"deno",
-				"api/deno.json"
+				"podowl/deno.jsonc"
 			],
 			[
-				"index.t",
-				"api/supabase/functions/podowl-sms/index.ts"
+				"jobcrea",
+				"podowl-bak/client/src/components/JobCreationForm.tsx"
 			],
 			[
-				"prism",
-				"api/prisma/schema.prisma"
+				"contactde",
+				"podowl/components/ContactDetailsForm.tsx"
 			],
 			[
-				"servic",
-				"api/src/services.ts"
+				"styles",
+				"podowl/static/styles.css"
 			],
 			[
-				"pg",
-				"api/src/pg.ts"
+				"head",
+				"podowl/components/Header.tsx"
 			],
 			[
-				".env",
-				".env"
+				"indexex",
+				"podowl/routes/index_example.tsx"
 			],
 			[
-				"di",
-				"api/src/discogs.ts"
+				"butt",
+				"podowl/components/Button.tsx"
 			],
 			[
-				"offer",
-				"client/src/components/offer.tsx"
+				"jobdeta",
+				"podowl-bak/client/src/components/JobDetails.tsx"
 			],
 			[
-				"app",
-				"client/src/app.tsx"
+				"button",
+				"podowl/components/Button.tsx"
 			],
 			[
-				"compose",
-				"docker-compose.yaml"
+				"header",
+				"podowl-bak/client/src/components/Header.tsx"
 			],
 			[
-				"disco",
-				"api/src/discogs.ts"
+				"meme",
+				"memestream/memestream.yaml"
 			],
 			[
-				".en",
-				".env"
-			],
-			[
-				"pack",
-				"api/package.json"
-			],
-			[
-				"dockerfile",
-				"api/api.Dockerfile"
-			],
-			[
-				"event",
-				"api/src/events.ts"
-			],
-			[
-				"schem",
-				"api/prisma/schema.prisma"
-			],
-			[
-				"dis",
-				"api/src/discogs.ts"
-			],
-			[
-				"serv",
-				"api/src/services.ts"
-			],
-			[
-				"sche",
-				"api/prisma/schema.prisma"
-			],
-			[
-				"package",
-				"api/package.json"
-			],
-			[
-				"compo",
-				"docker-compose.yaml"
-			],
-			[
-				"client.ngin",
-				"client/client.nginx.conf"
-			],
-			[
-				"events",
-				"api/src/events.ts"
-			],
-			[
-				"nginx",
-				"nginx/matescrates.au.nginx.conf"
-			],
-			[
-				"api.te",
-				"api/src/api.test.ts"
-			],
-			[
-				"api.t",
-				"api/src/api.ts"
-			],
-			[
-				"api",
-				"api/src/api.ts"
-			],
-			[
-				"docker",
-				"api/api.Dockerfile"
-			],
-			[
-				"ngin",
-				"client/client.nginx.conf"
-			],
-			[
-				"router",
-				"api/src/routers/router.auth.ts"
-			],
-			[
-				"http",
-				"client/src/http.ts"
-			],
-			[
-				"packa",
-				"api/package.json"
-			],
-			[
-				"k8s",
-				"docker-compose.K8S.yaml"
-			],
-			[
-				"com",
-				"docker-compose.MCRATES.yaml"
-			],
-			[
-				"mc",
-				"docker-compose.MCRATES.yaml"
-			],
-			[
-				"client.doc",
-				"client/client.Dockerfile"
-			],
-			[
-				"mcr",
-				"docker-compose.MCRATES.yaml"
-			],
-			[
-				"eslint",
-				"client/.eslintrc.js"
-			],
-			[
-				"log",
-				"api/src/log.ts"
-			],
-			[
-				"tsconfig",
-				"api/tsconfig.json"
-			],
-			[
-				"tsc",
-				"api/tsconfig.json"
-			],
-			[
-				"rpc",
-				"api/src/rpc.ts"
-			],
-			[
-				"gi",
-				".gitignore"
-			],
-			[
-				"tscon",
-				"api/tsconfig.json"
-			],
-			[
-				"style",
-				"client/src/style/styles.less"
-			],
-			[
-				"json",
-				"api/.mocharc.json"
-			],
-			[
-				"ser",
-				"api/src/services.ts"
-			],
-			[
-				"apite",
-				"api/src/api.test.ts"
-			],
-			[
-				"auth",
-				"api/src/routers/router.auth.ts"
-			],
-			[
-				"sql",
-				"api/prisma/migrations/20221226110634_initial_migration/migration.sql"
+				"crates",
+				"crates/crates.yaml"
 			],
 			[
 				"eve",
 				"api/src/events.ts"
 			],
 			[
-				"discogs",
+				"disco",
 				"api/src/discogs.ts"
 			],
 			[
-				"discog",
-				"api/src/discogs.ts"
-			],
-			[
-				"even",
-				"api/src/events.ts"
-			],
-			[
-				"env",
-				".env"
-			],
-			[
-				"info",
-				"client/src/routes/info.tsx"
-			],
-			[
-				"rout",
-				"api/src/routers/router.auth.ts"
-			],
-			[
-				"d",
-				"docker-compose.yaml"
-			],
-			[
-				".e",
-				".env"
-			],
-			[
-				"ind",
-				"api/index.ts"
-			],
-			[
-				"disc",
-				"api/src/discord.ts"
-			],
-			[
-				"todo",
-				"TODO.md"
-			],
-			[
-				"toast",
-				"client/src/toast.tsx"
-			],
-			[
-				"ws",
-				"client/src/ws.ts"
-			],
-			[
-				"utils",
-				"api/src/utils.ts"
-			],
-			[
-				"index.le",
-				"client/src/style/index.less"
-			],
-			[
-				"sty",
-				"client/src/style/styles.less"
-			],
-			[
-				"search",
-				"client/src/routes/search.tsx"
-			],
-			[
-				"mocha",
-				"api/src/mocha.setup.ts"
-			],
-			[
-				"test",
-				"api/src/api.test.ts"
-			],
-			[
-				".gi",
-				".gitignore"
-			],
-			[
-				"st",
-				"client/src/style/styles.less"
-			],
-			[
-				"comp",
-				"docker-compose.yaml"
-			],
-			[
-				"acp",
-				"client/src/routes/acp.tsx"
-			],
-			[
-				"font",
-				"client/src/style/fonts.less"
-			],
-			[
-				"styl",
-				"client/src/style/index.less"
-			],
-			[
-				"clientpack",
-				"client/package.json"
-			],
-			[
-				"offergrou",
-				"client/src/components/offer.group.tsx"
+				"pg",
+				"api/src/pg.ts"
 			],
 			[
 				"servi",
 				"api/src/services.ts"
 			],
 			[
-				"nav",
-				"client/src/components/nav.tsx"
+				"ind",
+				"api/index.ts"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"log",
+				"api/src/log.ts"
+			],
+			[
+				"dis",
+				"api/src/discogs.ts"
+			],
+			[
+				"ev",
+				"api/src/events.ts"
+			],
+			[
+				"scr",
+				"api/scrape.ts"
+			],
+			[
+				"api",
+				"api/api.Dockerfile"
+			],
+			[
+				"pack",
+				"api/package.json"
+			],
+			[
+				"scra",
+				"api/scrape.ts"
+			],
+			[
+				"packa",
+				"api/package.json"
+			],
+			[
+				"compose",
+				"docker-compose.yaml"
+			],
+			[
+				"seri",
+				"api/src/services.ts"
+			],
+			[
+				"even",
+				"api/src/events.ts"
+			],
+			[
+				"inde",
+				"api/index.ts"
+			],
+			[
+				"http",
+				"client/src/http.ts"
+			],
+			[
+				"login",
+				"client/src/routes/login.tsx"
+			],
+			[
+				"app",
+				"client/src/app.tsx"
+			],
+			[
+				"nginx",
+				"nginx/localhost.nginx.conf"
+			],
+			[
+				"index",
+				"api/index.ts"
+			],
+			[
+				"ser",
+				"api/src/services.ts"
+			],
+			[
+				"utils",
+				"api/src/utils.ts"
+			],
+			[
+				"env",
+				".env"
+			],
+			[
+				"events",
+				"api/src/events.ts"
+			],
+			[
+				"sty",
+				"client/src/style/fonts.less"
+			],
+			[
+				"style",
+				"client/src/style/styles.less"
+			],
+			[
+				"app.",
+				"client/src/app.tsx"
+			],
+			[
+				"index.",
+				"client/src/index.ts"
+			],
+			[
+				"dock",
+				"docker-compose.yaml"
+			],
+			[
+				"sche",
+				"api/prisma/schema.prisma"
+			],
+			[
+				"serv",
+				"api/src/services.ts"
+			],
+			[
+				"todo",
+				"TODO.md"
+			],
+			[
+				"mcr",
+				"docker-compose.MCRATES.yaml"
+			],
+			[
+				".e",
+				".env"
+			],
+			[
+				"st",
+				"client/src/style/styles.less"
+			],
+			[
+				"info",
+				"client/src/routes/info.tsx"
+			],
+			[
+				"docker",
+				"docker-compose.yaml"
+			],
+			[
+				"search",
+				"client/src/routes/search.tsx"
+			],
+			[
+				"disc",
+				"api/src/discogs.ts"
 			],
 			[
 				"main",
 				"client/src/routes/main.tsx"
+			],
+			[
+				"acp",
+				"client/src/routes/acp.tsx"
+			],
+			[
+				"rpc",
+				"api/src/rpc.ts"
+			],
+			[
+				"notif",
+				"api/src/notify.ts"
+			],
+			[
+				"ws",
+				"client/src/ws.ts"
+			],
+			[
+				"offer",
+				"client/src/components/offer.group.tsx"
+			],
+			[
+				"off",
+				"api/src/offers.ts"
+			],
+			[
+				"e",
+				"api/src/events.ts"
+			],
+			[
+				"tod",
+				"TODO.md"
+			],
+			[
+				"htt",
+				"client/src/http.ts"
+			],
+			[
+				"noti",
+				"api/src/notify.ts"
+			],
+			[
+				"offergr",
+				"client/src/components/offer.group.tsx"
+			],
+			[
+				"sear",
+				"client/src/routes/search.tsx"
+			],
+			[
+				"styl",
+				"client/src/style/styles.less"
+			],
+			[
+				"templ",
+				"client/src/template.html"
+			],
+			[
+				"indexle",
+				"client/src/style/index.less"
+			],
+			[
+				"m",
+				"client/src/routes/main.tsx"
+			],
+			[
+				"nav",
+				"client/src/components/nav.tsx"
+			],
+			[
+				"notify",
+				"api/prisma/migrations/20221226113955_notify/migration.sql"
+			],
+			[
+				"listen",
+				"api/src/listen.notify.ts"
+			],
+			[
+				"toas",
+				"client/src/toast.tsx"
+			],
+			[
+				"sch",
+				"api/prisma/schema.prisma"
+			],
+			[
+				"event",
+				"api/src/events.ts"
+			],
+			[
+				"prism",
+				"api/prisma/schema.prisma"
+			],
+			[
+				"store",
+				"client/src/store.tsx"
 			],
 			[
 				"want",
@@ -1605,148 +5941,72 @@
 				"client/src/routes/list.tsx"
 			],
 			[
-				"index.l",
-				"client/src/style/index.less"
-			],
-			[
-				"styles",
-				"client/src/style/styles.less"
-			],
-			[
-				"offerg",
-				"client/src/components/offer.group.tsx"
-			],
-			[
 				"offers",
 				"client/src/routes/offers.tsx"
 			],
 			[
-				"off",
+				"offers.",
 				"api/src/offers.ts"
 			],
 			[
-				"index.ls",
+				"searh",
+				"client/src/routes/search.tsx"
+			],
+			[
+				"searc",
+				"client/src/routes/search.tsx"
+			],
+			[
+				"index.le",
 				"client/src/style/index.less"
 			],
 			[
-				"no",
-				"api/src/notify.ts"
-			],
-			[
-				"toas",
-				"client/src/toast.tsx"
-			],
-			[
-				"noti",
-				"api/src/notify.ts"
-			],
-			[
-				"nofi",
-				"api/src/notify.ts"
-			],
-			[
-				"notifymi",
-				"api/prisma/migrations/20221226113955_notify/migration.sql"
-			],
-			[
-				"listen",
-				"api/src/listen.notify.ts"
-			],
-			[
 				"ap",
-				"api/src/api.ts"
+				"client/src/app.tsx"
 			],
 			[
-				"service",
-				"api/src/services.ts"
+				"swi",
+				"client/src/components/swirl.tsx"
 			],
 			[
-				"pri",
-				"api/prisma/schema.prisma"
-			],
-			[
-				"offergroup",
+				"grou",
 				"client/src/components/offer.group.tsx"
 			],
 			[
-				"scha",
+				"offergrou",
+				"client/src/components/offer.group.tsx"
+			],
+			[
+				"indes.",
+				"api/index.ts"
+			],
+			[
+				"index.t",
+				"api/index.ts"
+			],
+			[
+				"schema",
 				"api/prisma/schema.prisma"
 			],
 			[
-				"temp",
-				"client/src/template.html"
-			],
-			[
-				"login",
-				"client/src/routes/login.tsx"
-			],
-			[
-				"sch",
-				"api/prisma/schema.prisma"
-			],
-			[
-				"ev",
-				"api/src/events.ts"
-			],
-			[
-				"pris",
+				"shc",
 				"api/prisma/schema.prisma"
 			],
 			[
 				"of",
-				"api/src/offers.ts"
+				"client/src/routes/offers.tsx"
 			],
 			[
-				"htt",
-				"client/src/http.ts"
-			],
-			[
-				"sear",
-				"client/src/routes/search.tsx"
-			],
-			[
-				"offegro",
-				"client/src/components/offer.group.tsx"
-			],
-			[
-				"swi",
-				"~/mcrates/client/src/assets/swirl.bare.svg"
-			],
-			[
-				"less",
-				"client/src/style/index.less"
-			],
-			[
-				"in",
-				"client/src/style/index.less"
-			],
-			[
-				"store",
-				"client/src/store.tsx"
-			],
-			[
-				"offe",
-				"client/src/components/offer.tsx"
-			],
-			[
-				"logi",
-				"client/src/routes/login.tsx"
+				"schem",
+				"api/prisma/schema.prisma"
 			],
 			[
 				"hea",
 				"client/src/components/header.tsx"
 			],
 			[
-				"sea",
-				"client/src/routes/search.tsx"
-			],
-			[
-				"head",
-				"client/src/components/header.tsx"
-			],
-			[
-				"he",
-				"client/src/components/header.tsx"
+				"offe",
+				"client/src/components/offer.tsx"
 			],
 			[
 				"home",
@@ -1757,27 +6017,123 @@
 				"api/src/utils.ts"
 			],
 			[
-				"p",
-				"api/src/pg.ts"
+				"w",
+				"client/src/ws.ts"
 			],
 			[
-				"tod",
+				"he",
+				"client/src/components/header.tsx"
+			],
+			[
+				"util",
+				"api/src/utils.ts"
+			],
+			[
+				"to",
 				"TODO.md"
 			],
 			[
-				"do",
+				"rp",
+				"api/src/rpc.ts"
+			],
+			[
+				"les",
+				"client/src/style/index.less"
+			],
+			[
+				"bund",
+				"client/src/components/bundle.tsx"
+			],
+			[
+				"tscon",
+				"client/tsconfig.json"
+			],
+			[
+				"comp",
 				"docker-compose.yaml"
 			],
 			[
-				"eslin",
-				"client/.eslintrc.js"
+				"gloa",
+				"global.d.ts"
+			],
+			[
+				"glob",
+				"global.d.ts"
+			],
+			[
+				"glo",
+				"api/global.d.ts"
+			],
+			[
+				"bundl",
+				"client/src/components/bundle.tsx"
+			],
+			[
+				"act",
+				"client/src/actions.ts"
+			],
+			[
+				"ac",
+				"client/src/actions.ts"
+			],
+			[
+				"action",
+				"client/src/actions.ts"
+			],
+			[
+				"ngin",
+				"nginx/localhost.nginx.conf"
+			],
+			[
+				"compo",
+				"docker-compose.yaml"
+			],
+			[
+				"nginx.",
+				"nginx/localhost.nginx.conf"
+			],
+			[
+				"auth",
+				"api/src/routers/router.auth.ts"
+			],
+			[
+				"logi",
+				"client/src/routes/login.tsx"
+			],
+			[
+				"babe",
+				"client/.babelrc.js"
+			],
+			[
+				"docker-",
+				"docker-compose.yaml"
+			],
+			[
+				"ts",
+				"client/tsconfig.json"
+			],
+			[
+				"home.",
+				"client/src/routes/home.tsx"
+			],
+			[
+				"gitgo",
+				"client/.gitignore"
+			],
+			[
+				"bu",
+				"client/src/components/bundle.tsx"
+			],
+			[
+				"tsconf",
+				"client/tsconfig.json"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 496.0,
+		"height": 494.0,
 		"last_filter": "pod",
 		"selected_items":
 		[
@@ -1786,16 +6142,20 @@
 				"~/code/podowl/podowl.sublime-project"
 			],
 			[
-				"stri",
-				"~/code/sl-projects/strix.sublime-project"
-			],
-			[
 				"mem",
 				"~/memestream/memestream.sublime-project"
 			],
 			[
-				"strix",
-				"~/code/sl-projects/strix.sublime-project"
+				"cr",
+				"~/code/slprojects/mcrates.sublime-workspace"
+			],
+			[
+				"crates",
+				"~/code/slprojects/mcrates.sublime-workspace"
+			],
+			[
+				"spa",
+				"~/code/slprojects/SpaceRace.sublime-project"
 			],
 			[
 				"meme",
@@ -1803,53 +6163,345 @@
 			],
 			[
 				"",
-				"~/code/sl-projects/forage.sublime-project"
-			],
-			[
-				"sear",
-				"~/code/sl-projects/search.sublime-project"
-			],
-			[
-				"mn",
-				"~/code/sl-projects/mnml.sublime-project"
+				"~/code/slprojects/mnml.sublime-project"
 			],
 			[
 				"mnm",
-				"~/code/sl-projects/mnml.sublime-project"
+				"~/code/slprojects/mnml.sublime-project"
+			],
+			[
+				"mn",
+				"~/code/slprojects/mnml.sublime-project"
+			],
+			[
+				"spe",
+				"~/code/slprojects/spectre.sublime-project"
+			],
+			[
+				"hu",
+				"~/code/slprojects/humt.sublime-project"
+			],
+			[
+				"h",
+				"~/code/slprojects/humt.sublime-project"
+			],
+			[
+				"hum",
+				"~/code/slprojects/humt.sublime-project"
+			],
+			[
+				"jeo",
+				"~/code/slprojects/jeopardy.sublime-project"
+			],
+			[
+				"sa",
+				"~/code/slprojects/dslams.sublime-workspace"
+			],
+			[
+				"api",
+				"~/code/slprojects/easygo.sublime-project"
+			],
+			[
+				"rct",
+				"~/code/slprojects/rct.sublime-project"
+			],
+			[
+				"rc",
+				"~/code/slprojects/rct.sublime-project"
+			],
+			[
+				"col",
+				"~/code/slprojects/columbus.sublime-project"
+			],
+			[
+				"r ",
+				"~/code/slprojects/rct.sublime-project"
+			],
+			[
+				"eas",
+				"~/code/slprojects/easygo.sublime-project"
+			],
+			[
+				"easy",
+				"~/code/slprojects/easygo.sublime-project"
+			],
+			[
+				"eg",
+				"~/code/slprojects/edge.sublime-workspace"
+			],
+			[
+				"web",
+				"~/code/slprojects/web.sublime-project"
+			],
+			[
+				"ed",
+				"~/code/slprojects/edge.sublime-workspace"
+			],
+			[
+				"edg",
+				"~/code/slprojects/edge.sublime-workspace"
+			],
+			[
+				"edge",
+				"~/code/slprojects/edge.sublime-workspace"
+			],
+			[
+				"je",
+				"~/code/slprojects/jeopardy.sublime-project"
+			],
+			[
+				"jeop",
+				"~/code/slprojects/jeopardy.sublime-project"
+			],
+			[
+				"dls",
+				"~/code/slprojects/dslams.sublime-workspace"
+			],
+			[
+				"dl",
+				"~/code/slprojects/dslams.sublime-workspace"
 			],
 			[
 				"j",
-				"~/code/sl-projects/forage.sublime-project"
+				"~/code/slprojects/jeopardy.sublime-project"
 			],
 			[
-				"mbn",
-				"~/code/sl-projects/mnml.sublime-project"
+				"jep",
+				"~/code/slprojects/jeopardy.sublime-project"
 			],
 			[
-				"m",
-				"~/code/sl-projects/mnml.sublime-project"
+				"app",
+				"~/code/slprojects/savvi-app.sublime-project"
 			],
 			[
-				"sy",
-				"~/code/sl-projects/synth.sublime-project"
+				"ans",
+				"~/code/slprojects/answers.sublime-project"
 			],
 			[
-				"syn",
-				"~/code/sl-projects/synth.sublime-project"
+				"a",
+				"~/code/slprojects/answers.sublime-project"
+			],
+			[
+				"an",
+				"~/code/slprojects/answers.sublime-project"
+			],
+			[
+				"lun",
+				"~/code/slprojects/luna.sublime-project"
+			],
+			[
+				"luna",
+				"~/code/slprojects/luna.sublime-project"
+			],
+			[
+				"lui",
+				"~/code/slprojects/luna.sublime-project"
+			],
+			[
+				"abn",
+				"~/code/slprojects/answers.sublime-project"
+			],
+			[
+				"savvi",
+				"~/code/slprojects/savvi.sublime-project"
+			],
+			[
+				"answ",
+				"~/code/slprojects/answers.sublime-project"
+			],
+			[
+				"savvi-app",
+				"~/code/slprojects/savvi-app.sublime-project"
+			],
+			[
+				"savviapp",
+				"~/code/slprojects/savvi-app.sublime-project"
+			],
+			[
+				"savvi-a",
+				"~/code/slprojects/savvi-app.sublime-project"
+			],
+			[
+				"r",
+				"~/code/slprojects/rct.sublime-project"
+			],
+			[
+				"ew",
+				"~/slprojects/webclient.sublime-project"
+			],
+			[
+				"s",
+				"~/slprojects/squares.sublime-project"
+			],
+			[
+				"sein",
+				"~/slprojects/seinfeld.sublime-project"
+			],
+			[
+				"webcl",
+				"~/slprojects/webclient.sublime-project"
+			],
+			[
+				"fan",
+				"~/slprojects/fantasy.sublime-project"
+			],
+			[
+				"smoke",
+				"~/slprojects/smokestack.sublime-project"
+			],
+			[
+				"smok",
+				"~/slprojects/smokestack.sublime-project"
+			],
+			[
+				"da",
+				"~/slprojects/datta.sublime-project"
+			],
+			[
+				"dat",
+				"~/slprojects/datta.sublime-project"
+			],
+			[
+				"sq",
+				"~/slprojects/squares.sublime-project"
+			],
+			[
+				"data",
+				"~/slprojects/datta.sublime-project"
+			],
+			[
+				"sin",
+				"~/slprojects/seinfeld.sublime-project"
+			],
+			[
+				"se",
+				"~/slprojects/seinfeld.sublime-project"
+			],
+			[
+				"sei",
+				"~/slprojects/seinfeld.sublime-project"
+			],
+			[
+				"ein",
+				"~/slprojects/seinfeld.sublime-project"
+			],
+			[
+				"wel",
+				"~/slprojects/webclient.sublime-project"
+			],
+			[
+				"com",
+				"~/projects/communicator.sublime-project"
+			],
+			[
+				"co",
+				"~/projects/communicator.sublime-project"
+			],
+			[
+				"comm",
+				"~/projects/communicator.sublime-project"
+			],
+			[
+				"cio",
+				"~/projects/communicator.sublime-project"
+			],
+			[
+				"st",
+				"~/projects/stutter.sublime-project"
+			],
+			[
+				"ampi",
+				"/Users/nathanr/projects/ampify.sublime-project"
+			],
+			[
+				"amp",
+				"/Users/nathanr/projects/ampify.sublime-project"
+			],
+			[
+				"ampif",
+				"/Users/nathanr/projects/ampify.sublime-project"
+			],
+			[
+				"wol",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"cry",
+				"/Users/nathanr/projects/crypto.sublime-project"
+			],
+			[
+				"cryp",
+				"/Users/nathanr/projects/crypto.sublime-project"
+			],
+			[
+				"wo",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"rew",
+				"/Users/nathanr/projects/rewrite.sublime-project"
+			],
+			[
+				"rewr",
+				"/Users/nathanr/projects/rewrite.sublime-project"
+			],
+			[
+				"mix",
+				"/Users/nathanr/projects/mixmaster.sublime-project"
+			],
+			[
+				"crp",
+				"/Users/nathanr/projects/crypto.sublime-project"
+			],
+			[
+				"hyd",
+				"/Users/nathanr/projects/hydrogen.sublime-project"
+			],
+			[
+				"pok",
+				"/Users/nathanr/projects/poker.sublime-project"
+			],
+			[
+				"mixm",
+				"/Users/nathanr/projects/mixmaster.sublime-project"
+			],
+			[
+				"npm",
+				"/Users/nathanr/projects/mixmaster.sublime-project"
+			],
+			[
+				"wolver",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"wolv",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"solv",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"wolve",
+				"/Users/nathanr/projects/wolverine.sublime-project"
+			],
+			[
+				"solver",
+				"/Users/nathanr/projects/wolverine.sublime-project"
 			]
 		],
-		"width": 376.0
+		"width": 374.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 385.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 1131.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"copilot.conversation.code_block_index":
@@ -1862,22 +6514,24 @@
 		"copilot.conversation.follow_up": "",
 		"copilot.conversation.is_visible": false,
 		"copilot.conversation.is_waiting_conversation": false,
-		"copilot.conversation.last_active_view_id": 29,
+		"copilot.conversation.last_active_view_id": 281,
 		"copilot.conversation.original_layout": null,
 		"copilot.conversation.reference_block_state":
 		{
 		},
 		"copilot.conversation.suggested_title": "",
+		"copilot.conversation.view_group_id": 1,
+		"copilot.conversation.view_id": 686,
 		"copilot.copilotignore.patterns":
 		{
 		},
 		"lsp_show_inlay_hints": false
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 324.0,
+	"side_bar_width": 329.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

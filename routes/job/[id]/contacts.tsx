@@ -1,3 +1,5 @@
+import { ContactDetailsForm } from '../../../components/ContactDetailsForm.tsx'
+
 import { Handlers, RouteContext } from '$fresh/server.ts'
 
 export interface JobFormData {
@@ -17,7 +19,11 @@ export const handler: Handlers = {
 
         return new Response('', {
             status: 303,
-            headers: { Location: '/job/124/contacts' },
+            headers: { Location: '/job/124/status' },
         })
     },
+}
+
+export default function Home() {
+    return <ContactDetailsForm />
 }

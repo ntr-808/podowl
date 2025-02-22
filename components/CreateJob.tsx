@@ -24,98 +24,69 @@ export default function CreateJob() {
                 method='POST'
                 action='/job/create'
             >
-                <div>
-                    <input
-                        type='text'
-                        name='senderName'
-                        placeholder='Sender Name'
-                        defaultValue='ntr'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
+                <input
+                    type='text'
+                    name='senderName'
+                    placeholder='Sender Name'
+                    defaultValue='ntr'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <input
+                    type='text'
+                    name='receiverName'
+                    placeholder='Receiver Name'
+                    defaultValue='kotsi'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <input
+                    type='text'
+                    name='address'
+                    placeholder='Delivery Address'
+                    defaultValue='102 Coronation St'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
 
-                <div>
-                    <input
-                        type='text'
-                        name='receiverName'
-                        placeholder='Receiver Name'
-                        defaultValue='kotsi'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div>
-                    <input
-                        type='text'
-                        name='address'
-                        placeholder='Delivery Address'
-                        defaultValue='102 Coronation St'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div>
-                    <input
-                        type='tel'
-                        name='phone'
-                        placeholder='Recipient Phone #'
-                        defaultValue='+55555555555'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div>
-                    <input
-                        type='text'
-                        name='consignmentNumber'
-                        defaultValue='RAD420'
-                        placeholder='Consignment #'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div>
-                    <input
-                        type='text'
-                        name='referenceNumber'
-                        defaultValue='REFPLS'
-                        placeholder='Reference'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div>
-                    <input
-                        type='text'
-                        name='items'
-                        placeholder='Items'
-                        defaultValue='cookbooks'
-                        required
-                        className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
-                    />
-                </div>
-
-                <div className='flex space-x-4 pt-4'>
-                    <button
-                        type='button'
-                        // onClick={() => window.history.back()}
-                        className='flex-1 py-3 px-6 bg-gray-400 text-gray-500 rounded-full font-medium hover:bg-gray-200 transition-colors'
-                    >
-                        Back
-                    </button>
-                    <button
-                        type='submit'
-                        className='flex-1 py-3 px-6 bg-[#00BCD4] text-white rounded-full font-medium hover:bg-[#00ACC1] transition-colors shadow-lg'
-                    >
-                        NEXT
-                    </button>
-                </div>
+                <input
+                    type='tel'
+                    name='phone'
+                    placeholder='Recipient Phone #'
+                    defaultValue='+55555555555'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <input
+                    type='text'
+                    name='consignmentNumber'
+                    defaultValue='RAD420'
+                    placeholder='Consignment #'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <input
+                    type='text'
+                    name='referenceNumber'
+                    defaultValue='REFPLS'
+                    placeholder='Reference'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <input
+                    type='text'
+                    name='items'
+                    placeholder='Items'
+                    defaultValue='cookbooks'
+                    required
+                    className='w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-gray-100 text-sm'
+                />
+                <button
+                    type='submit'
+                    className='flex-1 py-3 px-6 bg-[#00BCD4] text-white rounded-full font-medium hover:bg-[#00ACC1] transition-colors shadow-lg'
+                >
+                    NEXT
+                </button>
             </form>
         </div>
     )

@@ -1,20 +1,4 @@
-import { Handlers, PageProps } from '$fresh/server.ts'
 import { ArrowLeft } from 'lucide-preact'
-
-interface ContactDetailsFormProps {
-    onSubmit: (data: ContactFormData) => void
-    jobData: {
-        items: string
-        address: string
-        consignmentNumber: string
-    }
-}
-
-export interface ContactFormData {
-    senderEmail: string
-    driverName: string
-    driverPhone: string
-}
 
 export function ContactDetailsForm() {
     return (
@@ -43,7 +27,7 @@ export function ContactDetailsForm() {
                 </p>
             </div>
 
-            <form className='space-y-6'>
+            <form className='space-y-6' method='POST'>
                 <div className='space-y-4'>
                     <div>
                         <label className='block text-sm font-medium text-gray-100 mb-1'>
