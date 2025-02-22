@@ -6,7 +6,6 @@ import * as $_404 from './routes/_404.tsx'
 import * as $_app from './routes/_app.tsx'
 import * as $_layout from './routes/_layout.tsx'
 import * as $contact from './routes/contact.tsx'
-import * as $greet_name_ from './routes/greet/[name].tsx'
 import * as $index from './routes/index.tsx'
 import * as $index_example from './routes/index_example.tsx'
 import * as $job_id_confirm from './routes/job/[id]/confirm.tsx'
@@ -23,7 +22,6 @@ const manifest = {
         './routes/_app.tsx': $_app,
         './routes/_layout.tsx': $_layout,
         './routes/contact.tsx': $contact,
-        './routes/greet/[name].tsx': $greet_name_,
         './routes/index.tsx': $index,
         './routes/index_example.tsx': $index_example,
         './routes/job/[id]/confirm.tsx': $job_id_confirm,

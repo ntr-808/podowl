@@ -25,16 +25,6 @@
     "singleQuote": true,
     "proseWrap": "preserve"
   },
-  "deploy": {
-    "project": "f903c5f5-ddef-401d-a242-ed3a0f54369f",
-    "exclude": [
-      "**/node_modules"
-    ],
-    "include": [
-      "api"
-    ],
-    "entrypoint": "api/src/sms.ts"
-  },
   "exclude": [
     "**/_fresh/*"
   ],

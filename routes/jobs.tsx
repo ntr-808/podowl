@@ -8,7 +8,7 @@ export const handler: Handlers = {
         const filter =
             url.searchParams.get('filter') as 'All' | 'Completed' | 'Transit' ||
             'All'
-        const jobs = getJobs()
+        const jobs = getJobs().filter((j) => j.status === filter)
         return ctx.render({ jobs, filter })
     },
 }
