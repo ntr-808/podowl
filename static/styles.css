@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-    color: slategray;
+  color: theme('colors.secondary.700');
+  background-color: theme('colors.secondary.950');
 }
 
 input {
-    background: dimgray;
+  background-color: theme('colors.secondary.800');
 }

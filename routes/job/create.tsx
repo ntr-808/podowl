@@ -1,5 +1,5 @@
 import { Handlers } from "$fresh/server.ts";
-import { createJob } from "../../utils/jobStore.ts";
+import { createJob } from "../../src/job.ts";
 
 export const handler: Handlers = {
   async POST(req) {

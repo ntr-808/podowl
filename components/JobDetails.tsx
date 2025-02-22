@@ -1,125 +1,163 @@
-import { JSX } from "preact";
-import { ArrowLeft, Package, HelpCircle, Link as LinkIcon } from "lucide-preact";
-import { Job } from "../utils/jobStore.ts";
-import { generatePodLink } from "../utils/podUtils.ts";
+import { JSX } from 'preact'
+import { ArrowLeft, HelpCircle, Link as LinkIcon, Package } from 'lucide-preact'
+import { generatePodLink, Job } from '../src/job.ts'
 
 interface JobDetailsProps {
-  job: Job;
+    job: Job
 }
 
 export function JobDetails({ job }: JobDetailsProps) {
-  const podUrl = generatePodLink(job.consignmentNumber);
+    return (
+        <div class='max-w-lg mx-auto px-4 py-6'>
+            <div class='bg-secondary-900 rounded-lg shadow-lg overflow-hidden border border-secondary-800'>
+                <div class='p-4 border-b border-secondary-800'>
+                    <div class='flex items-center justify-between mb-4'>
+                        <a
+                            href='/jobs'
+                            class='p-1 rounded-full hover:bg-secondary-800 transition-colors'
+                        >
+                            <ArrowLeft class='h-5 w-5 text-secondary-400' />
+                        </a>
+                        <span
+                            class={`px-3 py-1 rounded-full text-sm ${
+                                job.status === 'Transit'
+                                    ? 'bg-primary-900 text-primary-200'
+                                    : 'bg-tertiary-900 text-tertiary-200'
+                            }`}
+                        >
+                            {job.status}
+                        </span>
+                        <button class='p-1 rounded-full hover:bg-secondary-800 transition-colors'>
+                            <HelpCircle class='h-5 w-5 text-secondary-400' />
+                        </button>
+                    </div>
 
-  return (
-    <div class="max-w-lg mx-auto px-4 py-6">
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div class="p-4 border-b border-gray-200">
-          <div class="flex items-center justify-between mb-4">
-            <a
-              href="/jobs"
-              class="p-1 rounded-full hover:bg-gray-100 transition-colors"
-            >
-              <ArrowLeft class="h-5 w-5 text-gray-600" />
-            </a>
-            <span class={`px-3 py-1 rounded-full text-sm ${
-              job.status === "Transit" 
-                ? "bg-blue-100 text-blue-800"
-                : "bg-green-100 text-green-800"
-            }`}>
-              {job.status}
-            </span>
-            <button class="p-1 rounded-full hover:bg-gray-100 transition-colors">
-              <HelpCircle class="h-5 w-5 text-gray-600" />
-            </button>
-          </div>
-          
-          <div class="flex items-center space-x-3">
-            <Package class="h-6 w-6 text-blue-600" />
-            <div>
-              <h2 class="text-lg font-semibold">Delivery from: {job.senderName}</h2>
-              <div class="flex items-center mt-1">
-                <div class="w-full max-w-[200px]">
-                  <div class="h-1 bg-gray-200 rounded">
-                    <div class={`h-1 rounded ${
-                      job.status === "Completed"
-                        ? "bg-green-500 w-full"
-                        : "bg-blue-500 w-2/3"
-                    }`} />
-                  </div>
+                    <div class='flex items-center space-x-3'>
+                        <Package class='h-6 w-6 text-primary-500' />
+                        <div>
+                            <h2 class='text-lg font-semibold text-secondary-100'>
+                                Delivery from: {job.sender.name}
+                            </h2>
+                            <div class='flex items-center mt-1'>
+                                <div class='w-full max-w-[200px]'>
+                                    <div class='h-1 bg-secondary-800 rounded'>
+                                        <div
+                                            class={`h-1 rounded ${
+                                                job.status === 'Completed'
+                                                    ? 'bg-tertiary-500 w-full'
+                                                    : 'bg-primary-500 w-2/3'
+                                            }`}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <div class='p-4 space-y-4'>
+                    <div>
+                        <h3 class='text-sm font-medium text-secondary-400 mb-1'>
+                            Receiver Info
+                        </h3>
+                        <div class='bg-secondary-800 p-3 rounded-lg'>
+                            <p class='text-sm font-medium text-secondary-200'>
+                                Receiver Name: {job.receiver.name}
+                            </p>
+                            <p class='text-sm mt-1 text-secondary-300'>
+                                Address: {job.destination.address}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class='grid grid-cols-2 gap-4'>
+                        <div>
+                            <p class='text-sm font-medium text-secondary-400'>
+                                Consignment #
+                            </p>
+                            <p class='text-sm font-medium text-secondary-200'>
+                                {job.consignment}
+                            </p>
+                            {job.status === 'Transit' && (
+                                <div class='mt-2 flex items-center space-x-2'>
+                                    <LinkIcon class='h-4 w-4 text-primary-500' />
+                                    <a
+                                        href='confirm'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        class='text-xs text-primary-400 hover:text-primary-300 break-all'
+                                    >
+                                        {job.id}
+                                    </a>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            <p class='text-sm font-medium text-secondary-400'>
+                                Code
+                            </p>
+                            <p class='text-sm font-medium text-secondary-200'>
+                                {job.code}
+                            </p>
+                        </div>
+                    </div>
+
+                    {job.status === 'Completed' && (
+                        <div class='border-t border-secondary-800 pt-4 mt-4'>
+                            <h3 class='text-sm font-medium text-secondary-400 mb-3'>
+                                Delivered Info
+                            </h3>
+                            <div class='space-y-3'>
+                                <div>
+                                    <p class='text-sm font-medium text-secondary-400'>
+                                        Delivered
+                                    </p>
+                                    <p class='text-sm font-medium text-secondary-200'>
+                                        {job.updated.toLocaleDateString()}
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class='text-sm font-medium text-secondary-400'>
+                                        Expected Items
+                                    </p>
+                                    <p class='text-sm font-medium text-secondary-200'>
+                                        {job.deliveredItems?.expected}
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class='text-sm font-medium text-secondary-400'>
+                                        Items Delivered
+                                    </p>
+                                    <p class='text-sm font-medium text-secondary-200'>
+                                        {job.deliveredItems?.delivered}
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class='text-sm font-medium text-secondary-400'>
+                                        Recipient Name
+                                    </p>
+                                    <p class='text-sm font-medium text-secondary-200'>
+                                        {job.podRecipientName ||
+                                            job.receiver.name}
+                                    </p>
+                                </div>
+                                {job.signature && (
+                                    <div>
+                                        <p class='text-sm font-medium text-secondary-400 mb-2'>
+                                            Recipient Signature
+                                        </p>
+                                        <img
+                                            src={job.signature}
+                                            alt='Signature'
+                                            class='max-w-[200px] border border-secondary-700 rounded-lg bg-secondary-800'
+                                        />
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    )}
+                </div>
             </div>
-          </div>
         </div>
-
-        <div class="p-4 space-y-4">
-          <div>
-            <h3 class="text-sm font-medium text-gray-500 mb-1">Receiver Info</h3>
-            <div class="bg-gray-50 p-3 rounded-lg">
-              <p class="text-sm font-medium">Receiver Name: {job.receiverName}</p>
-              <p class="text-sm mt-1">Address: {job.address}</p>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-2 gap-4">
-            <div>
-              <p class="text-sm font-medium text-gray-500">Consignment #</p>
-              <p class="text-sm font-medium">{job.consignmentNumber}</p>
-              {job.status === "Transit" && (
-                <div class="mt-2 flex items-center space-x-2">
-                  <LinkIcon class="h-4 w-4 text-blue-600" />
-                  <a
-                    href={podUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-xs text-blue-600 hover:underline break-all"
-                  >
-                    {podUrl}
-                  </a>
-                </div>
-              )}
-            </div>
-            <div>
-              <p class="text-sm font-medium text-gray-500">Reference #</p>
-              <p class="text-sm font-medium">{job.referenceNumber}</p>
-            </div>
-          </div>
-
-          {job.status === "Completed" && (
-            <div class="border-t border-gray-200 pt-4 mt-4">
-              <h3 class="text-sm font-medium text-gray-500 mb-3">Delivered Info</h3>
-              <div class="space-y-3">
-                <div>
-                  <p class="text-sm font-medium text-gray-500">Delivered</p>
-                  <p class="text-sm font-medium">{job.date}</p>
-                </div>
-                <div>
-                  <p class="text-sm font-medium text-gray-500">Expected Items</p>
-                  <p class="text-sm font-medium">{job.deliveredItems?.expected || job.items}</p>
-                </div>
-                <div>
-                  <p class="text-sm font-medium text-gray-500">Items Delivered</p>
-                  <p class="text-sm font-medium">{job.deliveredItems?.delivered}</p>
-                </div>
-                <div>
-                  <p class="text-sm font-medium text-gray-500">Recipient Name</p>
-                  <p class="text-sm font-medium">{job.podRecipientName || job.receiverName}</p>
-                </div>
-                {job.signature && (
-                  <div>
-                    <p class="text-sm font-medium text-gray-500 mb-2">Recipient Signature</p>
-                    <img 
-                      src={job.signature} 
-                      alt="Signature" 
-                      class="max-w-[200px] border border-gray-200 rounded-lg"
-                    />
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
+    )
 }
