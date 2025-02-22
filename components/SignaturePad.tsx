@@ -22,7 +22,7 @@ export function SignaturePad({ onSave }: SignaturePadProps) {
 
   return (
     <div className="w-full">
-      <div className="">
+      <div className="bg-white">
         <SignatureCanvas
           ref={signatureRef}
           canvasProps={{
@@ -36,7 +36,7 @@ export function SignaturePad({ onSave }: SignaturePadProps) {
         <button
           type="button"
           onClick={handleClear}
-          className="px-4 py-2 text-sm text-gray-100 hover:text-gray-100"
+          className="px-4 py-2 text-sm text-gray-600 hover:text-gray-900"
         >
           Clear
         </button>

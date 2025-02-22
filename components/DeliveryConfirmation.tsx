@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { SignaturePad } from './SignaturePad';
-import { ArrowLeft, Package, HelpCircle } from 'lucide-react';
+import { ArrowLeft, Package, HelpCircle, Link as LinkIcon } from 'lucide-react';
 import { Job, getJobByConsignment, updateJobStatus, DeliveryItems } from '../utils/jobStore';
 import { OwlLogo } from './icons/OwlLogo';
+import { generatePodLink } from '../utils/podUtils';
 
 interface DeliveryConfirmationProps {
   onComplete: (signature: string) => void;
@@ -20,6 +21,7 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
       const job = getJobByConsignment(consignmentNumber);
       if (job) {
         setJobData(job);
+        setItemsDelivered(job.items);
       }
     }
   }, []);
@@ -64,29 +66,31 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <OwlLogo className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-          <h2 className="text-xl font-semibold text-gray-100 mb-2">Job Not Found</h2>
-          <p className="text-gray-100">The delivery job you're looking for doesn't exist.</p>
+          <h2 className="text-xl font-semibold text-gray-900 mb-2">Job Not Found</h2>
+          <p className="text-gray-600">The delivery job you're looking for doesn't exist.</p>
         </div>
       </div>
     );
   }
 
+  const podUrl = generatePodLink(jobData.consignmentNumber);
+
   return (
     <div className="max-w-lg mx-auto px-4 py-8">
-      <div className=" rounded-lg shadow-lg overflow-hidden">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between mb-4">
             <button
               onClick={() => window.location.search = 'jobs'}
-              className="p-1 rounded-full hover:bg-gray-400 transition-colors"
+              className="p-1 rounded-full hover:bg-gray-100 transition-colors"
             >
-              <ArrowLeft className="h-5 w-5 text-gray-100" />
+              <ArrowLeft className="h-5 w-5 text-gray-600" />
             </button>
             <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-              In Transit
+              Transit
             </span>
-            <button className="p-1 rounded-full hover:bg-gray-400 transition-colors">
-              <HelpCircle className="h-5 w-5 text-gray-100" />
+            <button className="p-1 rounded-full hover:bg-gray-100 transition-colors">
+              <HelpCircle className="h-5 w-5 text-gray-600" />
             </button>
           </div>
           
@@ -105,10 +109,10 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
           </div>
         </div>
 
-        <div className="p-4 space-y-6">
+        <div className="p-4 space-y-4">
           <div>
             <h3 className="text-sm font-medium text-gray-500 mb-1">Receiver Info</h3>
-            <div className="bg-gray-50 p-4 rounded-lg border-2 border-gray-200">
+            <div className="bg-gray-50 p-3 rounded-lg">
               <p className="text-sm font-medium">Receiver Name: {jobData.receiverName}</p>
               <p className="text-sm mt-1">Address: {jobData.address}</p>
             </div>
@@ -125,15 +129,28 @@ export function DeliveryConfirmation({ onComplete }: DeliveryConfirmationProps) 
             </div>
           </div>
 
-          <div className="border-t-2 border-gray-200 pt-6">
-            <div className="mb-6">
-              <h3 className="text-sm font-medium text-gray-500 mb-2">Expected Items</h3>
-              <div className="p-4 bg-gray-50 rounded-lg border-2 border-gray-200">
-                <p className="text-sm font-medium">{jobData.items}</p>
-              </div>
-            </div>
+          <div>
+            <p className="text-sm font-medium text-gray-500 mb-1"># of items</p>
+            <p className="text-sm font-medium">1</p>
+          </div>
 
-            <h3 className="text-lg font-medium text-gray-100 mb-4">Delivery Confirmation</h3>
+          <div>
+            <p className="text-sm font-medium text-gray-500 mb-1">Driver Link:</p>
+            <div className="flex items-center space-x-2">
+              <LinkIcon className="h-4 w-4 text-blue-600 flex-shrink-0" />
+              <a
+                href={podUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-blue-600 hover:underline break-all"
+              >
+                {podUrl}
+              </a>
+            </div>
+          </div>
+
+          <div className="border-t-2 border-gray-200 pt-4 mt-4">
+            <h3 className="text-lg font-medium text-gray-900 mb-4">Delivery Confirmation</h3>
             <div className="space-y-6">
               <div>
                 <label htmlFor="recipientName" className="block text-sm font-medium text-gray-700 mb-2">
