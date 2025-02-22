@@ -6,6 +6,7 @@
     "manifest": "deno task cli manifest $(pwd)",
     "start": "deno run -A --watch=static/,routes/ dev.ts",
     "build": "deno run -A dev.ts build",
+    "deploy": "deno task build && deployctl deploy",
     "preview": "deno run -A main.ts",
     "test": "deno test -A",
     "update": "deno run -A -r https://fresh.deno.dev/update ."
@@ -46,5 +47,13 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "nodeModulesDir": "auto"
+  "nodeModulesDir": "auto",
+  "deploy": {
+    "project": "9400937a-77a3-4198-b181-af5350632868",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
 }
