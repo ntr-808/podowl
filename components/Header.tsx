@@ -1,36 +1,36 @@
-import React from 'react';
-import { ArrowLeft } from 'lucide-react';
-import { OwlLogo } from './icons/OwlLogo';
+import { JSX } from "preact";
+import { ArrowLeft } from "lucide-preact";
+import { OwlLogo } from "./icons/OwlLogo.tsx";
 
-export function Header() {
-  const isJobList = window.location.search.includes('jobs');
-  const isCreateJob = !window.location.search;
+interface HeaderProps {
+  path?: string;
+}
 
-  const handleBack = () => {
-    window.location.search = 'jobs';
-  };
+export function Header({ path = "" }: HeaderProps) {
+  const isJobList = path.includes("jobs");
+  const isCreateJob = path === "/";
 
   return (
-    <header className="bg-white">
-      <div className="max-w-lg mx-auto px-4 py-4 flex items-center">
+    <header class="bg-white">
+      <div class="max-w-lg mx-auto px-4 py-4 flex items-center">
         {!isJobList && !isCreateJob && (
-          <button
-            onClick={handleBack}
-            className="mr-4 p-1 rounded-full hover:bg-gray-100 transition-colors"
+          <a
+            href="/jobs"
+            class="mr-4 p-1 rounded-full hover:bg-gray-100 transition-colors"
             aria-label="Go back to jobs"
           >
-            <ArrowLeft className="h-6 w-6 text-gray-600" />
-          </button>
+            <ArrowLeft class="h-6 w-6 text-gray-600" />
+          </a>
         )}
         {isCreateJob && (
-          <div className="w-full text-center">
-            <h1 className="text-lg font-medium text-gray-900">Create Job</h1>
+          <div class="w-full text-center">
+            <h1 class="text-lg font-medium text-gray-900">Create Job</h1>
           </div>
         )}
         {!isCreateJob && (
           <>
-            <OwlLogo className="h-8 w-8 text-blue-600" />
-            <h1 className="ml-2 text-xl font-semibold text-gray-900">PODOWL</h1>
+            <OwlLogo class="h-8 w-8 text-blue-600" />
+            <h1 class="ml-2 text-xl font-semibold text-gray-900">PODOWL</h1>
           </>
         )}
       </div>
