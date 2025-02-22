@@ -1,29 +1,46 @@
-import { ContactDetailsForm } from '../../../components/ContactDetailsForm.tsx'
-
-import { Handlers, RouteContext } from '$fresh/server.ts'
-
-export interface JobFormData {
-    senderName: string
-    receiverName: string
-    address: string
-    consignmentNumber: string
-    referenceNumber: string
-    items: string
-}
+import { Handlers, PageProps } from "$fresh/server.ts";
+import { ContactDetailsForm } from "../../../components/ContactDetailsForm.tsx";
+import { Header } from "../../../components/Header.tsx";
+import { getJobById, updateJobContacts } from "../../../utils/jobStore.ts";
 
 export const handler: Handlers = {
-    async POST(req, ctx: RouteContext) {
-        console.log(req)
-        const form = await req.formData()
-        console.log(form)
+  GET(req, ctx) {
+    const id = ctx.params.id;
+    const job = getJobById(id);
+    if (!job) {
+      return ctx.renderNotFound();
+    }
+    return ctx.render({ job });
+  },
+  async POST(req, ctx) {
+    const id = ctx.params.id;
+    const form = await req.formData();
+    const contactData = {
+      senderEmail: form.get("senderEmail") as string,
+      driverName: form.get("driverName") as string,
+      driverPhone: form.get("driverPhone") as string,
+    };
 
-        return new Response('', {
-            status: 303,
-            headers: { Location: '/job/124/status' },
-        })
-    },
-}
+    await updateJobContacts(id, contactData);
+    return new Response("", {
+      status: 303,
+      headers: { Location: `/job/${id}` },
+    });
+  },
+};
 
-export default function Home() {
-    return <ContactDetailsForm />
+export default function JobContactsPage(props: PageProps<{ job: Job }>) {
+  const { job } = props.data;
+  return (
+    <>
+      <Header path={props.url.pathname} />
+      <ContactDetailsForm
+        jobData={{
+          items: job.items,
+          address: job.address,
+          consignmentNumber: job.consignmentNumber,
+        }}
+      />
+    </>
+  );
 }
