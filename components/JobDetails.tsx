@@ -87,7 +87,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                         rel='noopener noreferrer'
                                         class='text-xs text-primary-400 hover:text-primary-300 break-all'
                                     >
-                                        {job.id}
+                                        Delivery Confirmation Page
                                     </a>
                                 </div>
                             )}

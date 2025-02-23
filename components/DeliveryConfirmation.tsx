@@ -105,23 +105,6 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                         </p>
                     </div>
 
-                    <div>
-                        <p class='text-sm font-medium text-secondary-400 mb-1'>
-                            Driver Link:
-                        </p>
-                        <div class='flex items-center space-x-2'>
-                            <LinkIcon class='h-4 w-4 text-primary-500 flex-shrink-0' />
-                            <a
-                                href={podUrl}
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                class='text-xs text-primary-400 hover:text-primary-300 break-all'
-                            >
-                                {podUrl}
-                            </a>
-                        </div>
-                    </div>
-
                     <div class='border-t border-secondary-800 pt-4 mt-4'>
                         <h3 class='text-lg font-medium text-secondary-100 mb-4'>
                             Delivery Confirmation
