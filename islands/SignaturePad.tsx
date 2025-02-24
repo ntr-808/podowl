@@ -18,7 +18,7 @@ export default function SignaturePad({ sig }: SignaturePadProps) {
 
     const handleSignatureEnd = () => {
         if (signatureRef.current) {
-            sig.value = JSON.stringify(signatureRef.current.toData())
+            sig.value = signatureRef.current.toDataURL()
         }
     }
 
