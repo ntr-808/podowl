@@ -57,7 +57,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                         filteredJobs.map((job) => (
                             <a
                                 key={job.id}
-                                href={`/job/${job.id}`}
+                                href={`/job/${job.id}/status`}
                                 class='block bg-secondary-900 rounded-lg shadow-sm p-4 border border-secondary-800 hover:shadow-md transition-shadow'
                             >
                                 <div class='flex items-center justify-between mb-2'>
@@ -107,7 +107,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                         </div>
                                     </div>
                                     <div class='text-sm text-secondary-400'>
-                                        {job.created.toLocaleDateString()}
+                                        {job.created.toLocaleString()}
                                     </div>
                                 </div>
                             </a>

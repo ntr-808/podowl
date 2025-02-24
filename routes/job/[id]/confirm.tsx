@@ -3,9 +3,9 @@ import { DeliveryConfirmation } from '../../../components/DeliveryConfirmation.t
 import { completeJob, getJobById } from '../../../src/job.ts'
 
 export const handler: Handlers = {
-    GET(req, ctx) {
+    async GET(req, ctx) {
         const id = ctx.params.id
-        const job = getJobById(id)
+        const job = await getJobById(id)
         if (!job) {
             return ctx.renderNotFound()
         }
@@ -14,15 +14,23 @@ export const handler: Handlers = {
     async POST(req, ctx) {
         const id = ctx.params.id
         const form = await req.formData()
+
+        // Get all delivered items from the form
+        const deliveredItems: string[] = []
+        for (const [key, value] of form.entries()) {
+            if (key.startsWith('deliveredItems[')) {
+                deliveredItems.push(value.toString())
+            }
+        }
+
         const confirmationData = {
             recipientName: form.get('recipientName') as string,
-            itemsDelivered: form.get('itemsDelivered') as string,
+            itemsDelivered: deliveredItems,
             signature: form.get('signature') as string,
         }
 
         await completeJob(id, confirmationData)
 
-        console.log('job done')
         return new Response('', {
             status: 303,
             headers: { Location: `/` },

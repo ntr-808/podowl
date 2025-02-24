@@ -3,9 +3,9 @@ import { JobDetails } from '../../../components/JobDetails.tsx'
 import { getJobById, Job } from '../../../src/job.ts'
 
 export const handler: Handlers = {
-    GET(req, ctx) {
+    async GET(req, ctx) {
         const id = ctx.params.id
-        const job = getJobById(id)
+        const job = await getJobById(id)
         if (!job) {
             return ctx.renderNotFound()
         }

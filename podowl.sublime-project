@@ -29,10 +29,10 @@
   },
   "folders": [
     {
-      "path": ".",
-    },
+			"path": ".",
+		},
     {
-			"path": "/home/ntr/code/podowl-bak"
+			"path": "/home/ntr/code/podowl-old",
 		},
   ],
 }

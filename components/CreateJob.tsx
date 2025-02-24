@@ -68,14 +68,15 @@ export default function CreateJob() {
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
-                <input
-                    type='text'
+                <textarea
                     name='items'
-                    placeholder='Items'
-                    value='cookbooks'
+                    placeholder='Enter items (one per line)'
                     required
-                    class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
-                />
+                    rows={4}
+                    class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800 resize-none'
+                >
+                    cookbooks
+                </textarea>
                 <button
                     type='submit'
                     class='flex-1 py-3 px-6 bg-primary-500 text-white rounded-full font-medium hover:bg-primary-600 transition-colors shadow-lg w-full'

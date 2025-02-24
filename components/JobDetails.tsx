@@ -102,6 +102,37 @@ export function JobDetails({ job }: JobDetailsProps) {
                         </div>
                     </div>
 
+                    <div>
+                        <h3 class='text-sm font-medium text-secondary-400 mb-2'>
+                            Items
+                        </h3>
+                        <div class='bg-secondary-800 p-3 rounded-lg space-y-2'>
+                            {job.items.map((item, index) => (
+                                <div
+                                    key={index}
+                                    class='flex items-center justify-between'
+                                >
+                                    <span class='text-sm text-secondary-200'>
+                                        {item.description}
+                                    </span>
+                                    {job.status === 'Completed' && (
+                                        <span
+                                            class={`text-sm px-2 py-1 rounded ${
+                                                item.delivered
+                                                    ? 'bg-tertiary-900 text-tertiary-200'
+                                                    : 'bg-red-900 text-red-200'
+                                            }`}
+                                        >
+                                            {item.delivered
+                                                ? 'Delivered'
+                                                : 'Not Delivered'}
+                                        </span>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
                     {job.status === 'Completed' && (
                         <div class='border-t border-secondary-800 pt-4 mt-4'>
                             <h3 class='text-sm font-medium text-secondary-400 mb-3'>
@@ -114,22 +145,6 @@ export function JobDetails({ job }: JobDetailsProps) {
                                     </p>
                                     <p class='text-sm font-medium text-secondary-200'>
                                         {job.updated.toLocaleDateString()}
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class='text-sm font-medium text-secondary-400'>
-                                        Expected Items
-                                    </p>
-                                    <p class='text-sm font-medium text-secondary-200'>
-                                        {job.deliveredItems?.expected}
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class='text-sm font-medium text-secondary-400'>
-                                        Items Delivered
-                                    </p>
-                                    <p class='text-sm font-medium text-secondary-200'>
-                                        {job.deliveredItems?.delivered}
                                     </p>
                                 </div>
                                 <div>

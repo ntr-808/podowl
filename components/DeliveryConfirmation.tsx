@@ -1,13 +1,16 @@
-import { JSX } from 'preact'
-import { ArrowLeft, HelpCircle, Link as LinkIcon, Package } from 'lucide-preact'
-import { generatePodLink, Job } from '../src/job.ts'
+import { ArrowLeft, HelpCircle, Package } from 'lucide-preact'
+import { Job } from '../src/job.ts'
 import { OwlLogo } from './icons/OwlLogo.tsx'
+import { useSignal } from '@preact/signals'
+import DeliveryConfirmationSig from '../islands/DeliveryConfirmationSig.tsx'
 
 interface DeliveryConfirmationProps {
     job: Job | null
 }
 
 export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
+    const sig = useSignal('')
+
     if (!job) {
         return (
             <div class='min-h-screen bg-secondary-950 flex items-center justify-center'>
@@ -23,8 +26,6 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
             </div>
         )
     }
-
-    const podUrl = '/'
 
     return (
         <div class='max-w-lg mx-auto px-4 py-8'>
@@ -96,15 +97,6 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                         </div>
                     </div>
 
-                    <div>
-                        <p class='text-sm font-medium text-secondary-400 mb-1'>
-                            # of items
-                        </p>
-                        <p class='text-sm font-medium text-secondary-200'>
-                            {job.items.length}
-                        </p>
-                    </div>
-
                     <div class='border-t border-secondary-800 pt-4 mt-4'>
                         <h3 class='text-lg font-medium text-secondary-100 mb-4'>
                             Delivery Confirmation
@@ -127,30 +119,35 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                             </div>
 
                             <div>
-                                <label
-                                    for='itemsDelivered'
-                                    class='block text-sm font-medium text-secondary-300 mb-2'
-                                >
+                                <label class='block text-sm font-medium text-secondary-300 mb-2'>
                                     Items Delivered
                                 </label>
-                                <input
-                                    type='text'
-                                    id='itemsDelivered'
-                                    name='itemsDelivered'
-                                    value={job.items[0].description}
-                                    class='block w-full rounded-lg border border-secondary-700 bg-secondary-800 px-4 py-3 shadow-sm focus:border-primary-500 focus:ring-primary-500 text-sm text-secondary-100'
-                                    required
-                                />
+                                <div class='space-y-3 bg-secondary-800 p-4 rounded-lg'>
+                                    {job.items.map((item, index) => (
+                                        <div
+                                            key={index}
+                                            class='flex items-center'
+                                        >
+                                            <input
+                                                type='checkbox'
+                                                id={`item-${index}`}
+                                                name={`deliveredItems[${index}]`}
+                                                value={item.description}
+                                                class='h-4 w-4 text-primary-500 border-secondary-600 rounded focus:ring-primary-500 focus:ring-offset-secondary-800'
+                                            />
+                                            <label
+                                                for={`item-${index}`}
+                                                class='ml-3 text-sm font-medium text-secondary-200'
+                                            >
+                                                {item.description}
+                                            </label>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
 
                             <div>
-                                <label class='block text-sm font-medium text-secondary-300 mb-2'>
-                                    Recipient Signature
-                                </label>
-                                <div class='border border-secondary-700 rounded-lg overflow-hidden'>
-                                    {/* Signature pad will be handled as an island */}
-                                    <div class='h-48 bg-secondary-800'></div>
-                                </div>
+                                <DeliveryConfirmationSig sig={sig} />
                             </div>
 
                             <button

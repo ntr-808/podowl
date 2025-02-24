@@ -32,7 +32,7 @@ your courier is ${job.courier.name}.
 
 Items:
 ${itemText}
-    `
+`
 
     return body
 }
@@ -49,7 +49,7 @@ Items:
 ${itemText}
 
 Delivery Code: ${job.code}
-    `
+`
 
     return body
 }
@@ -77,7 +77,7 @@ ${job.destination.address}
 ${job.receiver.phone}
 ${job.receiver.email}
 --------------------------
-    `
+`
 
     return body
 }
@@ -87,7 +87,7 @@ export function onTransitSender(job: Job) {
 Your delivery to ${job.receiver.name}
 has been collected by ${job.courier.name}.
 You will be notified of any updates.
-    `
+`
 }
 
 export function onTransitReceiver(job: Job) {
@@ -104,7 +104,7 @@ ${itemText}
 
 2. quote collection code:
 ${job.code}
-    `
+`
 }
 
 export function onTransitCourier(job: Job) {
@@ -116,25 +116,25 @@ ${job.destination.address}
 ${job.receiver.phone}
 ${job.receiver.email}
 --------------------------
-    `
+`
 }
 
 export function onCompleteSender(job: Job) {
     return `
 Your delivery to ${job.receiver.name}
 is now complete.
-    `
+`
 }
 
 export function onCompleteReceiver(_job: Job) {
     return `
 :)
-    `
+`
 }
 
 export function onCompleteCourier(_job: Job) {
     return `
 A job well done.
 Get yourself a snack.
-    `
+`
 }

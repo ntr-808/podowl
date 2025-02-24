@@ -23,7 +23,7 @@ export interface Job {
     readonly origin: Location
     readonly destination: Location
     readonly items: Item[]
-    readonly consignment: number
+    readonly consignment: string
     readonly code: number
     readonly signature?: string
     readonly podRecipientName?: string
@@ -43,10 +43,10 @@ export interface Location {
     readonly address: string
 }
 
-// In-memory store for jobs
-let jobs: Job[] = []
+// Initialize Deno KV
+const kv = await Deno.openKv()
 
-export function createJob(data: {
+export async function createJob(data: {
     senderName: string
     receiverName: string
     address: string
@@ -54,7 +54,7 @@ export function createJob(data: {
     consignmentNumber: string
     referenceNumber: string
     items: string
-}): Job {
+}): Promise<Job> {
     const job: Job = {
         id: crypto.randomUUID(),
         created: new Date(),
@@ -81,50 +81,108 @@ export function createJob(data: {
         destination: {
             address: data.address,
         },
-        items: [item(data.items)],
-        consignment: parseInt(data.consignmentNumber),
+        items: data.items.split('\n').map((item) => ({
+            description: item.trim(),
+            delivered: false,
+        })),
+        consignment: data.consignmentNumber,
         code: Math.floor(randomBetween(1000, 10000)),
     }
 
-    jobs.push(job)
+    // Store the job in KV
+    await kv.set(['jobs', job.id], job)
+    await kv.set(['jobs_by_status', job.status, job.id], job)
+
     return job
 }
 
-export function getJobs(): Job[] {
+export async function getJobs(): Promise<Job[]> {
+    const jobs: Job[] = []
+    const entries = kv.list<Job>({ prefix: ['jobs'] })
+
+    for await (const entry of entries) {
+        jobs.push(entry.value)
+    }
+
     return jobs
 }
 
-export function getJobById(id: string): Job | undefined {
-    return jobs.find((job) => job.id === id)
+export async function getJobsByStatus(
+    status: 'All' | 'Completed' | 'Transit',
+): Promise<Job[]> {
+    if (status === 'All') {
+        return getJobs()
+    }
+
+    const jobs: Job[] = []
+    const entries = kv.list<Job>({ prefix: ['jobs_by_status', status] })
+
+    for await (const entry of entries) {
+        jobs.push(entry.value)
+    }
+
+    return jobs
 }
 
-export function updateJobContacts(id: string, contactData: {
+export async function getJobById(id: string): Promise<Job | null> {
+    const result = await kv.get<Job>(['jobs', id])
+    return result.value
+}
+
+export async function updateJobContacts(id: string, contactData: {
     senderEmail: string
     driverName: string
     driverPhone: string
-}): void {
-    const job = jobs.find((j) => j.id === id)
+}): Promise<void> {
+    const job = await getJobById(id)
     if (job) {
-        job.sender.email = contactData.senderEmail
-        job.courier.name = contactData.driverName
-        job.courier.phone = contactData.driverPhone
+        const updatedJob: Job = {
+            ...job,
+            updated: new Date(),
+            sender: {
+                ...job.sender,
+                email: contactData.senderEmail,
+            },
+            courier: {
+                ...job.courier,
+                name: contactData.driverName,
+                phone: contactData.driverPhone,
+            },
+        }
+
+        // Update both the main job record and the status index
+        await kv.set(['jobs', id], updatedJob)
+        await kv.set(['jobs_by_status', updatedJob.status, id], updatedJob)
     }
 }
 
-export function completeJob(id: string, confirmationData: {
+export async function completeJob(id: string, confirmationData: {
     recipientName: string
-    itemsDelivered: string
+    itemsDelivered: string[]
     signature: string
-}): void {
-    const job = jobs.find((j) => j.id === id)
+}): Promise<void> {
+    const job = await getJobById(id)
     if (job) {
-        job.status = 'Completed'
-        job.podRecipientName = confirmationData.recipientName
-        job.signature = confirmationData.signature
-        job.deliveredItems = {
-            expected: job.items[0].description,
-            delivered: confirmationData.itemsDelivered,
+        // Remove the old status index
+        await kv.delete(['jobs_by_status', job.status, id])
+
+        const updatedJob: Job = {
+            ...job,
+            status: 'Completed',
+            updated: new Date(),
+            podRecipientName: confirmationData.recipientName,
+            signature: confirmationData.signature,
+            items: job.items.map((item) => ({
+                ...item,
+                delivered: confirmationData.itemsDelivered.includes(
+                    item.description,
+                ),
+            })),
         }
+
+        // Update both the main job record and add to the new status index
+        await kv.set(['jobs', id], updatedJob)
+        await kv.set(['jobs_by_status', 'Completed', id], updatedJob)
     }
 }
 

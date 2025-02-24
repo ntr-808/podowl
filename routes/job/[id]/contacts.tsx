@@ -1,11 +1,11 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { ContactDetailsForm } from '../../../components/ContactDetailsForm.tsx'
-import { getJobById, updateJobContacts } from '../../../src/job.ts'
+import { getJobById, Job, updateJobContacts } from '../../../src/job.ts'
 
 export const handler: Handlers = {
-    GET(req, ctx) {
+    async GET(req, ctx) {
         const id = ctx.params.id
-        const job = getJobById(id)
+        const job = await getJobById(id)
         if (!job) {
             return ctx.renderNotFound()
         }
@@ -34,8 +34,8 @@ export default function JobContactsPage(props: PageProps<{ job: Job }>) {
         <ContactDetailsForm
             jobData={{
                 items: job.items,
-                address: job.address,
-                consignmentNumber: job.consignmentNumber,
+                address: job.destination.address,
+                consignmentNumber: job.consignment.toString(),
             }}
         />
     )

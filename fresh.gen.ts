@@ -14,6 +14,8 @@ import * as $job_id_status from './routes/job/[id]/status.tsx'
 import * as $job_create from './routes/job/create.tsx'
 import * as $jobs from './routes/jobs.tsx'
 import * as $Counter from './islands/Counter.tsx'
+import * as $DeliveryConfirmationSig from './islands/DeliveryConfirmationSig.tsx'
+import * as $SignaturePad from './islands/SignaturePad.tsx'
 import type { Manifest } from '$fresh/server.ts'
 
 const manifest = {
@@ -32,6 +34,8 @@ const manifest = {
     },
     islands: {
         './islands/Counter.tsx': $Counter,
+        './islands/DeliveryConfirmationSig.tsx': $DeliveryConfirmationSig,
+        './islands/SignaturePad.tsx': $SignaturePad,
     },
     baseUrl: import.meta.url,
 } satisfies Manifest

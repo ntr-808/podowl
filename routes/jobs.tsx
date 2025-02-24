@@ -1,14 +1,14 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { JobList } from '../components/JobList.tsx'
-import { getJobs, Job } from '../src/job.ts'
+import { getJobsByStatus, Job } from '../src/job.ts'
 
 export const handler: Handlers = {
-    GET(req, ctx) {
+    async GET(req, ctx) {
         const url = new URL(req.url)
         const filter =
             url.searchParams.get('filter') as 'All' | 'Completed' | 'Transit' ||
             'All'
-        const jobs = getJobs().filter((j) => j.status === filter)
+        const jobs = await getJobsByStatus(filter)
         return ctx.render({ jobs, filter })
     },
 }
