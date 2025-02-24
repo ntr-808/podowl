@@ -144,7 +144,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                         Delivered
                                     </p>
                                     <p class='text-sm font-medium text-secondary-200'>
-                                        {job.updated.toLocaleDateString()}
+                                        {job.updated.toLocaleString()}
                                     </p>
                                 </div>
                                 <div>
@@ -164,7 +164,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                         <img
                                             src={job.signature}
                                             alt='Signature'
-                                            class='max-w-[200px] border border-secondary-700 rounded-lg bg-secondary-800'
+                                            class='w-full border border-secondary-700 rounded-lg bg-secondary-800'
                                         />
                                     </div>
                                 )}
