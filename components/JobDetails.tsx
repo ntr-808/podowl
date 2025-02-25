@@ -1,6 +1,15 @@
-import { JSX } from 'preact'
-import { ArrowLeft, HelpCircle, Link as LinkIcon, Package } from 'lucide-preact'
-import { generatePodLink, Job } from '../src/job.ts'
+import {
+    ArrowLeft,
+    HelpCircle,
+    LinkIcon,
+    MapPin,
+    Package,
+    Phone,
+    Truck,
+    User,
+    Warehouse,
+} from 'lucide-preact'
+import { Job } from '../src/job.ts'
 import { ProgressIndicator } from './ProgressIndicator.tsx'
 import { StatusBadge } from './StatusBadge.tsx'
 
@@ -30,7 +39,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                         <Package class='h-6 w-6 text-primary-500' />
                         <div>
                             <h2 class='text-lg font-semibold text-secondary-100'>
-                                Delivery from: {job.sender.name}
+                                {job.consignment}
                             </h2>
                             <ProgressIndicator status={job.status} />
                         </div>
@@ -38,27 +47,88 @@ export function JobDetails({ job }: JobDetailsProps) {
                 </div>
 
                 <div class='p-4 space-y-4'>
+                    {/* Origin */}
                     <div>
                         <h3 class='text-sm font-medium text-secondary-400 mb-1'>
-                            Receiver Info
+                            Origin
                         </h3>
                         <div class='bg-secondary-800 p-3 rounded-lg'>
-                            <p class='text-sm font-medium text-secondary-200'>
-                                Receiver Name: {job.receiver.name}
-                            </p>
-                            <p class='text-sm mt-1 text-secondary-300'>
-                                Address: {job.destination.address}
-                            </p>
+                            <div class='flex items-center mb-2'>
+                                <Warehouse class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.origin.address}
+                                </p>
+                            </div>
+                            <div class='flex items-center mb-2'>
+                                <User class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.sender.name}
+                                </p>
+                            </div>
+                            <div class='flex items-center'>
+                                <Phone class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.sender.phone}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Courier */}
+                    <div>
+                        <h3 class='text-sm font-medium text-secondary-400 mb-1'>
+                            Courier
+                        </h3>
+                        <div class='bg-secondary-800 p-3 rounded-lg'>
+                            <div class='flex items-center mb-2'>
+                                <Truck class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.courier.name || 'Not assigned'}
+                                </p>
+                            </div>
+                            <div class='flex items-center'>
+                                <Phone class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.courier.phone || 'Not assigned'}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Destination Info */}
+                    <div>
+                        <h3 class='text-sm font-medium text-secondary-400 mb-1'>
+                            Destination
+                        </h3>
+                        <div class='bg-secondary-800 p-3 rounded-lg'>
+                            <div class='flex items-center mb-2'>
+                                <MapPin class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.destination.address}
+                                </p>
+                            </div>
+                            <div class='flex items-center mb-2'>
+                                <User class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.receiver.name}
+                                </p>
+                            </div>
+                            <div class='flex items-center'>
+                                <Phone class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.receiver.phone}
+                                </p>
+                            </div>
                         </div>
                     </div>
 
                     <div class='grid grid-cols-2 gap-4'>
                         <div>
                             <p class='text-sm font-medium text-secondary-400'>
-                                Consignment #
+                                Updated
                             </p>
                             <p class='text-sm font-medium text-secondary-200'>
-                                {job.consignment}
+                                {job.updated.toLocaleString()}
                             </p>
                             {job.status === 'Transit' && (
                                 <div class='mt-2 flex items-center space-x-2'>
@@ -134,7 +204,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                         Recipient Name
                                     </p>
                                     <p class='text-sm font-medium text-secondary-200'>
-                                        {job.podRecipientName ||
+                                        {job.recipientName ||
                                             job.receiver.name}
                                     </p>
                                 </div>

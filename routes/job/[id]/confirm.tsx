@@ -33,7 +33,7 @@ export const handler: Handlers = {
 
         return new Response('', {
             status: 303,
-            headers: { Location: `/` },
+            headers: { Location: `/jobs` },
         })
     },
 }

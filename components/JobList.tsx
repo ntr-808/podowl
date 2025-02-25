@@ -76,7 +76,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                         </span>
                                     </div>
                                     <div class='font-medium text-secondary-200'>
-                                        {job.id}
+                                        {job.consignment}
                                     </div>
                                     <div class='flex items-center justify-between'>
                                         <div class='flex-1'>

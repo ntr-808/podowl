@@ -1,4 +1,14 @@
-import { ArrowLeft, HelpCircle, Package } from 'lucide-preact'
+import {
+    ArrowLeft,
+    HelpCircle,
+    LinkIcon,
+    MapPin,
+    Package,
+    Phone,
+    Truck,
+    User,
+    Warehouse,
+} from 'lucide-preact'
 import { Job } from '../src/job.ts'
 import { OwlLogo } from './icons/OwlLogo.tsx'
 import { useSignal } from '@preact/signals'
@@ -50,7 +60,7 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                         <Package class='h-6 w-6 text-primary-500' />
                         <div>
                             <h2 class='text-lg font-semibold text-secondary-100'>
-                                Delivery from: {job.sender.name}
+                                {job.consignment}
                             </h2>
                             <ProgressIndicator status={job.status} />
                         </div>
@@ -60,34 +70,27 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                 <div class='p-4 space-y-4'>
                     <div>
                         <h3 class='text-sm font-medium text-secondary-400 mb-1'>
-                            Receiver Info
+                            Destination
                         </h3>
                         <div class='bg-secondary-800 p-3 rounded-lg'>
-                            <p class='text-sm font-medium text-secondary-200'>
-                                Receiver Name: {job.receiver.name}
-                            </p>
-                            <p class='text-sm mt-1 text-secondary-300'>
-                                Address: {job.destination.address}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class='grid grid-cols-2 gap-4'>
-                        <div>
-                            <p class='text-sm font-medium text-secondary-400'>
-                                Consignment #
-                            </p>
-                            <p class='text-sm font-medium text-secondary-200'>
-                                {job.consignment}
-                            </p>
-                        </div>
-                        <div>
-                            <p class='text-sm font-medium text-secondary-400'>
-                                Code
-                            </p>
-                            <p class='text-sm font-medium text-secondary-200'>
-                                {job.code}
-                            </p>
+                            <div class='flex items-center mb-2'>
+                                <MapPin class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.destination.address}
+                                </p>
+                            </div>
+                            <div class='flex items-center mb-2'>
+                                <User class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.receiver.name}
+                                </p>
+                            </div>
+                            <div class='flex items-center'>
+                                <Phone class='h-4 w-4 text-primary-500 mr-2' />
+                                <p class='text-sm font-medium text-secondary-200'>
+                                    {job.receiver.phone}
+                                </p>
+                            </div>
                         </div>
                     </div>
 

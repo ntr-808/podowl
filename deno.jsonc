@@ -31,6 +31,7 @@
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
+    "@sendgrid/mail": "npm:@sendgrid/mail@^8.1.4",
     "@std/random": "jsr:@std/random@^0.1.0",
     "lucide-preact": "npm:lucide-preact@^0.475.0",
     "preact": "https://esm.sh/preact@10.22.0",

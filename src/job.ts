@@ -26,11 +26,7 @@ export interface Job {
     readonly consignment: string
     readonly code: number
     readonly signature?: string
-    readonly podRecipientName?: string
-    readonly deliveredItems?: {
-        expected: string
-        delivered: string
-    }
+    readonly recipientName?: string
 }
 
 export interface Contact {
@@ -81,7 +77,9 @@ export async function createJob(data: {
         destination: {
             address: data.address,
         },
-        items: data.items.split('\n').map((item) => ({
+        items: data.items.trim().split('\n').filter((i) => i.trim()).map((
+            item,
+        ) => ({
             description: item.trim(),
             delivered: false,
         })),
@@ -124,7 +122,7 @@ function sortJobs(jobs: Job[]) {
     return jobs.sort((a, b) => {
         const statusOrder = getStatusOrder(a.status) - getStatusOrder(b.status)
         if (statusOrder !== 0) return statusOrder
-        return b.created.getTime() - a.created.getTime()
+        return b.updated.getTime() - a.updated.getTime()
     })
 }
 
@@ -192,7 +190,7 @@ export async function completeJob(id: string, confirmationData: {
             ...job,
             status: 'Completed',
             updated: new Date(),
-            podRecipientName: confirmationData.recipientName,
+            recipientName: confirmationData.recipientName,
             signature: confirmationData.signature,
             items: job.items.map((item) => ({
                 ...item,
@@ -206,20 +204,4 @@ export async function completeJob(id: string, confirmationData: {
         await kv.set(['jobs', id], updatedJob)
         await kv.set(['jobs_by_status', 'Completed', id], updatedJob)
     }
-}
-
-export function generatePodLink(job: Job): string {
-    return `/job/${job.id}/confirm`
-}
-
-export function generateSmsMessage(
-    driverName: string,
-    items: string,
-    address: string,
-    podLink: string,
-): string {
-    return `Hi ${driverName}, you have a new delivery:
-Items: ${items}
-Address: ${address}
-Please complete POD here: ${podLink}`
 }
