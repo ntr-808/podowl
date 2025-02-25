@@ -1,6 +1,8 @@
 import { JSX } from 'preact'
 import { ArrowLeft, HelpCircle, Link as LinkIcon, Package } from 'lucide-preact'
 import { generatePodLink, Job } from '../src/job.ts'
+import { ProgressIndicator } from './ProgressIndicator.tsx'
+import { StatusBadge } from './StatusBadge.tsx'
 
 interface JobDetailsProps {
     job: Job
@@ -18,15 +20,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                         >
                             <ArrowLeft class='h-5 w-5 text-secondary-400' />
                         </a>
-                        <span
-                            class={`px-3 py-1 rounded-full text-sm ${
-                                job.status === 'Transit'
-                                    ? 'bg-primary-900 text-primary-200'
-                                    : 'bg-tertiary-900 text-tertiary-200'
-                            }`}
-                        >
-                            {job.status}
-                        </span>
+                        <StatusBadge status={job.status} />
                         <button class='p-1 rounded-full hover:bg-secondary-800 transition-colors'>
                             <HelpCircle class='h-5 w-5 text-secondary-400' />
                         </button>
@@ -38,19 +32,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                             <h2 class='text-lg font-semibold text-secondary-100'>
                                 Delivery from: {job.sender.name}
                             </h2>
-                            <div class='flex items-center mt-1'>
-                                <div class='w-full max-w-[200px]'>
-                                    <div class='h-1 bg-secondary-800 rounded'>
-                                        <div
-                                            class={`h-1 rounded ${
-                                                job.status === 'Completed'
-                                                    ? 'bg-tertiary-500 w-full'
-                                                    : 'bg-primary-500 w-2/3'
-                                            }`}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+                            <ProgressIndicator status={job.status} />
                         </div>
                     </div>
                 </div>

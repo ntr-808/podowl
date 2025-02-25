@@ -59,7 +59,7 @@ export async function createJob(data: {
         id: crypto.randomUUID(),
         created: new Date(),
         updated: new Date(),
-        status: 'Transit',
+        status: 'Waiting',
         sender: {
             name: data.senderName,
             phone: data.phone,
@@ -107,11 +107,32 @@ export async function getJobs(): Promise<Job[]> {
     return jobs
 }
 
+function getStatusOrder(status: string): number {
+    switch (status) {
+        case 'Waiting':
+            return 0
+        case 'Transit':
+            return 1
+        case 'Completed':
+            return 2
+        default:
+            return 3
+    }
+}
+
+function sortJobs(jobs: Job[]) {
+    return jobs.sort((a, b) => {
+        const statusOrder = getStatusOrder(a.status) - getStatusOrder(b.status)
+        if (statusOrder !== 0) return statusOrder
+        return b.created.getTime() - a.created.getTime()
+    })
+}
+
 export async function getJobsByStatus(
-    status: 'All' | 'Completed' | 'Transit',
+    status: 'Waiting' | 'Transit' | 'Completed' | 'All',
 ): Promise<Job[]> {
     if (status === 'All') {
-        return getJobs()
+        return sortJobs(await getJobs())
     }
 
     const jobs: Job[] = []
@@ -121,7 +142,8 @@ export async function getJobsByStatus(
         jobs.push(entry.value)
     }
 
-    return jobs
+    // Sort by status order and then by creation date (most recent first)
+    return sortJobs(jobs)
 }
 
 export async function getJobById(id: string): Promise<Job | null> {

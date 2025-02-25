@@ -6,7 +6,11 @@ export const handler: Handlers = {
     async GET(req, ctx) {
         const url = new URL(req.url)
         const filter =
-            url.searchParams.get('filter') as 'All' | 'Completed' | 'Transit' ||
+            url.searchParams.get('filter') as
+                | 'Waiting'
+                | 'Transit'
+                | 'Completed'
+                | 'All' ||
             'All'
         const jobs = await getJobsByStatus(filter)
         return ctx.render({ jobs, filter })

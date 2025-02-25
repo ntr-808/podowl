@@ -1,10 +1,12 @@
 import { JSX } from 'preact'
 import { Package, Plus } from 'lucide-preact'
 import { Job } from '../src/job.ts'
+import { StatusBadge } from './StatusBadge.tsx'
+import { ProgressIndicator } from './ProgressIndicator.tsx'
 
 interface JobListProps {
     jobs: Job[]
-    filter?: 'All' | 'Completed' | 'Transit'
+    filter?: 'Waiting' | 'Transit' | 'Completed' | 'All'
 }
 
 export function JobList({ jobs, filter = 'All' }: JobListProps) {
@@ -27,21 +29,22 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
 
             <div class='mb-6'>
                 <div class='flex space-x-4'>
-                    {(['All', 'Completed', 'Transit'] as const).map((
-                        status,
-                    ) => (
-                        <a
-                            key={status}
-                            href={`/jobs?filter=${status}`}
-                            class={`px-4 py-1 rounded-full text-sm ${
-                                filter === status
-                                    ? 'bg-primary-500 text-white'
-                                    : 'text-secondary-400 hover:bg-secondary-800'
-                            }`}
-                        >
-                            {status}
-                        </a>
-                    ))}
+                    {(['Waiting', 'Transit', 'Completed', 'All'] as const)
+                        .map((
+                            status,
+                        ) => (
+                            <a
+                                key={status}
+                                href={`/jobs?filter=${status}`}
+                                class={`px-4 py-1 rounded-full text-sm ${
+                                    filter === status
+                                        ? 'bg-primary-500 text-white'
+                                        : 'text-secondary-400 hover:bg-secondary-800'
+                                }`}
+                            >
+                                {status}
+                            </a>
+                        ))}
                 </div>
             </div>
 
@@ -61,15 +64,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                 class='block bg-secondary-900 rounded-lg shadow-sm p-4 border border-secondary-800 hover:shadow-md transition-shadow'
                             >
                                 <div class='flex items-center justify-between mb-2'>
-                                    <span
-                                        class={`px-3 py-1 rounded-full text-sm ${
-                                            job.status === 'Transit'
-                                                ? 'bg-primary-900 text-primary-200'
-                                                : 'bg-tertiary-900 text-tertiary-200'
-                                        }`}
-                                    >
-                                        {job.status}
-                                    </span>
+                                    <StatusBadge status={job.status} />
                                     <Package class='h-12 w-12 text-secondary-400' />
                                 </div>
 
@@ -81,21 +76,13 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                         </span>
                                     </div>
                                     <div class='font-medium text-secondary-200'>
-                                        #{job.id}
+                                        {job.id}
                                     </div>
                                     <div class='flex items-center justify-between'>
                                         <div class='flex-1'>
-                                            <div class='h-1 bg-secondary-800 rounded'>
-                                                <div
-                                                    class={`h-1 rounded ${
-                                                        job.status ===
-                                                                'Completed'
-                                                            ? 'bg-tertiary-500 w-full'
-                                                            : 'bg-primary-500 w-2/3'
-                                                    }`}
-                                                >
-                                                </div>
-                                            </div>
+                                            <ProgressIndicator
+                                                status={job.status}
+                                            />
                                             <div class='flex justify-between mt-1'>
                                                 <span class='text-sm text-secondary-400'>
                                                     {job.origin.address}
