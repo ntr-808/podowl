@@ -70,6 +70,11 @@ export async function createJob(data: {
         },
         origin: {
             address: data.address,
+            contact: {
+                name: data.senderName,
+                phone: '',
+                email: '',
+            },
         },
         destination: {
             address: data.address,

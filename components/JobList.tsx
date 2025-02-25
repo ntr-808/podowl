@@ -71,7 +71,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                 <div class='space-y-2'>
                                     <div class='flex items-center space-x-2'>
                                         <span class='text-sm text-secondary-400'>
-                                            {job.sender.name} →{' '}
+                                            {job.origin.contact.name} →{' '}
                                             {job.destination.contact.name}
                                         </span>
                                     </div>
