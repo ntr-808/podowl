@@ -63,11 +63,16 @@ export async function createJob(data: {
             phone: '',
             email: '',
         },
+
+        // picks up the thing
         courier: {
             name: '',
             phone: '',
             email: '',
         },
+
+        // FIX FORMS TO FILL THESE DETAILS OUT
+
         origin: {
             address: data.address,
             contact: {
