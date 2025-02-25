@@ -16,9 +16,8 @@ export interface Job {
     readonly id: string
     readonly created: Date
     readonly updated: Date
-    readonly status: 'Waiting' | 'Transit' | 'Completed'
+    readonly status: 'Waiting' | 'Transit' | 'Complete'
     readonly sender: Contact
-    readonly receiver: Contact
     readonly courier: Contact
     readonly origin: Location
     readonly destination: Location
@@ -37,6 +36,7 @@ export interface Contact {
 
 export interface Location {
     readonly address: string
+    readonly contact: Contact
 }
 
 // Initialize Deno KV
@@ -56,14 +56,11 @@ export async function createJob(data: {
         created: new Date(),
         updated: new Date(),
         status: 'Waiting',
+
+        // receives the POD
         sender: {
-            name: data.senderName,
-            phone: data.phone,
-            email: '',
-        },
-        receiver: {
-            name: data.receiverName,
-            phone: data.phone,
+            name: '',
+            phone: '',
             email: '',
         },
         courier: {
@@ -76,6 +73,11 @@ export async function createJob(data: {
         },
         destination: {
             address: data.address,
+            contact: {
+                name: data.receiverName,
+                phone: data.phone,
+                email: '',
+            },
         },
         items: data.items.trim().split('\n').filter((i) => i.trim()).map((
             item,
@@ -111,7 +113,7 @@ function getStatusOrder(status: string): number {
             return 0
         case 'Transit':
             return 1
-        case 'Completed':
+        case 'Complete':
             return 2
         default:
             return 3
@@ -127,7 +129,7 @@ function sortJobs(jobs: Job[]) {
 }
 
 export async function getJobsByStatus(
-    status: 'Waiting' | 'Transit' | 'Completed' | 'All',
+    status: 'Waiting' | 'Transit' | 'Complete' | 'All',
 ): Promise<Job[]> {
     if (status === 'All') {
         return sortJobs(await getJobs())
@@ -188,7 +190,7 @@ export async function completeJob(id: string, confirmationData: {
 
         const updatedJob: Job = {
             ...job,
-            status: 'Completed',
+            status: 'Complete',
             updated: new Date(),
             recipientName: confirmationData.recipientName,
             signature: confirmationData.signature,
@@ -202,6 +204,6 @@ export async function completeJob(id: string, confirmationData: {
 
         // Update both the main job record and add to the new status index
         await kv.set(['jobs', id], updatedJob)
-        await kv.set(['jobs_by_status', 'Completed', id], updatedJob)
+        await kv.set(['jobs_by_status', 'Complete', id], updatedJob)
     }
 }

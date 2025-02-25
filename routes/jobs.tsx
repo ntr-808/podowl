@@ -9,7 +9,7 @@ export const handler: Handlers = {
             url.searchParams.get('filter') as
                 | 'Waiting'
                 | 'Transit'
-                | 'Completed'
+                | 'Complete'
                 | 'All' ||
             'All'
         const jobs = await getJobsByStatus(filter)

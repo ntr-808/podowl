@@ -62,13 +62,13 @@ export function JobDetails({ job }: JobDetailsProps) {
                             <div class='flex items-center mb-2'>
                                 <User class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.sender.name}
+                                    {job.origin.contact.name}
                                 </p>
                             </div>
                             <div class='flex items-center'>
                                 <Phone class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.sender.phone}
+                                    {job.origin.contact.phone}
                                 </p>
                             </div>
                         </div>
@@ -110,13 +110,13 @@ export function JobDetails({ job }: JobDetailsProps) {
                             <div class='flex items-center mb-2'>
                                 <User class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.receiver.name}
+                                    {job.destination.contact.name}
                                 </p>
                             </div>
                             <div class='flex items-center'>
                                 <Phone class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.receiver.phone}
+                                    {job.destination.contact.phone}
                                 </p>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                     <span class='text-sm text-secondary-200'>
                                         {item.description}
                                     </span>
-                                    {job.status === 'Completed' && (
+                                    {job.status === 'Complete' && (
                                         <span
                                             class={`text-sm px-2 py-1 rounded ${
                                                 item.delivered
@@ -185,7 +185,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                         </div>
                     </div>
 
-                    {job.status === 'Completed' && (
+                    {job.status === 'Complete' && (
                         <div class='border-t border-secondary-800 pt-4 mt-4'>
                             <h3 class='text-sm font-medium text-secondary-400 mb-3'>
                                 Delivered Info
@@ -205,7 +205,7 @@ export function JobDetails({ job }: JobDetailsProps) {
                                     </p>
                                     <p class='text-sm font-medium text-secondary-200'>
                                         {job.recipientName ||
-                                            job.receiver.name}
+                                            job.destination.contact.name}
                                     </p>
                                 </div>
                                 {job.signature && (

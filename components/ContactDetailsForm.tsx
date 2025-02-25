@@ -23,8 +23,8 @@ export function ContactDetailsForm() {
                 </h2>
                 <p class='text-secondary-600 text-sm leading-relaxed'>
                     Enter in your drivers mobile number and we'll SMS them a
-                    link. Once the delivery is completed and POD is captured,
-                    we'll email you the completed POD
+                    link. Once the delivery is Complete and POD is captured,
+                    we'll email you the Complete POD
                 </p>
             </div>
 

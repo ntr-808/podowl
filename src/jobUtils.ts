@@ -21,7 +21,7 @@ export async function onWaiting(job: Job) {
     const results = await Promise.all([
         Sms.sendSms(job.courier.phone, Sms.onWaitingCourier(job)),
         Sms.sendSms(job.sender.phone, Sms.onWaitingSender(job)),
-        Sms.sendSms(job.receiver.phone, Sms.onWaitingReceiver(job)),
+        Sms.sendSms(job.destination.contact.phone, Sms.onWaitingReceiver(job)),
     ])
 
     console.log(results)
@@ -31,7 +31,7 @@ export async function onTransit(job: Job) {
     const results = await Promise.all([
         Sms.sendSms(job.courier.phone, Sms.onTransitCourier(job)),
         Sms.sendSms(job.sender.phone, Sms.onTransitSender(job)),
-        Sms.sendSms(job.receiver.phone, Sms.onTransitReceiver(job)),
+        Sms.sendSms(job.destination.contact.phone, Sms.onTransitReceiver(job)),
     ])
 
     console.log(results)
@@ -40,7 +40,7 @@ export async function onTransit(job: Job) {
 export async function onComplete(job: Job) {
     const results = await Promise.all([
         Sms.sendSms(job.sender.phone, Sms.onCompleteSender(job)),
-        // Sms.sendSms(job.receiver.phone, Sms.onWaitingReceiver(job)),
+        // Sms.sendSms(job.destination.contact.phone, Sms.onWaitingReceiver(job)),
         // Sms.sendSms(job.courier.phone, Sms.onWaitingCourier(job)),
     ])
 

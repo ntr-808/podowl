@@ -26,7 +26,7 @@ export function onWaitingSender(job: Job) {
     const itemText = formatItemText(job.items)
     const body = `
 Hello ${job.sender.name},
-your delivery to ${job.receiver.name}
+your delivery to ${job.destination.contact.name}
 is currently ${job.status}.
 your courier is ${job.courier.name}.
 
@@ -40,7 +40,7 @@ ${itemText}
 export function onWaitingReceiver(job: Job) {
     const itemText = formatItemText(job.items)
     const body = `
-Hello ${job.receiver.name},
+Hello ${job.destination.contact.name},
 your delivery from ${job.sender.name}
 to ${job.destination.address}
 is being delivered by ${job.courier.name}.
@@ -61,10 +61,10 @@ Hello ${job.courier.name},
 
 --------------------------
 Collection:
-${job.sender.name}
+${job.origin.contact.name}
 ${job.origin.address}
-${job.sender.phone}
-${job.sender.email}
+${job.origin.contact.phone}
+${job.origin.contact.email}
 
 Items:
 ${itemText}
@@ -72,10 +72,10 @@ ${itemText}
 
 --------------------------
 Destination:
-${job.receiver.name}
+${job.destination.contact.name}
 ${job.destination.address}
-${job.receiver.phone}
-${job.receiver.email}
+${job.destination.contact.phone}
+${job.destination.contact.email}
 --------------------------
 `
 
@@ -84,7 +84,7 @@ ${job.receiver.email}
 
 export function onTransitSender(job: Job) {
     return `
-Your delivery to ${job.receiver.name}
+Your delivery to ${job.destination.contact.name}
 has been collected by ${job.courier.name}.
 You will be notified of any updates.
 `
@@ -94,7 +94,7 @@ export function onTransitReceiver(job: Job) {
     const itemText = formatItemText(job.items)
 
     return `
-Hello ${job.receiver.name},
+Hello ${job.destination.contact.name},
 your delivery from ${job.sender.name}
 has been collected.
 
@@ -111,17 +111,17 @@ export function onTransitCourier(job: Job) {
     return `
 --------------------------
 Destination:
-${job.receiver.name}
+${job.destination.contact.name}
 ${job.destination.address}
-${job.receiver.phone}
-${job.receiver.email}
+${job.destination.contact.phone}
+${job.destination.contact.email}
 --------------------------
 `
 }
 
 export function onCompleteSender(job: Job) {
     return `
-Your delivery to ${job.receiver.name}
+Your delivery to ${job.destination.contact.name}
 is now complete.
 `
 }

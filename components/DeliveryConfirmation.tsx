@@ -82,13 +82,13 @@ export function DeliveryConfirmation({ job }: DeliveryConfirmationProps) {
                             <div class='flex items-center mb-2'>
                                 <User class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.receiver.name}
+                                    {job.destination.contact.name}
                                 </p>
                             </div>
                             <div class='flex items-center'>
                                 <Phone class='h-4 w-4 text-primary-500 mr-2' />
                                 <p class='text-sm font-medium text-secondary-200'>
-                                    {job.receiver.phone}
+                                    {job.destination.contact.phone}
                                 </p>
                             </div>
                         </div>

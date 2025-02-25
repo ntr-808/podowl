@@ -1,11 +1,11 @@
 import { JSX } from 'preact'
 
 interface ProgressIndicatorProps {
-    status: 'Waiting' | 'Transit' | 'Completed'
+    status: 'Waiting' | 'Transit' | 'Complete'
 }
 
 export function ProgressIndicator({ status }: ProgressIndicatorProps) {
-    const steps = ['Waiting', 'Transit', 'Completed']
+    const steps = ['Waiting', 'Transit', 'Complete']
     const currentStep = steps.indexOf(status) + 1
     const totalSteps = steps.length
 

@@ -6,7 +6,7 @@ import { ProgressIndicator } from './ProgressIndicator.tsx'
 
 interface JobListProps {
     jobs: Job[]
-    filter?: 'Waiting' | 'Transit' | 'Completed' | 'All'
+    filter?: 'Waiting' | 'Transit' | 'Complete' | 'All'
 }
 
 export function JobList({ jobs, filter = 'All' }: JobListProps) {
@@ -29,7 +29,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
 
             <div class='mb-6'>
                 <div class='flex space-x-4'>
-                    {(['Waiting', 'Transit', 'Completed', 'All'] as const)
+                    {(['Waiting', 'Transit', 'Complete', 'All'] as const)
                         .map((
                             status,
                         ) => (
@@ -72,7 +72,7 @@ export function JobList({ jobs, filter = 'All' }: JobListProps) {
                                     <div class='flex items-center space-x-2'>
                                         <span class='text-sm text-secondary-400'>
                                             {job.sender.name} →{' '}
-                                            {job.receiver.name}
+                                            {job.destination.contact.name}
                                         </span>
                                     </div>
                                     <div class='font-medium text-secondary-200'>
