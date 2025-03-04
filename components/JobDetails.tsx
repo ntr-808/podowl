@@ -18,6 +18,7 @@ interface JobDetailsProps {
 }
 
 export function JobDetails({ job }: JobDetailsProps) {
+    console.log(job)
     return (
         <div class='max-w-lg mx-auto px-4 py-6'>
             <div class='bg-secondary-900 rounded-lg shadow-lg overflow-hidden border border-secondary-800'>

@@ -19,12 +19,12 @@ export function ContactDetailsForm() {
 
             <div class='mb-8'>
                 <h2 class='text-2xl font-semibold text-primary-600 mb-2'>
-                    Add contact detail
+                    Add contact details
                 </h2>
                 <p class='text-secondary-600 text-sm leading-relaxed'>
                     Enter in your drivers mobile number and we'll SMS them a
                     link. Once the delivery is Complete and POD is captured,
-                    we'll email you the Complete POD
+                    we'll send you the Complete POD
                 </p>
             </div>
 
@@ -32,10 +32,23 @@ export function ContactDetailsForm() {
                 <div class='space-y-4'>
                     <div>
                         <label class='block text-sm font-medium text-secondary-600 mb-1'>
-                            Where the POD will be emailed
+                            POD receipt email
                         </label>
                         <input
                             type='email'
+                            name='senderEmail'
+                            placeholder='Your Email'
+                            value='ntr@podowl.com.au'
+                            required
+                            class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
+                        />
+                    </div>
+                    <div>
+                        <label class='block text-sm font-medium text-secondary-600 mb-1'>
+                            POD receipt phone #
+                        </label>
+                        <input
+                            type='tel'
                             name='senderEmail'
                             placeholder='Your Email'
                             value='ntr@podowl.com.au'
@@ -53,7 +66,7 @@ export function ContactDetailsForm() {
                                 type='text'
                                 name='driverName'
                                 placeholder='Delivery Driver Name'
-                                value='ice road trucker'
+                                value='Russ Rollout'
                                 required
                                 class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
                             />
@@ -61,7 +74,7 @@ export function ContactDetailsForm() {
                                 type='tel'
                                 name='driverPhone'
                                 placeholder='Delivery Driver Phone #'
-                                value='0455666777'
+                                value='+61455666777'
                                 required
                                 class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
                             />

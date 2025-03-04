@@ -43,10 +43,13 @@ export interface Location {
 const kv = await Deno.openKv()
 
 export async function createJob(data: {
-    senderName: string
-    receiverName: string
-    address: string
-    phone: string
+    originAddress: string
+    originContactPhone: string
+    originContactName: string
+    destinationAddress: string
+    destinationContactName: string
+    destinationContactPhone: string
+
     consignmentNumber: string
     referenceNumber: string
     items: string
@@ -74,18 +77,18 @@ export async function createJob(data: {
         // FIX FORMS TO FILL THESE DETAILS OUT
 
         origin: {
-            address: data.address,
+            address: data.originAddress,
             contact: {
-                name: data.senderName,
-                phone: '',
+                name: data.originContactName,
+                phone: data.originContactPhone,
                 email: '',
             },
         },
         destination: {
-            address: data.address,
+            address: data.destinationAddress,
             contact: {
-                name: data.receiverName,
-                phone: data.phone,
+                name: data.destinationContactName,
+                phone: data.destinationContactPhone,
                 email: '',
             },
         },

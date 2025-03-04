@@ -22,33 +22,50 @@ export default function CreateJob() {
             <form class='space-y-5' method='POST' action='/job/create'>
                 <input
                     type='text'
-                    name='senderName'
-                    placeholder='Sender Name'
+                    name='originContactName'
+                    placeholder='Origin Contact Name'
                     value='ntr'
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
                 <input
+                    type='tel'
+                    name='originContactPhone'
+                    placeholder='Origin Contact Phone #'
+                    value='+61400111222'
+                    required
+                    class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
+                />
+                <input
                     type='text'
-                    name='receiverName'
-                    placeholder='Receiver Name'
+                    name='originAddress'
+                    placeholder='Origin Address'
+                    value='Westside Bakery, 11 Bread St, Yarraville'
+                    required
+                    class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
+                />
+
+                <input
+                    type='text'
+                    name='destinationContactName'
+                    placeholder='Destination Contact Name'
                     value='kotsi'
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
                 <input
-                    type='text'
-                    name='address'
-                    placeholder='Delivery Address'
-                    value='999 Coro Drive'
+                    type='tel'
+                    name='destinationContactPhone'
+                    placeholder='Destination Contact Phone #'
+                    value='+61499888777'
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
                 <input
-                    type='tel'
-                    name='phone'
-                    placeholder='Recipient Phone #'
-                    value='+55555555555'
+                    type='text'
+                    name='destinationAddress'
+                    placeholder='Destination Address'
+                    value='Solid Sandwiches, 22 Butter Road, Newport'
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
@@ -75,7 +92,7 @@ export default function CreateJob() {
                     rows={4}
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800 resize-none'
                 >
-                    cookbooks
+                    {['Rye 3x', 'Wholegrain 2x', 'Multigrain 2x'].join('\n')}
                 </textarea>
                 <button
                     type='submit'

@@ -1,5 +1,4 @@
 import sgMail from 'npm:@sendgrid/mail'
-import { Job } from './job.ts'
 import { assert } from '$std/assert/assert.ts'
 
 const sgKey = Deno.env.get('SENDGRID_API_KEY')
@@ -10,14 +9,19 @@ assert(podowlEmail, 'PODOWL_EMAIL not set')
 
 sgMail.setApiKey(sgKey)
 
-export function onWaiting(job: Job) {
+import '$std/dotenv/load.ts'
+
+export function onWaiting() {
     const msg = {
-        to: job.sender.email,
+        to: 'ntr@strix.systems',
         from: podowlEmail,
-        subject: `PODOWL - ${job.consignment}`,
-        text: JSON.stringify(job),
-        html: JSON.stringify(job),
+        subject: `PODOWL - zzzz`,
+        text: 'wow',
+        html: 'wow',
     }
 
     return sgMail.send(msg)
 }
+
+const res = await onWaiting()
+console.log(res)
