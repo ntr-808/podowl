@@ -1,5 +1,6 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { DeliveryConfirmation } from '../../../components/DeliveryConfirmation.tsx'
+import { onComplete } from '../../../src/email.ts'
 import { completeJob, getJobById } from '../../../src/job.ts'
 
 export const handler: Handlers = {
@@ -29,7 +30,8 @@ export const handler: Handlers = {
             signature: form.get('signature') as string,
         }
 
-        await completeJob(id, confirmationData)
+        const job = await completeJob(id, confirmationData)
+        await onComplete(job)
 
         return new Response('', {
             status: 303,

@@ -166,9 +166,11 @@ export async function getJobById(id: string): Promise<Job | null> {
 
 export async function updateJobContacts(id: string, contactData: {
     senderEmail: string
+    senderPhone: string
     driverName: string
     driverPhone: string
-}): Promise<void> {
+    driverEmail: string
+}) {
     const job = await getJobById(id)
     if (job) {
         const updatedJob: Job = {
@@ -176,11 +178,13 @@ export async function updateJobContacts(id: string, contactData: {
             updated: new Date(),
             sender: {
                 ...job.sender,
+                phone: contactData.senderPhone,
                 email: contactData.senderEmail,
             },
             courier: {
                 ...job.courier,
                 name: contactData.driverName,
+                email: contactData.driverEmail,
                 phone: contactData.driverPhone,
             },
         }
@@ -188,6 +192,7 @@ export async function updateJobContacts(id: string, contactData: {
         // Update both the main job record and the status index
         await kv.set(['jobs', id], updatedJob)
         await kv.set(['jobs_by_status', updatedJob.status, id], updatedJob)
+        return updatedJob
     }
 }
 
@@ -195,7 +200,7 @@ export async function completeJob(id: string, confirmationData: {
     recipientName: string
     itemsDelivered: string[]
     signature: string
-}): Promise<void> {
+}) {
     const job = await getJobById(id)
     if (job) {
         // Remove the old status index
@@ -218,5 +223,6 @@ export async function completeJob(id: string, confirmationData: {
         // Update both the main job record and add to the new status index
         await kv.set(['jobs', id], updatedJob)
         await kv.set(['jobs_by_status', 'Complete', id], updatedJob)
+        return updatedJob
     }
 }

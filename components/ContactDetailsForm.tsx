@@ -37,8 +37,7 @@ export function ContactDetailsForm() {
                         <input
                             type='email'
                             name='senderEmail'
-                            placeholder='Your Email'
-                            value='ntr@podowl.com.au'
+                            placeholder='pods@freighter.com.au'
                             required
                             class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
                         />
@@ -49,17 +48,14 @@ export function ContactDetailsForm() {
                         </label>
                         <input
                             type='tel'
-                            name='senderEmail'
-                            placeholder='Your Email'
-                            value='ntr@podowl.com.au'
-                            required
+                            name='senderPhone'
+                            placeholder='Sender Phone Number'
                             class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
                         />
                     </div>
-
                     <div class='pt-2'>
                         <label class='block text-sm font-medium text-secondary-600 mb-1'>
-                            Send Job link via SMS
+                            Send Job link to Courier
                         </label>
                         <div class='space-y-4'>
                             <input
@@ -75,6 +71,14 @@ export function ContactDetailsForm() {
                                 name='driverPhone'
                                 placeholder='Delivery Driver Phone #'
                                 value='+61455666777'
+                                required
+                                class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
+                            />
+                            <input
+                                type='email'
+                                name='driverEmail'
+                                placeholder='Delivery Driver Email'
+                                value='driver@yolo.com'
                                 required
                                 class='w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm placeholder-secondary-400'
                             />

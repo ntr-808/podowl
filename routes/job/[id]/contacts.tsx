@@ -1,5 +1,6 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { ContactDetailsForm } from '../../../components/ContactDetailsForm.tsx'
+import { onWaiting } from '../../../src/email.ts'
 import { getJobById, Job, updateJobContacts } from '../../../src/job.ts'
 
 export const handler: Handlers = {
@@ -16,11 +17,15 @@ export const handler: Handlers = {
         const form = await req.formData()
         const contactData = {
             senderEmail: form.get('senderEmail') as string,
+            senderPhone: form.get('senderPhone') as string,
             driverName: form.get('driverName') as string,
             driverPhone: form.get('driverPhone') as string,
+            driverEmail: form.get('driverEmail') as string,
         }
 
-        await updateJobContacts(id, contactData)
+        const job = await updateJobContacts(id, contactData)
+        await onWaiting(job)
+
         return new Response('', {
             status: 303,
             headers: { Location: `/job/${id}/status` },
