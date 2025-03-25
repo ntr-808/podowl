@@ -1,7 +1,8 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { DeliveryConfirmation } from '../../../components/DeliveryConfirmation.tsx'
-import { onComplete } from '../../../src/email.ts'
 import { completeJob, getJobById } from '../../../src/job.ts'
+import * as sms from '../../../src/sms.ts'
+import * as email from '../../../src/email.ts'
 
 export const handler: Handlers = {
     async GET(req, ctx) {
@@ -31,7 +32,10 @@ export const handler: Handlers = {
         }
 
         const job = await completeJob(id, confirmationData)
-        // await onComplete(job)
+        if (!job) throw new Error('update failed')
+
+        await sms.onComplete(job)
+        await email.onComplete(job)
 
         return new Response('', {
             status: 303,

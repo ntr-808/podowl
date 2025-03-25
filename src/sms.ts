@@ -141,13 +141,21 @@ Get yourself a snack.
 
 export async function onWaiting(job: Job) {
     const courierBody =
-        `PODOWL - Job Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/pickup`
+        `PODOWL - ${job.consignment} Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/pickup`
     await sendSms(job.courier.phone, courierBody)
+
+    const senderBody =
+        `PODOWL - ${job.consignment} Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/status`
+    await sendSms(job.sender.phone, senderBody)
 }
 
 export async function onTransit(job: Job) {
+    const courierBody =
+        `PODOWL - ${job.consignment} Delivery Confirmation\nhttps://podowl.com.au/job/${job.id}/pickup`
+    await sendSms(job.courier.phone, courierBody)
+
     const senderBody =
-        `PODOWL - Job In Transit\nhttps://podowl.com.au/job/${job.id}/status`
+        `PODOWL - ${job.consignment} In Transit\nhttps://podowl.com.au/job/${job.id}/status`
     await sendSms(job.courier.phone, senderBody)
 }
 

@@ -70,13 +70,16 @@ export default function CreateJob() {
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
-                <input
+                {
+                    /*                <input
                     type='text'
                     name='referenceNumber'
                     placeholder='Reference'
                     required
                     class='w-full px-4 py-3 rounded-lg border border-secondary-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-secondary-100 text-sm bg-secondary-800'
                 />
+                    */
+                }{' '}
                 <textarea
                     name='items'
                     placeholder='Enter items (one per line)'

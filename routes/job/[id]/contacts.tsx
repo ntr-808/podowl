@@ -1,6 +1,7 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { ContactDetailsForm } from '../../../components/ContactDetailsForm.tsx'
-import { onWaiting } from '../../../src/email.ts'
+import * as sms from '../../../src/sms.ts'
+import * as email from '../../../src/email.ts'
 import { getJobById, Job, updateJobContacts } from '../../../src/job.ts'
 
 export const handler: Handlers = {
@@ -24,7 +25,11 @@ export const handler: Handlers = {
         }
 
         const job = await updateJobContacts(id, contactData)
-        // await onWaiting(job)
+
+        if (!job) throw new Error('update failed')
+
+        await sms.onWaiting(job)
+        await email.onWaiting(job)
 
         return new Response('', {
             status: 303,
