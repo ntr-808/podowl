@@ -1,7 +1,8 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { DeliveryConfirmation } from '../../../components/DeliveryConfirmation.tsx'
+import { Pickup } from '../../../components/Pickup.tsx'
 import { onComplete } from '../../../src/email.ts'
-import { completeJob, getJobById } from '../../../src/job.ts'
+import { getJobById, pickup } from '../../../src/job.ts'
 
 export const handler: Handlers = {
     async GET(req, ctx) {
@@ -17,30 +18,24 @@ export const handler: Handlers = {
         const form = await req.formData()
 
         // Get all delivered items from the form
-        const deliveredItems: string[] = []
+        const collectedItems: string[] = []
         for (const [key, value] of form.entries()) {
-            if (key.startsWith('deliveredItems[')) {
-                deliveredItems.push(value.toString())
+            if (key.startsWith('collectedItems[')) {
+                collectedItems.push(value.toString())
             }
         }
 
-        const confirmationData = {
-            recipientName: form.get('recipientName') as string,
-            itemsDelivered: deliveredItems,
-            signature: form.get('signature') as string,
-        }
-
-        const job = await completeJob(id, confirmationData)
+        const job = await pickup(id, collectedItems)
         // await onComplete(job)
 
         return new Response('', {
             status: 303,
-            headers: { Location: `/jobs` },
+            headers: { Location: `/job/${id}/status` },
         })
     },
 }
 
-export default function JobConfirmPage(props: PageProps<{ job: Job }>) {
+export default function PickupPage(props: PageProps<{ job: Job }>) {
     const { job } = props.data
-    return <DeliveryConfirmation job={job} />
+    return <Pickup job={job} />
 }

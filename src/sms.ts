@@ -141,20 +141,18 @@ Get yourself a snack.
 
 export async function onWaiting(job: Job) {
     const courierBody =
-        `PODOWL - Job Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/confirm`
+        `PODOWL - Job Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/pickup`
     await sendSms(job.courier.phone, courierBody)
 }
 
-export function onComplete(job: Job) {
-    const msg = {
-        to: job.sender.email,
-        from: podowlEmail,
-        subject: `PODOWL - Job Complete`,
-        text:
-            `Delivery of ${job.consignment} has been completed.\nhttps://podowl.com.au/job/${job.id}/status`,
-        html:
-            `<a href="https://podowl.com.au/job/${job.id}/status">Delivery of ${job.consignment} has been completed.</a>`,
-    }
+export async function onTransit(job: Job) {
+    const senderBody =
+        `PODOWL - Job In Transit\nhttps://podowl.com.au/job/${job.id}/status`
+    await sendSms(job.courier.phone, senderBody)
+}
 
-    return sgMail.send(msg)
+export async function onComplete(job: Job) {
+    const senderBody =
+        `PODOWL - Job Complete\nhttps://podowl.com.au/job/${job.id}/status`
+    await sendSms(job.courier.phone, senderBody)
 }

@@ -9,6 +9,7 @@ import * as $index from './routes/index.tsx'
 import * as $index_example from './routes/index_example.tsx'
 import * as $job_id_confirm from './routes/job/[id]/confirm.tsx'
 import * as $job_id_contacts from './routes/job/[id]/contacts.tsx'
+import * as $job_id_pickup from './routes/job/[id]/pickup.tsx'
 import * as $job_id_status from './routes/job/[id]/status.tsx'
 import * as $job_create from './routes/job/create.tsx'
 import * as $jobs from './routes/jobs.tsx'
@@ -26,6 +27,7 @@ const manifest = {
         './routes/index_example.tsx': $index_example,
         './routes/job/[id]/confirm.tsx': $job_id_confirm,
         './routes/job/[id]/contacts.tsx': $job_id_contacts,
+        './routes/job/[id]/pickup.tsx': $job_id_pickup,
         './routes/job/[id]/status.tsx': $job_id_status,
         './routes/job/create.tsx': $job_create,
         './routes/jobs.tsx': $jobs,

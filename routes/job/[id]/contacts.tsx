@@ -24,7 +24,7 @@ export const handler: Handlers = {
         }
 
         const job = await updateJobContacts(id, contactData)
-        await onWaiting(job)
+        // await onWaiting(job)
 
         return new Response('', {
             status: 303,

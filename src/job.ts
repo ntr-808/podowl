@@ -2,12 +2,14 @@ import { randomBetween } from '@std/random/between'
 
 export interface Item {
     readonly description: string
+    readonly collected: boolean
     readonly delivered: boolean
 }
 
 export function item(description: string): Item {
     return {
         description,
+        collected: false,
         delivered: false,
     }
 }
@@ -97,6 +99,7 @@ export async function createJob(data: {
         ) => ({
             description: item.trim(),
             delivered: false,
+            collected: false,
         })),
         consignment: data.consignmentNumber,
         code: Math.floor(randomBetween(1000, 10000)),
@@ -223,6 +226,31 @@ export async function completeJob(id: string, confirmationData: {
         // Update both the main job record and add to the new status index
         await kv.set(['jobs', id], updatedJob)
         await kv.set(['jobs_by_status', 'Complete', id], updatedJob)
+        return updatedJob
+    }
+}
+
+export async function pickup(id: string, itemsDelivered: string[]) {
+    const job = await getJobById(id)
+    if (job) {
+        // Remove the old status index
+        await kv.delete(['jobs_by_status', 'Waiting', id])
+
+        const updatedJob: Job = {
+            ...job,
+            updated: new Date(),
+            status: 'Transit',
+            items: job.items.map((item) => ({
+                ...item,
+                collected: itemsDelivered.includes(
+                    item.description,
+                ),
+            })),
+        }
+
+        // Update both the main job record and the status index
+        await kv.set(['jobs', id], updatedJob)
+        await kv.set(['jobs_by_status', 'Transit', id], updatedJob)
         return updatedJob
     }
 }

@@ -13,11 +13,11 @@ import { Job } from '../src/job.ts'
 import { ProgressIndicator } from './ProgressIndicator.tsx'
 import { StatusBadge } from './StatusBadge.tsx'
 
-interface JobDetailsProps {
+interface PickupProps {
     job: Job
 }
 
-export function JobDetails({ job }: JobDetailsProps) {
+export function Pickup({ job }: PickupProps) {
     console.log(job)
     return (
         <div class='max-w-lg mx-auto px-4 py-6'>
@@ -131,19 +131,6 @@ export function JobDetails({ job }: JobDetailsProps) {
                             <p class='text-sm font-medium text-secondary-200'>
                                 {job.updated.toLocaleString()}
                             </p>
-                            {job.status === 'Waiting' && (
-                                <div class='mt-2 flex items-center space-x-2'>
-                                    <LinkIcon class='h-4 w-4 text-primary-500' />
-                                    <a
-                                        href='pickup'
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        class='text-xs text-primary-400 hover:text-primary-300 break-all'
-                                    >
-                                        Pickup Page
-                                    </a>
-                                </div>
-                            )}
                             {job.status === 'Transit' && (
                                 <div class='mt-2 flex items-center space-x-2'>
                                     <LinkIcon class='h-4 w-4 text-primary-500' />
@@ -168,75 +155,49 @@ export function JobDetails({ job }: JobDetailsProps) {
                         </div>
                     </div>
 
-                    <div>
-                        <h3 class='text-sm font-medium text-secondary-400 mb-2'>
-                            Items
-                        </h3>
-                        <div class='bg-secondary-800 p-3 rounded-lg space-y-2'>
-                            {job.items.map((item, index) => (
-                                <div
-                                    key={index}
-                                    class='flex items-center justify-between'
-                                >
-                                    <span class='text-sm text-secondary-200'>
-                                        {item.description}
-                                    </span>
-                                    {job.status === 'Complete' && (
-                                        <span
-                                            class={`text-sm px-2 py-1 rounded ${
-                                                item.delivered
-                                                    ? 'bg-tertiary-900 text-tertiary-200'
-                                                    : 'bg-red-900 text-red-200'
-                                            }`}
-                                        >
-                                            {item.delivered
-                                                ? 'Delivered'
-                                                : 'Not Delivered'}
-                                        </span>
-                                    )}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    {job.status === 'Complete' && (
-                        <div class='border-t border-secondary-800 pt-4 mt-4'>
-                            <h3 class='text-sm font-medium text-secondary-400 mb-3'>
-                                Delivered Info
-                            </h3>
-                            <div class='space-y-3'>
-                                <div>
-                                    <p class='text-sm font-medium text-secondary-400'>
-                                        Delivered
-                                    </p>
-                                    <p class='text-sm font-medium text-secondary-200'>
-                                        {job.updated.toLocaleString()}
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class='text-sm font-medium text-secondary-400'>
-                                        Recipient Name
-                                    </p>
-                                    <p class='text-sm font-medium text-secondary-200'>
-                                        {job.recipientName ||
-                                            job.destination.contact.name}
-                                    </p>
-                                </div>
-                                {job.signature && (
-                                    <div>
-                                        <p class='text-sm font-medium text-secondary-400 mb-2'>
-                                            Recipient Signature
-                                        </p>
-                                        <img
-                                            src={job.signature}
-                                            alt='Signature'
-                                            class='w-full border border-secondary-700 rounded-lg bg-secondary-800'
+                    <form method='POST' class='space-y-6'>
+                        <div>
+                            <label class='block text-sm font-medium text-secondary-300 mb-2'>
+                                Items to Collect
+                            </label>
+                            <div class='space-y-3 bg-secondary-800 p-4 rounded-lg'>
+                                {job.items.map((item, index) => (
+                                    <div
+                                        key={index}
+                                        class='flex items-center'
+                                    >
+                                        <input
+                                            type='checkbox'
+                                            id={`item-${index}`}
+                                            name={`deliveredItems[${index}]`}
+                                            value={item.description}
+                                            class='h-4 w-4 text-primary-500 border-secondary-600 rounded focus:ring-primary-500 focus:ring-offset-secondary-800'
                                         />
+                                        <label
+                                            for={`item-${index}`}
+                                            class='ml-3 text-sm font-medium text-secondary-200'
+                                        >
+                                            {item.description}
+                                        </label>
                                     </div>
-                                )}
+                                ))}
                             </div>
                         </div>
-                    )}
+                        <div class='flex space-x-4 pt-4'>
+                            <a
+                                href='/jobs'
+                                class='flex-1 py-3 px-6 bg-secondary-100 text-secondary-500 rounded-full font-medium hover:bg-secondary-200 transition-colors text-center'
+                            >
+                                Back
+                            </a>
+                            <button
+                                type='submit'
+                                class='flex-1 py-3 px-6 bg-primary-500 text-white rounded-full font-medium hover:bg-primary-600 transition-colors shadow-lg'
+                            >
+                                Confirm Pickup
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
