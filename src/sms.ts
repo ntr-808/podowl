@@ -153,7 +153,7 @@ export async function onWaiting(job: Job) {
 
 export async function onTransit(job: Job) {
     const courierBody =
-        `PODOWL - ${job.consignment} Delivery Confirmation\nhttps://podowl.com.au/job/${job.id}/pickup`
+        `PODOWL - ${job.consignment} Delivery Confirmation\nhttps://podowl.com.au/job/${job.id}/confirm`
     const courierSms = await sendSms(job.courier.phone, courierBody)
     console.log(courierSms)
 

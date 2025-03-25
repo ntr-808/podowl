@@ -57,7 +57,7 @@ export async function onTransit(job: Job) {
         subject: `PODOWL - ${job.consignment} In Transit`,
         text: `https://podowl.com.au/job/${job.id}/status`,
         html:
-            `<a href="https://podowl.com.au/job/${job.id}/pickup">Click here to get job status</a>`,
+            `<a href="https://podowl.com.au/job/${job.id}/status">Click here to get job status</a>`,
     }
 
     const senderRes = await sgMail.send(senderMsg)
