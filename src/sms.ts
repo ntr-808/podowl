@@ -142,25 +142,30 @@ Get yourself a snack.
 export async function onWaiting(job: Job) {
     const courierBody =
         `PODOWL - ${job.consignment} Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/pickup`
-    await sendSms(job.courier.phone, courierBody)
+    const courierSms = await sendSms(job.courier.phone, courierBody)
+    console.log(courierSms)
 
     const senderBody =
         `PODOWL - ${job.consignment} Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/status`
-    await sendSms(job.sender.phone, senderBody)
+    const senderSms = await sendSms(job.sender.phone, senderBody)
+    console.log(senderSms)
 }
 
 export async function onTransit(job: Job) {
     const courierBody =
         `PODOWL - ${job.consignment} Delivery Confirmation\nhttps://podowl.com.au/job/${job.id}/pickup`
-    await sendSms(job.courier.phone, courierBody)
+    const courierSms = await sendSms(job.courier.phone, courierBody)
+    console.log(courierSms)
 
     const senderBody =
         `PODOWL - ${job.consignment} In Transit\nhttps://podowl.com.au/job/${job.id}/status`
-    await sendSms(job.courier.phone, senderBody)
+    const senderSms = await sendSms(job.sender.phone, senderBody)
+    console.log(senderSms)
 }
 
 export async function onComplete(job: Job) {
     const senderBody =
         `PODOWL - Job Complete\nhttps://podowl.com.au/job/${job.id}/status`
-    await sendSms(job.courier.phone, senderBody)
+    const senderSms = await sendSms(job.sender.phone, senderBody)
+    console.log(senderSms)
 }

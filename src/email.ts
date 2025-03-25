@@ -21,6 +21,7 @@ export async function onWaiting(job: Job) {
     }
 
     const courierRes = await sgMail.send(courierMsg)
+    console.log(courierRes)
 
     const senderMsg = {
         to: job.sender.email,
@@ -32,6 +33,8 @@ export async function onWaiting(job: Job) {
     }
 
     const senderRes = await sgMail.send(senderMsg)
+    console.log(senderRes)
+
     return [courierRes, senderRes]
 }
 
@@ -46,6 +49,7 @@ export async function onTransit(job: Job) {
     }
 
     const courierRes = await sgMail.send(courierMsg)
+    console.log(courierRes)
 
     const senderMsg = {
         to: job.sender.email,
@@ -57,11 +61,13 @@ export async function onTransit(job: Job) {
     }
 
     const senderRes = await sgMail.send(senderMsg)
+    console.log(senderRes)
+
     return [courierRes, senderRes]
 }
 
 export function onComplete(job: Job) {
-    const msg = {
+    const senderMsg = {
         to: job.sender.email,
         from: podowlEmail,
         subject: `PODOWL - ${job.consignment} Delivered`,
@@ -71,5 +77,6 @@ export function onComplete(job: Job) {
             `<a href="https://podowl.com.au/job/${job.id}/status">Delivery of ${job.consignment} has been completed.</a>`,
     }
 
-    return sgMail.send(msg)
+    const senderRes = sgMail.send(senderMsg)
+    console.log(senderRes)
 }

@@ -41,8 +41,14 @@ export interface Location {
     readonly contact: Contact
 }
 
+export function getKv() {
+    const kvUrl = Deno.env.get('DENO_KV_URL')
+    console.log('kv url', kvUrl)
+    return Deno.openKv(kvUrl)
+}
+
 // Initialize Deno KV
-const kv = await Deno.openKv()
+const kv = await getKv()
 
 export async function createJob(data: {
     originAddress: string

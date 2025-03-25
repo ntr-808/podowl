@@ -6,6 +6,7 @@
     "manifest": "deno task cli manifest $(pwd)",
     "start": "deno run --unstable-kv -A --watch=static/,routes/ dev.ts",
     "build": "deno run --unstable-kv -A dev.ts build",
+    "clearKv": "deno run --unstable-kv -A --env-file=.env src/clearKv.ts",
     "deploy": "deno task build && deployctl deploy",
     "preview": "deno run -A main.ts",
     "test": "deno test -A",
