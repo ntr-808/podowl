@@ -138,3 +138,23 @@ A job well done.
 Get yourself a snack.
 `
 }
+
+export async function onWaiting(job: Job) {
+    const courierBody =
+        `PODOWL - Job Awaiting Pickup\nhttps://podowl.com.au/job/${job.id}/confirm`
+    await sendSms(job.courier.phone, courierBody)
+}
+
+export function onComplete(job: Job) {
+    const msg = {
+        to: job.sender.email,
+        from: podowlEmail,
+        subject: `PODOWL - Job Complete`,
+        text:
+            `Delivery of ${job.consignment} has been completed.\nhttps://podowl.com.au/job/${job.id}/status`,
+        html:
+            `<a href="https://podowl.com.au/job/${job.id}/status">Delivery of ${job.consignment} has been completed.</a>`,
+    }
+
+    return sgMail.send(msg)
+}
